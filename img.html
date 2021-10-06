@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="theme-color" content="#009578">
+        <title>PWA</title>
+        <link rel="stylesheet" href="src/master.css">
+		<link rel="stylesheet" href="src/top-menu.css">
+        <link rel="manifest" crossorigin="use-credentials" href="manifest.json">
+		<link rel="icon" sizes="512x512" href="images/logo512.png">
+		<script src="src/jjquery.js"></script>
+    </head>
+    <body>
+	<div align="center">
+		<h1>US Missions to Mars</h1>
+		<img src="images/pathfinder.gif" id="myPicture" width="201" height="155" alt="Slideshow" />
+		<h2><a href="previous.html" id="prevLink">&laquo; Previous</a>&nbsp;&nbsp;<a href="next.html" id="nextLink">Next &raquo;</a></h2>
+	</div>
+<script>
+window.onload = initLinks;
+
+var myPix = new Array("images/pathfinder.gif","images/surveyor.gif","images/surveyor98.gif");
+var thisPic = 0;
+
+function initLinks() {
+	document.getElementById("prevLink").onclick = processPrevious;
+	document.getElementById("nextLink").onclick = processNext;
+}
+
+function processPrevious() {
+	if (thisPic == 0) {
+		thisPic = myPix.length;
+	}
+	thisPic--;
+	document.getElementById("myPicture").src = myPix[thisPic];
+	return false;
+}
+
+function processNext() {
+	thisPic++;
+	if (thisPic == myPix.length) {
+		thisPic = 0;
+	}
+	document.getElementById("myPicture").src = myPix[thisPic];
+	return false;
+}
+
+</script>
+
+    </body>
+</html>
