@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />ml lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Communication Guide</title>
+	</head>
+	
+	<body>
+	<div class="cg_img">
+		<img src="CG_AMF_No_Offer.png"><br />
+		<img src="CG_CLIP_Credit_Line_Decrease.png"><br />
+		<img src="CG_CLIP_Credit_Line_Increase.png"><br />
+		<img src="CG_CLIP_Declined_Objection_Page_1.png"><br />
+		<img src="CG_CLIP_Declined_Objection_Page_2.png"><br />
+		<img src="CG_CLIP_Declined_Objection_Page_3.png"><br />
+		<img src="CG_CLIP_Declined_Objection_Page_4.png"><br />
+		<img src="CG_Cash_Advance_Limit.png"><br />
+		<img src="CG_Dispute_Pending_Transactions.png"><br />
+		<img src="CG_Income_Collection.png"><br />
+		<img src="CG_Interest_Waiver_and_Positioning_ADB.png"><br />
+		<img src="CG_Lower_ APR.png"><br />
+		<img src="CG_No_Payoff_Amount_in_IVR.png"><br />
+		<img src="CG_OTB_Hold.png"><br />
+		<img src="CG_OTB_Hold_Capital_One_is-my_Bank.png"><br />
+		<img src="CG_OTB_Hold_Difficult_Conversation.png"><br />
+		<img src="CG_OTB_Hold_plus_Handling_Objections.png"><br />
+		<img src="CG_PDF_No_Offer.png"><br />
+		<img src="CG_Payments.png"><br />
+		CG_Residual_Interest.png"><br />
+	</div>
+
+	</body>
+</html>
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Single Page App</title>
+	</head>
+	
+	<body>
+		<div id="header" class="header">
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+			<a href="#shop">Shop</a>
+		</div>  
+		<div id="app"></div>
+	</body>
+	
+	<script>
+		var webCon = {
+			home: "This is the body of Home page",
+			about: "This is the body of About page",
+			contact: "This is the body of Contact page",
+			shop: "This is the Shop page"
+		};
+  
+		function getContent(fragmentId, callback){
+			var pages = {
+				home: "This is the Home page. Welcome to my site.",
+				about: "This page will describe what my site is about",
+				contact: "Contact me on this page if you have any questions",
+				shop: "<h1>Shop</h1><p>This is the product's page.</p>"
+			};
+			callback(pages[fragmentId]);
+		}
+
+		function loadContent(){
+			var contentDiv = document.getElementById("app"),
+			fragmentId = location.hash.substr(1);
+
+			getContent(fragmentId, function (content) {
+				contentDiv.innerHTML = content + "<br /><br /><div>" + webCon[fragmentId] + "</div>";
+			});
+		}
+
+		if(!location.hash) {
+			location.hash = "#about";
+		}
+
+		loadContent();
+
+		window.addEventListener("hashchange", loadContent)
+	
+	</script>
+	
+</html>
