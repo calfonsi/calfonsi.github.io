@@ -10,7 +10,9 @@
 	
 	<body>
 	<div id="sid">
+		<button class="btn btn-prev" onclick="bPrev(this)">&#xab;</button>
 		<input type="text" id="kbCase" onkeyup="caseSearch()" placeholder="Search for case type.." title="Type in a case type">
+		<button class="btn btn-next" onclick="bNext(this)">&#xbb;</button>
 		<ul id="caseList"></ul>
 	</div>
 	<div id="cg_img"></div>
@@ -47,7 +49,7 @@
 		function kbShow(el){
 			var id = el.getAttribute('title');
 			var eid = '';
-			let cgi = cg.getElementsByTagName("img");
+			cgi = cg.getElementsByTagName("img");
 			for (i = 0; i < cgi.length; i++) {
 				mCDid = cgi[i].getAttribute('src');
 				eid = mCDid.replace('.png','');
@@ -56,6 +58,7 @@
 					$('#'+eid).show();
 				} else{
 					$('#'+eid).hide();
+					//alert(id +' | '+ eid);
 				}
 			}
 			$('#caseList').hide();
@@ -63,6 +66,31 @@
 			//$('#'+id).show();
 			/*$('img').each(function(e){
 			});*/
+		}
+		function bPrev(e){
+			if(cgCtr < 0 || cgCtr == 0){
+				cgCtr = 0;
+			} else{
+				cgCtr--;
+			}
+			cgi = cg.getElementsByTagName("img");
+			var cid = cgi[cgCtr].getAttribute('id') ;
+			//alert(cgi[cgCtr].getAttribute('id'));
+			kbShow(cgi[cgCtr]);
+			$('#'+cid).show();
+		}
+		function bNext(e){
+			var cgLast = cgi.length;
+			if(cgCtr > cgLast){
+				cgCtr = cgLast;
+			} else {
+				cgCtr++;
+			}
+			cgi = cg.getElementsByTagName("img");
+			var cid = cgi[cgCtr].getAttribute('id') ;
+			//alert(cgi[cgCtr].getAttribute('id') +' | '+ cgi[cgCtr].innerHTML);
+			kbShow(cgi[cgCtr]);
+			$('#'+cid).show();
 		}
 		
 	</script>

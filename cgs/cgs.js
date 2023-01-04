@@ -75,10 +75,10 @@ function $(selector){
 	}
 	return self;
 }
+let cgCtr = 0;
+let cgt = "CG_AMF_No_Offer.png, CG_CLIP_Credit_Line_Decrease.png, CG_CLIP_Credit_Line_Increase.png, CG_CLIP_Declined_Objection_Page_1.png, CG_CLIP_Declined_Objection_Page_2.png, CG_CLIP_Declined_Objection_Page_3.png, CG_CLIP_Declined_Objection_Page_4.png, CG_Cash_Advance_Limit.png, CG_Dispute_Pending_Transactions.png, CG_Income_Collection.png, CG_Interest_Waiver_and_Positioning_ADB.png, CG_Lower_APR.png, CG_No_Payoff_Amount_in_IVR.png, CG_OTB_Hold.png, CG_OTB_Hold_Capital_One_is-my_Bank.png, CG_OTB_Hold_Difficult_Conversation.png, CG_OTB_Hold_plus_Handling_Objections.png, CG_PDF_No_Offer.png, CG_Payments.png, CG_Residual_Interest.png";
 
-var cgt = "CG_AMF_No_Offer.png, CG_CLIP_Credit_Line_Decrease.png, CG_CLIP_Credit_Line_Increase.png, CG_CLIP_Declined_Objection_Page_1.png, CG_CLIP_Declined_Objection_Page_2.png, CG_CLIP_Declined_Objection_Page_3.png, CG_CLIP_Declined_Objection_Page_4.png, CG_Cash_Advance_Limit.png, CG_Dispute_Pending_Transactions.png, CG_Income_Collection.png, CG_Interest_Waiver_and_Positioning_ADB.png, CG_Lower_APR.png, CG_No_Payoff_Amount_in_IVR.png, CG_OTB_Hold.png, CG_OTB_Hold_Capital_One_is-my_Bank.png, CG_OTB_Hold_Difficult_Conversation.png, CG_OTB_Hold_plus_Handling_Objections.png, CG_PDF_No_Offer.png, CG_Payments.png, CG_Residual_Interest.png";
-
-var cgti = cgt.split(', ');
+let cgti = cgt.split(', ');
 for (i = 0; i < cgti.length; i++) {
 	$('#cg_img').append('<img src="'+cgti[i]+'" id="'+cgti[i].replace('.png','')+'" />');
 	
