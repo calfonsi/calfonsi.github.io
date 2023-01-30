@@ -9,7 +9,7 @@
 Thank you for calling Capital One. This is Jap on a recorded line.
 May I have here your....
 
-Concern:(ID & Name)
+Concern:(ID, Name)
 
 You may also use our Self-Service options by going to CapitalOne.com or use our Mobile App where you can make a payment, check your balances, setup an alert and a lot more..
 
