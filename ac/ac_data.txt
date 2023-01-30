@@ -1,0 +1,546 @@
+*Start:
+*Issue: ---
+*Process:
+
+
+*Start:
+*Issue: Payments
+*Process:
+Acknowledgement + Assurance:
+"Thank you so much for being on top of your account! It would be my pleasure to assist you with your payment today and it's free of charge."
+
+Make it quick and easy for your customer!
+Determining the payment method:
+"Are we going to use your (Chase Checking or Debit Card) ending in 1234 for this payment?"
+
+If the customer hasn't provided the amount:
+"Your minimum payment is $100. How much would you like to pay today?"
+
+Possible issue:
+"I was trying to make a payment through the automated system but it couldn't help me."
+
+Empathize and show assurance by saying:
+"My apologies for any inconvenience the recording has caused. Since you have me on the line, let me process this payment for you and it will be at no charge."
+
+Provide ways on how to improve the experience:
+"The automated system is quite noise sensitive, you might find it helpful to put your phone on mute and use the key pad instead. Rest assured that we are always finding ways to improve our services."
+
+Recap and Assurance:
+"Your payment amounting to $100 has been successfully processed. This payment will be posted today and will be available next day as early as 8 A.M. Eastern Time.
+
+If the payment was made using a debit card, provide the confirmation code.
+
+If a checking/savings account was used, you can say (depending if the customer is enrolled in alerts (Terms and Setting > Recent Alerts)):
+
+"Kindly keep an eye out for any notification you might receive for confirmation about your payment."
+
+Self Service Option:
+“You may also monitor the availability of the funds and process payments online through CapitalOne.com or through the app. Once again, we highly appreciate this generous payment and thank you for allowing me to assist you."
+
+
+*Start:
+*Issue: Residual Interest
+*Process:
+Acknowledge and show appreciation:
+“I would like to first thank you for this generous payment of (dollar amount) that we received on (month and day). I definitely understand that you did not expect this charge since you already processed a full payment. I will be reviewing your account to check what the interest is for.
+
+Review the account and gather the necessary details:
+Pull up the second to the last statement that was generated. Take note of the date when the cycle had closed and the statement balance listed. Also take note of the date the full payment was received. These are the details you need to explain the context behind why they were still charged interest.
+
+Educate the customer:
+"Upon further review, this seems to be the first time we have received a payment in full. So the unpaid balances from the previous months are still subject for interest. Just a heads up, interest accrues daily and accumulates between the closing date of your last statement balance and the date that your balance was actually paid."
+
+Your statement closes with a $1000 balance on the 3rd.......... From the statement balance was closed and up to the day you paid in full. Interest is still accruing since payment was not made on or before the statement closes date. 
+
+"This $5.00 is the leftover interest that came from the balance of $1000 from 4th up until we received your full payment on the 11th.....
+
+“For your peace of mind, once we receive this payment of $5.00 on or before your upcoming due date, that is the time that you will stop seeing interest from your account. You may also reach out to us in the future and ask for a Payoff amount so that we can avoid this unexpected interest."
+
+
+Let us assume that the billing cycle ran from January 4th up to February 3rd and the customer was billed $1000. The full payment was received on February 11th. The next billing cycle ran from February 4th up to March 3r. This is where the unexpected interest of $5 showed up. 
+
+
+*Start:
+*Issue: Waive Past Due Fee
+*Process:
+Fees should not be waived unless the customer requests for it and long-term solutions have been discussed:
+
+“I understand the importance of having this fee waived. While I check options for your request, you may want to consider enrolling in AutoPay as this may benefit you in the long run. We can also help you set up alerts so that you would be notified prior your due date; or if your current due date no longer works for you, we can check available dates and choose a new one which would be more convenient.”
+
+Probe why the customer was unable to make a payment on time:
+“If you do not mind me asking.... may I know the reason why you were not able to make the payment?”
+
+Due to COF Errors (Unfulfilled promise by previous Rep, Processing error)
+“I am so sorry to hear that this happened. Kindly stay on the line while I continue to check for options about your request to have this fee waived.....”  
+Reach out to GURU or CAAT. Do NOT guarantee anything to the customer.
+
+Due to Emergency Situation (death, stranded away from home, natural disaster, medical issue, veterinary emergency):
+“I understand that it was not your intention to be late. Kindly stay on the line while I continue to check for options about your request to have this fee waived......”  
+Reach out to GURU or CAAT. Do NOT guarantee anything to the customer.
+
+Due to any other reason or GURU declined to have it waived:
+“I have checked the details of your account here and it shows that we are unable to waive this fee for you today.”
+
+Objection: This is the first time this has happened to me!
+“I understand that it was not your intention to be late. For your peace of mind, we do not report past due status unless it is more than 30 days.”
+
+“Aside from the options provided earlier, one way to avoid a past due fee is to pay the full minimum payment by 8 PM Eastern Time on the due date. As a valued customer, you have options to choose which payment method would suite your needs. You can pay online using our website or smartphone app. If you make your payment before 8 PM Eastern Time Monday through Saturday, it will post the same day.”
+
+
+*Start:
+*Issue: OTB Hold Objections
+*Process:
+Scenario 1: 
+"I was just paying my statement balance. I feel like I'm being penalized for paying in full....."
+
+Possible reason found: Higher payment amount than usual......
+
+"Please know that we highly appreciate your efforts in paying in full. Capital One just wants to ensure that it will be securely transferred to us and we also want to give your bank sufficient time to notify us that it's already processed. Moving forward, you may continue to pay in full as this also means that you won't be charged interest."
+
+
+Scenario 2: 
+“So you don’t like it if I pay bigger?”
+
+Possible reason found: Higher payment amount than usual......
+
+"We thank you for this generous payment. This doesn't mean that we don't appreciate this larger payment that you've recently made. It just so happens that this triggered an unusual payment pattern since it is higher than your usual payments. Please know that this just one of the possible factors that caused your payment to be placed on hold. We want to ensure that your payment will be securely transferred to us and give your bank sufficient time to notify us that it is already processed."
+
+General rebuttal and does not conform to any specific possibilities on why the hold is placed....
+
+Scenario 3: 
+"My payment has been taken from my bank or You already took my payment."
+
+"That is good news and we appreciate that you have already communicated with your bank about this. It only means that we're one step closer in releasing the funds. Even though the payment shows as processed by your bank, we will sometimes place a hold to allow enough time for your bank to confirm the payment to Capital One. We expect the funds to be available on....."
+
+
+Scenario 4: 
+This never happens on any of my other credit card accounts, why is it happening with my Capital One card?
+
+"Our goal is to provide our customers with the best protection possible, part of that is to ensure that we have allowed adequate time for your payment to process with your bank. This means at times there may be a hold on your payment while this is happening."
+
+
+
+*Start:
+*Issue: OTB Hold Difficult Conversation
+*Process:
+Scenario 1: 
+"I was just paying my statement balance. I feel like I'm being penalized for paying in full."
+
+"Please know that we highly appreciate your efforts in paying in full. Capital One just wants to ensure that it will be securely transferred to us and we also want to give your bank sufficient time to notify us that it's already processed. Moving forward, you may continue to pay in full as this also means that you won't be charged interest."
+
+Scenario 2: 
+“So you don’t like it if I pay bigger?”
+
+"We thank you for this generous payment. This doesn't mean that we don't appreciate this larger payment that you've recently made. It just so happens that this triggered an unusual payment pattern since it's higher than your usual payments. Please know that this just one of the possible factors that caused your payment to be placed on hold. We want to ensure that your payment will be securely transferred to us and give your bank sufficient time to notify us that it's already processed."
+
+
+General rebuttal and does not conform to any specific possibilities on why the hold is placed.....
+
+Scenario 3: 
+"My payment has been taken from my bank or You already took my payment."
+
+"That's good news and we appreciate that you have already communicated with your bank about this. It only means that we're one step closer in releasing the funds. Even though the payment shows as processed by your bank, we will sometimes place a hold to allow enough time for your bank to confirm the payment to Capital One. We expect the funds to be available on....."
+
+Scenario 4: 
+This never happens on any of my other credit card accounts, why is it happening with my Capital One card?
+
+"Our goal is to provide our customers with the best protection possible, part of that is to ensure that we have allowed adequate time for your payment to process with your bank. This means at times there may be a hold on your payment while this is happening."
+
+
+
+
+*Start:
+*Issue: OTB Hold CAPITAL ONE IS MY BANK
+*Process:
+NOTE:
+Relax and explain it in a positive way!
+
+Customer's Verbatim:
+"You kept repeating that it was about my bank, but how come you are waiting for it to be safely cleared when this payment was done using my Capital One 360 bank and you paid yourself? It does not make sense!"
+
+Acknowledge: 
+"I totally understand how processes might be confusing sometimes."
+
+Educate:
+"I am happy to inform you that although being part of the same entity, Capital One 360 Bank and Capital One Credit Card still operate as separate lines of business, each of which adheres strictly to its own established procedures."
+
+Appreciate:
+"I like you to know that we highly value your opinions and feedback. You'll be glad to know that we are in the process of working on enhancements to give our customers, like you, the greatest protection possible."
+
+
+*Start:
+*Issue: Pay off option not available in IVR
+*Process:
+Scenario:
+The customer is asking why they were not offered to make a Pay-Off payment when they are processing their payment through I.V.R.
+
+Acknowledge:
+Provide specified acknowledgement and verbalize that you understand the customer’s feedback.
+
+"Here at Capital One, we are always looking for ways to expedite and improve customer processes. We certainly understand that having a pay-off as an amount option can ease your experience with payments.”
+
+Highlight Associate Skill and Reassure the Customer.
+Prop up your skill as an associate and reassure the customer that you are the right person to do the task!
+
+"A pay-off option is currently not a feature. The I.V.R lacks since there are manual calculations like your present balance, fees plus interest charges that will accrue through the anticipated payment date of arrival that can only be accurately acquired by an account specialist like myself. This is a process I have done in the past, and I will make sure this will not take too much of your time."
+
+Educate the Customer:
+Educate customer about how to bypass the IVR system if they are making a pay-off so they can directly talk to an associate.
+
+"Mr. Customer, or Ms. Customer when making a pay-off in the future you can skip our I.V.R system by saying Agent or pressing "0" on your keypad once the balance information begins to directly get in touch with a specialist."
+
+
+If the customer is insisting to have the interest charges waived but the account is ineligible:
+
+If possible, offer to off-set interest charges by redeeming their rewards balance as an account credit.
+
+“I do see that you still have trailing interest on your account, we could off-set this amount by redeeming your rewards as an account credit.” 
+
+
+*Start:
+*Issue: Request to Lower APR
+*Process:
+“Can you lower down my interest? I've been a pretty good customer, always on-time with my payment, for the last for few years.”
+
+Acknowledge and appreciate:
+“We thank you for being consistent with your payments every month and we appreciate you reaching out to check our options about your APR.”
+
+Review the Terms and Settings tab for the customer’s current purchase APR.
+
+Upon reviewing your account, I see that you currently have (current Purchase APR var/non-var). This is the most competitive rate we have at this moment. However, I completely understand the importance of saving money even if it's just a couple of dollars. 
+
+Share ways to save money per the APR FAQs....
+“Although APR is something that we can't change at the moment, I can share some tips on how you can manage the interest that will be charged by strategically timing your payments and transactions, will you allow me to discuss it with you?”
+
+•Instead of one payment at the due date, make multiple payments across your billing cycle.
+
+•Pay earlier in your cycle, and if possible, make larger payments.
+
+•If you can afford to make more than the minimum payment, make larger payments to reduce the balance more quickly.
+
+Educate the further customerif they object...:
+“Just to make you aware, the amount interest that is charged on your account at end your billing cycle is not just based on your APR. There are actually 2 factors we look into when calculating it, the APR and the Average daily balance.”
+
+“The higher the average, the higher the interest charge.  It’s the is the sum of your balance on each day of the billing cycle divided by the number of days in the cycle. To put it simply, the date you make a payment as well as when you make your purchases matters when it comes to calculating the interest.”
+
+“Paying earlier your cycle or making multiple payments across it will significantly affect your average daily balance which can lower the amount of interest that you'll be charged.”
+
+
+
+
+*Start:
+*Issue: Waive Interest Charges
+*Process:
+Scenario:
+The customer is requesting for a interest charge removal but there is no offer to waive the amount.
+
+Acknowledge:
+Provide specified acknowledgement and verbalize that you understand the customer’s feedback.
+
+" Capital One understands you're looking for ways to reduce interest charges and maximize your credit for spending and not for fees.”
+
+Educate Customer About Average Daily Balances.
+
+Inform your customer that it is not only the rate that matters, but how much balance they hold on the account.
+
+"While we do not have the chance to remove the interest charge outright, we might be able to reduce the charges to a more manageable amount. Interest is also determined by how much balance you carry on the account on the average. The bigger this average, the more interest charges you get. 
+
+Provide Interest - minimizing Tips Targeting the Average Daily Balance
+
+"It is to your advantage to make payments as soon as possible to lower this average amount. Another takeaway here is that you can reduce finance charges by delaying purchases made with your card until as late as possible in your current billing cycle. Because if the purchases were made late into the cycle then it would only impact your average balance a few days before your next bill starts.”
+
+If the customer is insisting to have the interest charges waived but the account is ineligible:
+
+If possible, offer to offset interest charges by redeeming their rewards balance as an account credit.
+
+“I do see that you still have trailing interest on your account, we could offset this amount by redeeming your rewards as an account credit.” 
+
+
+*Start:
+*Issue: Income Collection
+*Process:
+Customer:
+“This is getting annoying. All I want to do is to pay my bill. Why do you have to ask for my income?”
+
+Review the account...
+Tip: 
+You can check Footsteps to see more information related to Income Collection.
+How: 
+Filter the Event type as follows: Footsteps > Event Type > Offer > Communications > Look for the following Offer IDs: 20536 / 20744.
+
+Address their emotion and state of mind about the situation will help you set the tone of the call.
+
+"I know that it can be quite an inconvenience to be asked for your income when you simply want to process your payment. It's understandable that there might be some hesitation in providing something that many consider private."
+
+Provide context about why they were asked to update their income. Let the customer in on the process.
+
+"Reporting your income accurately and regularly helps Capital One decide during our periodic reviews of your account for special offers like future credit limit increases as well as narrow down products that we can offer that are better tailored to you."
+
+Provide assurance and focus on what you CAN do for the customer.
+
+"You may simply disregard these requests if you don't wish to share it. We can proceed with submitting your payment as you've mentioned and it's free of charge."
+
+
+
+
+
+*Start:
+*Issue: Pending Transactions - Dispute
+*Process:
+- What is the reason behind the customer’s request to have the authorization cancelled or disputed? 
+- Is it a double charge? 
+- Did they changed their mind in purchasing the item or service? 
+- Was there something wrong about the purchase?
+
+NOTE: 
+It is our job to do our due diligence to make the best recommendation based on the scenario. 
+
+If the customer mentions anything that indicates that the purchase is a possible fraud i.e. "I don't know who this merchant is."/"I didn't make this." -Follow the Assist Customer with an Unrecognized Transaction to determine the steps to take. Once you confirm that it IS Fraud –follow the Create or Update Lost, Stolen Report in Empath regardless if its still pending.
+
+Review both the Agent View and Customer View under the Activity Tab in Empath.
+
+Transaction(s) in question is already posted:
+
+Follow our BAU Procedure for disputing a charge - Dispute a Charge Task.
+
+Transaction(s) in question is still pending:
+Follow the Dispute Pending Transactions - Task. 
+
+Acknowledge the customer:
+"I definitely understand the importance of cancelling this charge."
+
+Educate the customer:
+“Upon reviewing your account, it appears that the charge is currently pending, and the best option for us to cancel this charge is by calling the merchant directly. For now, you can keep an eye on your account by visiting the website and the app, then call us back once the transaction was posted within 5 days. Rest assured that we'll do our best to assist you in processing a dispute on our end. I will also be noting the account about a possible dispute on this transaction."
+
+Scenario: 
+Double charge but AURV or reversal is present.
+
+"You did the right thing calling us today to ensure that you were not charged twice for the same purchase. Per checking your account, it seems like the merchant did run your card twice. The good news is, the merchant already reversed the initial transaction on their end, and this amount should fall off on your account within 5 days after the purchase was made. Rest assured, you'll only pay the exact amount of your purchase."
+
+
+*Start:
+*Issue: Credit Limit Request
+*Process:
+Setting expectations about requesting a Credit Line Increase:
+
+“Absolutely! We can help you apply for an increase in your credit line, either online of through an automated system. You can apply at anytime, but this does not guarantee any approval . Do you still want to make a request?”
+
+When can I submit a request? 
+“That’s a good question! You can request an increase in your credit limit at any time, but you should consider waiting for a s history of on time payments. When setting up your account consider signing up for automatic payments and customized notifications. That wayt, you can always make payments on time.“
+
+
+CLI Request Self-SericeOptions:
+- Reference the appropriate Capital One Mobile Banking Demo (iOS or Android)
+- Website –Online CLIP Request –Task
+- Mobile Banking App –Mobile CLIP Request – Task
+- Phone system -IVR CLIP Request –Task 
+
+
+- Timeframe 
+- Paperless: 2-3 days via Online Document Center
+- If not enrolled. 10 business days by mail
+
+“I understand the confusion regarding the changes on your credit line. Since you are being consistent with your payment history, I’m delighted to inform you that we have increased your credit limit to $(amount)! However, I can make the adjustment to your account to bring back your original credit line.”
+
+Empath > Footsteps
+• Accepted –The customer accepted a CLIP. You should see a change to the customer's credit lineon the date of the offer update.
+
+• Customer Declined –The customer declined the line increase offered. The customer is free to apply again.
+
+• Fulfill Failed -One part of the fulfillment failed. This does not always mean that the credit line was not increased.
+
+• Pending Response
+The customer was given an approval but did not accept or decline the request. The customer may apply again if they wish to accept the offer.
+
+• Referred 
+The request was sent for additional screening. The customer can expect to be contacted in about 10 business days.
+Do not discussthe possible cause of this status.
+Agents cannot proactively send the customer to these groups due to the case process.
+
+•Request Declined
+The customer is not eligible for an increase at this time.
+
+•Donotshare this with the customer they must receive the message in writing.
+
+•The customer will receive a letter in the mail in approximately 10 business days, or in the online document center in about 3 days.
+
+
+
+
+*Start:
+*Issue: Credit Limit Declined 
+*Process:
+IMPOTANT NOTE: 
+There are guidelines that we must comply with and you are not a credit counselor.
+
+Do not attempt to address the decline reasons
+
+The Decline letter contains a list of reasons for decline and general FAQs.
+
+Do not try to determine the decline reason on the F.A.Qs.
+
+Customer mentions they got declined:
+“I know this is not the result that you are expecting, to be honest we do not have any visibility with the result but in the letter it shows Frequently Asked Questions and the reason for the decline.”
+
+
+Scenario number 1: 
+I requested multiple times using the App, automated system, I always pay on time, I’ve been with you for so many years but I’m still being declined!
+
+“I can see that you’ve been with us since(say the year opened) and checking your account right now, we appreciate that you are consistent with your payments. Thank you for staying on the top of your account.  You can also manage your account online to ensure all your personal information are up to date including your income.”
+
+Scenario number 2: 
+Customer is not satisfied with the partial increase:
+
+“I know what it feels like not getting what we expected. I would like you to know that Capital One has assessed the request thoroughly and provided you the maximum amount that we can offer. You can also resubmit a request anytime you like.”
+
+
+Scenario number 3: 
+Customers disputing the decline reason that is related to:
+
+Credit Bureau
+Example: Past due information.
+	Follow your group’s Credit Bureau Investigationtask.  
+	
+Payments
+Example: Customer made a full payment and was not applied or the payment was applied to the wrong Capital One account.
+	Follow the Payment: Resolved Payment Issues and Payments: Transfer Misapplied Payment Tasks.
+
+
+The reason for decline no longer applies to their account: 
+You may say: 
+“You can apply to raise your credit limit at any time.  It may take several months for the decline reason for to be updated on the system. Timing can vary and ranges from 2 to 6 months but we can't guarantee any approval.”
+
+
+*Start:
+*Issue: Credit Limit Example
+*Process:
+IMPORTANT NOTE:
+It’s not what you say,  it’s how you say it. Make sure to match the customer’s pacing and incorporate the proper tone of voice.
+
+Scenario 1:
+====================
+“I have checked the letter, but the result is not making any sense!”
+
+ACKNOWLEDGE:
+	“Thank you so much for checking the letter of the result. You can also refer to the FAQs on it, if you have any further questions that cannot be answered by the FAQs relative to your credit report, you may want to contact any of the main credit bureaus.”
+
+EDUCATE:
+	“Please be guided that we are using your personal information and data from credit reporting agencies when you put up a credit limit increase request. You will also be glad to know that there are many helpful credit line increase resources listed on our website. If you want, I can give you the direct link.”
+
+ADVOCATE:
+	“Capital One is committed in helping our customers succeed by providing safe, affordable and equal access to credit—and through policies and tools that can help you manage your credit wisely.”
+
+
+Scenario 2:
+======================
+"I am paying you guys on time, I have no late fee, you can review my account. But why can’t you increase my limit automatically?"
+
+ACKNOWLEDGE:
+	“I can see that you’ve been with us since (say the date) and checking your account right now, we appreciate that you are consistent with your payments. We thank you for staying on top of your account.”
+
+EDUCATE:
+	“I'll be glad to share that Capital One does proactive increases. Depending on how long your account has been open, Capital One uses slightly different methods to determine whether or not to offer additional credit. In general, customers who are most often approved for credit line increases tend to use credit responsibly and use more of their credit line, either by spending and paying off the card each month or paying a balance off over time.”
+
+ADVOCATE:
+	“I also highly recommend you to have your employment information up to date as federal regulations require us to verify that each customer meets certain requirements for credit line increase offers. The information you provide when requesting a credit line increase helps us understand your financial situation so that we can make a responsible decision.”
+
+Scenario 3:
+=======================
+“I requested multiple times for a credit line increase, but all requests have 
+been declined.”
+
+ACKNOWLEDGE:
+	“I know this is not the result that you are expecting, to be honest, we do not have any visibility with the result but in the letter, it shows Frequently Asked Questions and the reason for the decline.”
+
+EDUCATE:
+	“You will also be glad to know that there are many helpful credit line increase resources listed on our website. If you want, I can give you the direct link.”
+
+ADVOCATE
+	“Capital One is committed in helping our customers succeed by providing safe, affordable and equal access to credit—and through policies and tools that can help you manage your credit wisely.”
+
+Scenario 4:
+=====================
+	“Why do I need to go through all of those self-service options, when I already got you on the line?”
+
+ACKNOWLEDGE:
+	“I can hear the urgency in getting a higher line of credit, and we really appreciate your curiosity in this process.”
+
+EDUCATE:
+	“I'll be glad to share with you that the request form needs you to provide your total annual income, employment status, and monthly mortgage or rent payment. Due to this information being considered confidential information, we don't have an option to submit it on your behalf.”
+
+ADVOCATE:
+	For most customers, the preferred method is our credit line increase request option on our website. You can complete it at your own speed and on your own time. We can even send you an email that contains a direct link to the credit line increase request page on our website.
+
+
+Scenario 5:
+========================
+“I did not receive any response to my request, can you tell me the result?”
+
+ACKNOWLEDGE:
+	“Thank you so much for submitting your request. I can hear the urgency and the importance of knowing the result of your request.”
+
+EDUCATE:
+	“I'll be glad to share that the timeframe should be depending on your billing preference.”
+
+ADVOCATE:
+	“If you are on paperless setup, you will be receiving the result through the Online Document Center in 2-3 days. Otherwise, if you are not enrolled in paperless documents, you should receive the letter by mail within 10 business days.”
+
+
+
+*Start:
+*Issue: Cash Advance Limit
+*Process:
+Scenario 1:
+	“Why did my Cash Advance limit stay the same when my credit limit is higher?”
+
+	“I'd like to first congratulate you on getting a higher line of credit! We definitely appreciate your business with Capital One throughout the last couple of months/years.”
+
+Give context:
+
+	"Getting a cash advance is considered a feature of your card and is generally recommended to be used for emergencies only.”
+
+	"To answer your question, the cash advance limit is determined during the time your account was established. The amount is a percentage taken against your total credit limit and it cannot be increased or decreased upon request. Meaning, it's not a guarantee that the cash limit will also be increased after receiving higher spending powers. However, if in any case that Capital One does decide to also increase you cash limit in the future, we'll make sure to notify you.”
+
+
+Educate the customer about our Cash Advance terms:
+
+	“I would like to also make you aware that a cash advance can come with fees and higher interest rates than typical purchases do. So while it may be convenient, it can be more expensive than making a purchase on your credit card.”
+
+
+*Start:
+*Issue: OTB Hold
+*Process:
+“I understand the urgency of wanting to know when the funds will be available. Looking into your account here, you processed a payment of (Dollar Amount) on Month & Day, is this what you were referring to? 
+(Wait for confirmation.......) 
+We certainly appreciate this generous payment. Let me further review your account what's going on.”
+
+"Typically, as you may have already known, when you make a payment before 8 PM Eastern Time, it is posted for the day you scheduled, then funds will be available the very next day as early as 8 AM Eastern Time. That is the normal payment posting policy, however there are some special exceptions.”
+
+Proceed with the appropriate response depending on the possible reason that you see on the account.
+
+- Possible reason: New bank account.....
+	“Upon checking your payment history, the possible reason why this payment is currently on hold is because of a sudden change in the funding account used. You were consistently making a payment using the (Say the account type) ending in (last 4 digit of checking or debit) to process a payment and you suddenly changed the bank for this payment to (Say the account type) ending in (last 4 digit of checking or debit).”
+
+- Possible reason: Higher Payment than usual......
+	“The possible reason that I can see based on your payment history here is there seems to be a significant change in the amount compared to your usual payment pattern.”
+
+- Possible reason: Returned Payment......
+	"For your account specifically, the possible reason that I can see here why the funds are currently on hold is because it seems that your previous payment was returned."
+
+
+“The possible reasons that triggered an unusual payment pattern and caused our system to place a hold on your available funds. The very purpose is for Capital One and your bank to have enough time for the clearing process on both ends. You don’t have to worry, your payment did not go anywhere. In your case, you’ll be glad to know that the funds will be available on (Say the Month and Day).”
+
+
+- Educate the customer with ways to lessen the hold.....
+	"Continue making payments on time, avoid having payments returned, use the same bank account for payments. While doing these things will help, please understand that we cannot guarantee that this will eliminate the possibility of a hold on your payment.”
+
+- Possible reason: New bank account........
+	“No worries, now that we have a record here of this (Account name) ending in (last 4 digit of checking or debit), just continue using this same account for you payments moving forward to lessen the possibility of a hold....
+
+*Start:
+*Issue:
+*Process:
+
+
+
+
