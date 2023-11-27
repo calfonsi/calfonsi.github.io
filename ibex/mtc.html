@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="theme-color" content="#009578">
+        <title>Ibex - Content Reason</title>
+		<style>.kb-macro input{width:30em;}table, td {border: 1px solid;}</style>
+    </head>
+    <body>
+		<div class="kb-macro">
+			<input type="text" id="kbMacro" onkeyup="caseSearch('kbMacro', 'lstMacro')" placeholder="Search for Macro's.." title="Type in a Macro's">
+			<table id="lstMacro">
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Cancellation ::</p>
+<p>Cancel Free Trial</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 44px;">Cancellation requests from customers who signed up directly with a credit/debit card and are in their trial period.</td>
+</tr>
+<tr style="height: 170px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 80px;">
+<p>Cancellation ::</p>
+<p>Cancel Partner Subscription</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 80px;">
+<p>Cancellation requests from customers using BritBox apps but paying using third-party partners like Amazon, Apple, Roku, Google Play, and CMORE.</p>
+<p><strong>AND </strong>the customer contacts BritBox instead of third-party partners to cancel.</p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Cancellation ::</p>
+<p>Cancel Subscription</p>
+</td>
+<td style="width: 432.875px; height: 44px;">
+<p class="wysiwyg-text-align-center">Cancellation requests from customers who signed up directly with a credit/debit card.</p>
+<p class="wysiwyg-text-align-center"><strong>(Not a renewal or trailer)</strong></p>
+<p class="wysiwyg-text-align-center">Agent confirms canceled subscription</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Cancellation ::</p>
+<p>How to Cancel</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Self-service cancel instructions were requested, but the customer does not want to cancel.</p>
+<p><strong>OR</strong> self-service cancel instructions were requested, and the agent sent the instructions or linked via Email/Chat.&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 267px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 229px;">
+<p>Cancellation ::</p>
+<p>Price Increase</p>
+</td>
+<td style="vertical-align: middle; width: 432.875px; height: 229px;">
+<p class="wysiwyg-text-align-center">Cancellation requests or cancel/refund, because of the price increase regardless of their payment method credit/debit card, Amazon, Apple, Roku, Google Play, and CMORE.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> self-service cancel instructions were requested because of the price increase, and the agent sent the instructions via email.&nbsp;</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> agent cancels on behalf of the customer because of the price increase.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> agent confirms a canceled subscription because of the price increase.</p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Content ::</p>
+<p>BritBox Live</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 44px;">Questions about the content playing in BritBox Live (Barker Channel) or schedule information.</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Content ::</p>
+<p>King Charles Coronation</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 44px;">Questions about the Coronation Event or the Live feed after the event.</td>
+</tr>
+<tr style="height: 88px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 88px;">
+<p>Content ::</p>
+<p>Show Unavailability</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 88px;">
+<p>Questions about a show, season, or episode not available to the customer.</p>
+<p><strong>OR</strong> was on BritBox and recently expired.</p>
+<p><strong>OR</strong> the customer saw a BritBox ad or article about a <u>show/season/episode</u> and can't find it in their Region.</p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Content ::</p>
+<p>Show/Season/Episode Questions</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 44px;">Questions about the current content, actors, show or season availability, and episode specifics.</td>
+</tr>
+<tr style="height: 88px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 37px;">
+<p>Content ::</p>
+<p>Soaps/Dailys</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 37px;">Questions about soaps like Emmerdale, Coronation St, etc.&nbsp;</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Content ::</p>
+<p>Suggest a Show</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 44px;">Customer requests a show, movie, season, or episode they want to be added to BritBox.</td>
+</tr>
+<tr style="height: 66px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 66px;">
+<p>Content ::</p>
+<p>Upcoming Content Schedule</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 66px;">
+<p class="wysiwyg-text-align-center">Questions about a show coming soon, weekly episode releases, or when we have it.</p>
+<p><strong>OR</strong> a show is listed in KB, but we cannot disclose the release date yet (we can confirm the release date if the customer has seen the air date from an ad or newsletter)</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Feedback ::</p>
+<p>Complaints</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Customer complaints or constructive feedback about the service or an agent.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Feedback ::</p>
+<p>Neutral</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Customer feedback that is neither negative nor positive.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Feedback ::</p>
+<p>Praise</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Customer feedback praising the service, support, or an agent.</td>
+</tr>
+<tr style="height: 187px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 187px;">
+<p>Feedback ::</p>
+<p>Price Increase</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 187px;">
+<p>All general price increase questions and/or about the annual lock-in promo.</p>
+<p><strong>Or</strong> agent sends the instructions or assists cx to subscribe with the new subscription price.</p>
+<p>OR the customer is having any issues or problems subscribing with the new subscription price.</p>
+<p><strong>OR</strong> upgrading Monthly to Annual because of the price increase.</p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Gifting ::</p>
+<p>Credit Card to Redeem</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 44px;">Questions about needing a payment method on file to redeem a gift code.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Gifting ::</p>
+<p>Lookup or Missing Code</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Customer needs the gift code looked up.</p>
+<p><strong>OR</strong> the recipient lost their gift code and needs it recovered.</p>
+<p><strong>OR</strong> the purchaser/recipient didn’t receive the email confirmation for the gift code.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Gifting ::</p>
+<p>Ongoing Renewal Questions</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions relating to the renewal process after the gift subscription ends.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Gifting ::</p>
+<p>Purchasing</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions relating to the gift purchasing process.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Gifting ::</p>
+<p>Redeeming</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions relating to the gift redemption process.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Gifting ::</p>
+<p>Refund</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Refund requests for gift subscriptions.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Gifting ::</p>
+<p>Renewed Before Redemption</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Customer was charged for the renewal before they had the chance to redeem another gift.</p>
+<p><strong>OR</strong> their gift period was over.</p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>How to Watch ::</p>
+<p>App Installation</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 44px;">Questions or help with installing the BritBox app on a supported platform.</td>
+</tr>
+<tr style="height: 67px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 51px;">
+<p>How to Watch ::</p>
+<p>Closed Captions or Subtitles</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 51px;">Questions relating to closed captions or subtitles. Such as: how to adjust size, language, position, or turn on/off.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 10px;">
+<p>How to Watch ::</p>
+<p>Device Availability</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 10px;">Questions about the devices or platform we support.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>How to Watch ::</p>
+<p>Download or Watch Offline</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions relating to downloading and watching programs offline.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>How to Watch ::</p>
+<p>Mirroring or Casting</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions or walkthroughs about watching by casting or mirroring from one device to another.</td>
+</tr>
+<tr style="height: 10px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 10px;">
+<p>How to Watch ::</p>
+<p>Non-Personal or Commercial Use</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 10px;">Questions about subscribing to a non-private individual. Such as: churches, libraries, businesses, etc.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>How to Watch ::</p>
+<p>Parental Controls</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions about the Parental Controls feature, such as PINs.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>How to Watch ::</p>
+<p>Partner Platform</p>
+</td>
+<td style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p class="wysiwyg-text-align-center">Questions about how to watch through Amazon, Apple, Roku, Google Play, and CMORE</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> customer sees ads when watching shows (as happens on some partner platforms).</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>How to Watch ::</p>
+<p>Search or Navigation</p>
+</td>
+<td style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p class="wysiwyg-text-align-center">Questions on how to browse or search for a show and navigate seasons/episodes/genre.<br><strong>OR</strong> how to set the video in full screen.<br><strong>OR</strong> how to enable audio or unmute audio while watching a show.<br><strong>OR</strong> how to play, pause, forward, or rewind a show.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>How to Watch ::</p>
+<p>Smart TV Activation</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Questions or walkthroughs about pairing Smart TV devices.</p>
+<p><strong>OR</strong> agent entering the code on behalf of the customer for initial TV code sign-in on a Smart TV. Such as: Samsung, LG, Fire, Fetch, Android, Hisense, or Xfinity Flex TV's.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>How to Watch ::</p>
+<p>Uninstalling App</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p class="wysiwyg-text-align-center">Questions about uninstalling the BritBox app.</p>
+</td>
+</tr>
+<tr style="height: 66px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 66px;">
+<p>How to Watch ::</p>
+<p>Unsupported Device</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 66px;">Questions about a device or platform we don't support.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>How to Watch ::</p>
+<p>Watching on Multiple Devices</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions about signing in or watching from multiple devices.</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Manage Subscription ::</p>
+<p>Account Help</p>
+</td>
+<td style="vertical-align: middle; width: 432.875px; height: 44px;">
+<p class="wysiwyg-text-align-center">Customer claims they have a direct credit/debit, but agent cannot locate account, or the account is not active in Evergent.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> customer has a subscription with a partner like Amazon, Apple, Roku, Google Play, and CMORE, and account status in Evergent is Expired or No Product.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> customer claims they canceled but are being charged and agent cannot locate the account in Evergent or the charge.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> when the agent asks for a copy of the charge to locate the missing subscription.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> all other general questions about where the customer is subscribed because the account cannot be determined.&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 96px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 96px;">
+<p>Manage Subscription ::</p>
+<p>Adding Profiles</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 96px;">
+<p>Questions about adding multiple profiles to an account.</p>
+<p><strong>OR</strong> if non-subscriber family, or friends can watch Britbox using their profile.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Manage Subscription ::</p>
+<p>Billing Questions</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Questions about charges, billing dates and most general billing inquiries.</p>
+<p><strong>OR</strong> customer has questions about subscription status (not for confirmation of canceled subs).</p>
+<p><strong>OR</strong> card status/details on file, confirming subscription plan, and confirming updated card on file.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Manage Subscription ::</p>
+<p>Downgrade</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions about how to downgrade from an annual to a monthly subscription.&nbsp;</td>
+</tr>
+<tr style="height: 36px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 36px;">
+<p>Manage Subscription ::</p>
+<p>Duplicate Subscription</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 36px;">
+<p>Questions about duplicate subscriptions as the result of a system issue.</p>
+<p><strong>OR</strong> the result of a customer mistake or error.&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Manage Subscription ::</p>
+<p>Hold or Pause</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Customer requests to pause or suspend their service for a period of time.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Manage Subscription ::</p>
+<p>Refund</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Refund requests for direct subscription payments (no gifts).</p>
+<p><strong>OR</strong> refund processed for customer and not tied to another more applicable topic.&nbsp;&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 10px;">
+<p>Manage Subscription ::</p>
+<p>Resubscribing&nbsp;</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 10px;">
+<p>Questions or walkthrough on how to resubscribe, or processing it on a customer's behalf.</p>
+<p><strong>OR</strong> when referring to a partner when the customer wants to re-subscribe using Amazon, Apple, Roku, Google Play, or CMORE.&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Manage Subscription ::</p>
+<p>Taxes</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 22px;">Questions about tax rates, what tax applies in their city/county/state, etc.&nbsp;</td>
+</tr>
+<tr style="height: 89px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 10px;">
+<p>Manage Subscription ::</p>
+<p>Updating Account Details</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 10px;">
+<p>Customer wants to update the name, email address, or phone number on their account.</p>
+<p><strong>OR</strong> agent updates the name, email address, or phone number on behalf of the customer.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Manage Subscription ::</p>
+<p>Updating Payment Method</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Questions about updating credit card details used to pay for BritBox, can include third-party payments and direct changes in Evergent.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Manage Subscription ::</p>
+<p>Upgrade</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Questions about upgrading from a monthly to an Annual Subscription.</p>
+<p><strong>OR</strong> agents upgrades the subscription via Evergent on behalf of the customer.</p>
+</td>
+</tr>
+<tr style="height: 66px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 32px;">
+<p>Marketing ::</p>
+<p>Newsletter Preferences</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 32px;">
+<p>Questions about BritBox email marketing, such as requests to stop receiving marketing emails or newsletters.</p>
+<p><span class="wysiwyg-font-size-small"><strong>DO NOT</strong> uncheck Alert Email Notification via Evergent</span></p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Marketing ::</p>
+<p>Partnership Request</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions or information offering to partner with BritBox.&nbsp;</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Marketing ::</p>
+<p>Press and Publicity</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions or requests information or content for press or other publicity purposes.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Marketing ::</p>
+<p>Privacy and Data Deletion</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Customer questions about privacy or would like their data, credit card, or entire account deleted.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Marketing ::</p>
+<p>Promotions, Offers, and Surveys</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Customer questions about current promotions, special offers, or surveys.</td>
+</tr>
+<tr style="height: 67px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 67px;">
+<p>Other ::</p>
+<p>Blank Email</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 67px;">Emails that come to the agent blank or without any text. Once the customer responds with their request change to next applicable reason.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Other ::</p>
+<p>Callback Unsuccessful</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Agent called the customer back, and the customer did not answer.&nbsp;</td>
+</tr>
+<tr style="height: 66px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 66px;">
+<p>Other ::</p>
+<p>SPAM</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 66px;">Emails containing topics/concerns unrelated to BritBox and look to be SPAM. Such as phishing emails, awarding emails, and profane, or blank emails containing links or clickbait.</td>
+</tr>
+<tr style="height: 88px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 10px;">
+<p>Other ::</p>
+<p>UK Subscriber</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 10px;">Misrouted BritBox UK tickets to BritBox US</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Passwords &amp; Logins ::</p>
+<p>Log In Questions</p>
+</td>
+<td style="vertical-align: middle; width: 432.875px; height: 44px;">
+<p class="wysiwyg-text-align-center">Questions or guidance on how to sign in, or walkthrough the sign-in process via the web or an App.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> agent gives step-by-step instructions or KB link via EMAIL/CHAT on how to log in through the Web or How to Sign-in on to an App.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Passwords &amp; Logins ::</p>
+<p>Password Reset Help</p>
+</td>
+<td style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p class="wysiwyg-text-align-center">Questions about the self-service password reset process.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> agent sets a temporary password (agent must give instructions to update cx's password afterward).</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Passwords &amp; Logins ::</p>
+<p>Reset Email Missing</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions or assistance with the password reset email, such as if it's been filtered to spam or not received.</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 20px;">
+<p>Passwords &amp; Logins ::</p>
+<p>Username Reminder</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 20px;">
+<p>Questions from customers who are unsure of their sign-up email.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Signing Up ::</p>
+<p>Free Trial Questions</p>
+</td>
+<td style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p class="wysiwyg-text-align-center">Questions about the free trial.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> customer has questions about annual subscriptions or compares them to monthly subscriptions (no subscription yet).</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Signing Up ::</p>
+<p>How to Subscribe</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Questions about how to subscribe.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Signing Up ::</p>
+<p>Price</p>
+</td>
+<td style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p class="wysiwyg-text-align-center">Questions about the subscription prices.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Signing Up ::</p>
+<p>Problems Subscribing</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Customer is having issues getting subscribed (the agent may need to start the subscription on behalf of the customer).</p>
+<p><strong>OR</strong> problems Creating an Account.</p>
+<p><strong>OR</strong> questions or is having issues with creating an account/profile.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Signing Up ::</p>
+<p>Regional Availability</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions about the regions that BritBox is and <strong>is not</strong> supported.</td>
+</tr>
+<tr style="height: 66px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 66px;">
+<p>Signing Up ::</p>
+<p>Reinstate Cancelled/Suspended Account</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 66px;">Agent reinstates a canceled/suspended account on the customer's behalf.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Signing Up ::</p>
+<p>Service Comparison</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Questions comparing BritBox to cable, Acorn or another streaming provider.</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Troubleshooting ::</p>
+<p>App Crash</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Customer is being kicked out, or crashes, when they attempt to access the BritBox app via any supported device.</td>
+</tr>
+<tr style="height: 10px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 10px;">
+<p>Troubleshooting ::</p>
+<p>App Download</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 10px;">Customer is having errors or issues when they attempt to download the BritBox app via any supported device.</td>
+</tr>
+<tr style="height: 51px;">
+<td style="vertical-align: middle; width: 193.125px; height: 51px;">
+<p class="wysiwyg-text-align-center">Troubleshooting ::</p>
+<p class="wysiwyg-text-align-center">App Error</p>
+</td>
+<td style="vertical-align: middle; width: 432.875px; height: 51px;">
+<p class="wysiwyg-text-align-center">Customer is having issues with the app that do not fall into another specific category.</p>
+</td>
+</tr>
+<tr style="height: 140px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 140px;">
+<p>Troubleshooting ::</p>
+<p>Billing or Credit Card</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 140px;">
+<p>Customer did not authorize a charge or was charged multiple times in error on the same account. Not duplicate billing.&nbsp;</p>
+<p><strong>OR</strong>&nbsp;website is not accepting customers' CVV numbers for their credit cards.</p>
+<p><strong>OR</strong> customer is receiving an error when adding or changing their credit card on file.</p>
+<p><strong>OR</strong> payment fails using a direct credit/debit card.&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Troubleshooting ::</p>
+<p>BritBox Live</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 44px;">Customer is reporting an error with BritBox Live (Barker Channel).</td>
+</tr>
+<tr style="height: 67px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 67px;">
+<p>Troubleshooting ::</p>
+<p>Buffering or Freezing</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 67px;">
+<p>Customer is experiencing buffering or loading, or freezing problems when attempting to watch a show/episode or access the service web/app.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Troubleshooting ::</p>
+<p>Captions</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Closed Captions are not working properly for customers. Such as: delayed captions, Incorrect captions.</td>
+</tr>
+<tr style="height: 83px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 83px;">
+<p>Troubleshooting ::</p>
+<p>Content Issues</p>
+</td>
+<td style="vertical-align: middle; width: 432.875px; height: 83px;">
+<p class="wysiwyg-text-align-center">Customer is seeing content issues. Such as&nbsp; season/episode not in order, or the description is incorrect.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> customer is having playback issues unrelated to an error message or blank screen. Such as, audio not syncing or no audio while unmutted.</p>
+<p class="wysiwyg-text-align-center"><strong>OR</strong> customer is experiencing a problem with programs skipping to the next episode in the middle of the program.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Troubleshooting ::</p>
+<p>Delayed, Missing Content</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">Customer or agent is not finding content that is supposed to be available, or has been launched. Agent has confirmed this on the content directory.</td>
+</tr>
+<tr style="height: 10px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 10px;">
+<p>Troubleshooting ::</p>
+<p>Major Downtime</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 10px;">
+<p class="wysiwyg-text-align-center">Use in a known downtime or outage.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Troubleshooting ::</p>
+<p>Out of Country Error</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">
+<p>Customer is getting an "Out of Country" error when they attempt to view a program or access the service.</p>
+<p>Use when the are in a supported region.</p>
+</td>
+</tr>
+<tr style="height: 67px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 67px;">
+<p>Troubleshooting ::</p>
+<p>Partner Support</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 67px;">
+<p class="wysiwyg-text-align-center">Customer is having issues with a partner's system or application. Such as: Amazon, Apple, Roku, Google Play, Fetch, Xfinity Flex, DStv, CMORE, or more.&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 275px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 275px;">
+<p>Troubleshooting ::</p>
+<p>Pin and Pair</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 275px;">
+<p>Customer is having issues pairing/tethering their&nbsp; BritBox account with their streaming device.</p>
+<p><strong>OR</strong> customer can’t do something because of an unusual error or behavior that we don’t normally see with pairing.</p>
+<p><strong>OR</strong> receiving repeat "CODE" sign in regardless of device.</p>
+<p><strong>OR</strong> a customers mentions of an error or that the CX has already followed the usual steps. If after the customer follows the usual steps, they're still unable to sign in, ex. an error or unusual problem.</p>
+<p><strong>OR</strong> customer confirmed an active subscription and described unexpected behavior like the code not appearing, requiring to re-sign in again, etc.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Troubleshooting ::</p>
+<p>Playback Error Message</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 22px;">
+<p class="wysiwyg-text-align-center">Customer is having problems when attempting to watch content or try to play content and receives error messages. Examples:</p>
+<p><em>"This content is not currently available on this device. Please try again later."</em></p>
+<p><em>“Sorry, something appears to have gone wrong. Please try again”</em></p>
+<p><strong>OR</strong> sees a gray screen and/or keeps going back to the main screen.</p>
+</td>
+</tr>
+<tr style="height: 44px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 44px;">
+<p>Troubleshooting ::</p>
+<p>Sign-In Error</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 44px;">
+<p>Customer is seeing an error message when they attempt to access the service.&nbsp;</p>
+<p><strong>OR </strong>experiencing frequent/repeat sign-in issues, even after the troubleshooting steps issue persists.</p>
+</td>
+</tr>
+<tr style="height: 22px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 22px;">
+<p>Troubleshooting ::</p>
+<p>Something Else</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 22px;">All errors or issues that <strong>do not</strong> fit into another Troubleshooting Contact Reason.</td>
+</tr>
+<tr style="height: 96px;">
+<td style="vertical-align: middle; width: 193.125px; height: 10px;">
+<p class="wysiwyg-text-align-center">Troubleshooting ::</p>
+<p class="wysiwyg-text-align-center">Watchlist&nbsp;</p>
+</td>
+<td style="text-align: center; vertical-align: middle; width: 432.875px; height: 10px;">
+<p class="wysiwyg-text-align-center">Customer is having issues with the Watchlist feature. The&nbsp;feature where cx can add/store the shows they want to watch</p>
+</td>
+</tr>
+<tr style="height: 67px;">
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 193.125px; height: 10px;">
+<p>Troubleshooting ::</p>
+<p>Website Error</p>
+</td>
+<td class="wysiwyg-text-align-center" style="vertical-align: middle; width: 432.875px; height: 10px;">Customer has issues with websites that do not fall into another specific category.</td>
+</tr>
+			</table>
+		</div>
+
+    </body>
+<script>
+function caseSearch(kbInput='kbMacro', kbLst='lstMacro') {
+    var input, filter, ul, li, p, a, i, txtValue;
+    input = document.getElementById(kbInput);
+    filter = input.value.toUpperCase();
+    ul = document.getElementById(kbLst);
+    li = ul.getElementsByTagName("tr");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("td")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+function lstTd(kbInput='kbMacro', kbLst='lstMacro') {
+    var input, filter, ul, li, p, a, i, txtValue, txt;
+	txt = document.getElementById('lstm');
+    input = document.getElementById(kbInput);
+    filter = input.value.toUpperCase();
+    ul = document.getElementById(kbLst);
+    li = ul.getElementsByTagName("tr");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("td")[0];
+        txtValue = a.textContent || a.innerText;
+        /*if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }*/
+		txt.value += li[i].innerText + '\n\n';
+    } alert('lstTd: ' + kbInput + '\n\n' + txtValue);
+}
+
+</script>	
+</html>
