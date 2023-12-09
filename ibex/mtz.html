@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="theme-color" content="#009578">
+        <title>Ibex - Macro</title>
+		<style>.kb-macro input{width:30em;}table, td {border: 1px solid;}</style>
+    </head>
+    <body>
+		<div class="kb-macro">
+			<input type="text" id="kbMacro" onkeyup="caseSearch('kbMacro', 'lstMacro')" placeholder="Search for Macro's.." title="Type in a Macro's">
+			<table id="lstMacro">
+			</table>
+		</div>
+		<div class="txtMain">
+			<textarea id="txtMainA">
+Troubleshooting :: Website Specific More Info Needed
+Troubleshooting :: Resetting Password for Customer
+Troubleshooting :: Downtime Active
+Troubleshooting :: Downtime Restored
+Troubleshooting :: Unsupported Device
+Troubleshooting :: Buffering
+Troubleshooting :: Signout on Samsung, LG and FireTV
+Troubleshooting :: Chromecast Issues
+Troubleshooting :: Continue Watching List Management
+Troubleshooting :: TV Pairing
+Troubleshooting :: Roku Double Billing-Error Refund
+Troubleshooting :: General App Fix-Refresh
+Signing Up :: FireTV App
+Signing Up :: Amazon vs. Direct w/ BritBox
+Signing Up :: Apple TV Channel vs. Direct w/ BritBox
+Signing Up :: CMORE vs. Direct w/ BritBox (NDX ONLY)
+Signing Up :: DStv Bundling General Info
+Signing Up :: Roku Channel vs. Direct w/ BritBox
+Signing Up :: Roku Log In
+Signing Up :: Re-Subscribing
+Signing Up :: Apple TV
+Signing Up :: Free Trial Details
+Signing Up :: Taxation
+Account Mgmt :: How to Reset Password
+Account Mgmt :: Payment Declined & Update Method (NA, NDX, AU ONLY)
+Account Mgmt :: Payment Declined & Update Method (ZA ONLY)
+Account Mgmt :: Upgrading Monthly to Annual
+Account Mgmt :: Downgrading Annual to Monthly
+Account Mgmt :: Temporary Preauthorization
+Account Mgmt :: Payment Declined & Pending New Card (NA, NDX, AU ONLY)
+Account Mgmt :: Payment Declined & Pending New Card (ZA ONLY)
+Account Mgmt :: How to Update Password
+Account Mgmt :: How to Update Payment Method
+Account Mgmt :: Disable Parental Controls
+Account Mgmt :: Enable Parental Controls
+Account Mgmt :: Portability (NDX ONLY)
+Account Mgmt :: Price Increase Inquiry - General
+Account Mgmt :: Price Increase Apple Consent
+Account Mgmt :: Price Increase Inquiry - SheerID and/or Existing Promo
+Account Mgmt :: Price Increase "2nd-Increase" Response
+Account Mgmt :: Price Increase Notification Missed
+Account Mgmt :: Price Increase Tax Added
+Account Mgmt :: Price Increase Date vs. Billing Date Question
+Account Mgmt :: Price Increase Inquiry - Non-US
+Account Mgmt :: Price Increase Amazon/Apple/Roku Delay
+Account Mgmt :: Price Increase Monthly Cancel/Save
+Account Mgmt :: Price Increase Active-Cancel Acknowledgment
+General Use :: Feedback, Closed Captions
+General Use :: Cannot Locate Account
+General Use :: BritBox Non-Personal Viewing
+General Use :: Feedback, Positive or Praise
+General Use :: Cannot Locate Account: Follow Up
+General Use :: Blank Email Response
+General Use :: Unsuccessful Callback
+General Use :: No BritBox In Region
+General Use :: Device Limits
+General Use :: Interested Party Solicitations
+General Use :: Generic Insert (Salutation and Closing)
+General Use :: Contact Info - Britbox UK
+General Use :: Contact Info - Samsung
+General Use :: Contact Info - Telstra
+General Use :: Contact Info - Amazon
+General Use :: Redeeming Promotion Code
+General Use :: Promotion Not Eligible (No Exception)
+General Use :: Promotion Not Eligible (Exception)
+General Use :: Promotion Is Expired
+General Use :: SheerID Promotion Ending
+General Use :: Feedback, Constructive or Complaint
+General Use :: Feedback, Closed Call Hoops
+General Use :: Support BritBox vs. Syndication Partners (NDX ONLY)
+Cancellation :: How to Cancel
+Cancellation :: General
+Cancellation :: Roku
+Cancellation :: Google Play
+Cancellation :: Apple/iTunes
+Cancellation :: Cannot Locate Account
+Cancellation :: 3rd Party Request - Cannot Locate Active Account
+Cancellation :: 3rd Party Request - General
+Cancellation :: Amazon
+Cancellation :: Apple TV Channels
+Cancellation :: Already Processed/Canceled
+Refunding :: Exception
+Refunding :: Gift Code Exception
+Refunding :: Renewal Before Gift Redemption
+Refunding :: Cancel w/ Refund Exception
+Refunding :: No Exception			
+			</textarea>
+			<textarea id="txtMainB">
+Use this if the customer is contacting us about an issue watching BritBox on the web, but we need more details to assist them.
+Use this template when resetting a customer's password because they cannot successfully do this on their own using our reset password guide.
+Use this macro for all active downtime responses. (Downtime is not over). Approved for both single-use messaging and bulk reply messaging.
+Use this to communicate to the customers when downtime has ended.
+Use this response for customer questions about a device we currently do not support.
+Use this as first response to customers who are complaining about buffering, but before attempting more complex troubleshooting.
+Use this for customers experiencing frequent signouts on the Samsung, LG and FireTV Apps.
+Use this as a first-time email to help troubleshoot most Chromecast issues.
+Use this for customers who contact us on how to delete content from their continue watching list.
+Use this for customer questions about how to log in using TV Pairing.
+Use this macro for customer questions about receiving a refund from Roku/Britbox, due to the duplicate billing error from from March 2022 to March 2023.
+Use this response for follow-up communications to the customers about a recent fix or app release and the technical issue will only happen with a app update or reinstall.
+Use this for questions about setting up Fire TV devices and basic sign-in questions.
+Use this for inquiries about subscription management between Amazon Prime and directly with BritBox.
+Use this for inquiries about subscription management between the Apple Channel and directly with BritBox.
+Use this for inquiries about subscription management between CMORE and directly with BritBox.
+Use this for DStv inquiries about bundling BritBox with a premium package with DStv.
+Use this for inquiries about subscription management between the Roku Channel and directly with BritBox.
+Use this for questions on how to log into a Roku device using an existing subscription.
+Use this for customers who want to re-subscribe.
+Use this for questions on how to log into a Apple TV device using an existing subscription.
+Use this for questions about how the free trial works for our service.
+Use this for any tax-related questions on a subscriber's account.
+Use this template for first contact inquiries on how to reset passwords.
+Use this for customers (non-South Africa) who need to update their payment because a transaction was declined.
+Use this for customers in South Africa who need to update their payment because a transaction was declined.
+Use this for customers interested in upgrading from a monthly to an annual subscription.
+Use this for customers interested in downgrading from an annual to a monthly subscription.
+Use this for questions from customers who see the nominal $1 or $0 authorization charge in their bank account statement.
+Use this for customers (non-South Africa) who need to update payment details because a transaction was declined but are waiting for a
+Use this for customers in South Africa who need to update payment details because a transaction was declined but are waiting for a new credit card.
+Use this template for customer inquiries on how to change/update the account password.
+Use this template for customer inquiries on how to change/update the payment method on the account.
+Use this macro for questions about how to deactivate/remove parental controls on BritBox.
+Use this macro for questions about how to activate/use parental controls on BritBox.
+Use this for generic questions about portability from Nordic countries to other countries in the EU.
+Use this macro for customer (for approved bulk replies, annual or sub-unknown) questions on why the prices are increasing in September 2023.
+Use this macro for customer questions on the Apple consent policy, with monthly customers who experienced the price increase in 2022 and 2023.
+Use this macro for customers on active promos like the Sheer ID for teachers or first responders and how it may be affected by the prices increasing in September 2023. Agent must look up the end of the active promotion in Evergent.
+Use this macro for customer questions on why the prices have increased for a second time in two consecutive years.
+Use this macro to address customers who did not receive the email about the price increase. This does not apply to the period between August 1 and August 2/3 when we run the A/B tests, this will only apply after August 3.
+Use this macro for customer questions about the price increase and how the taxation may be added, or apply to the increase.
+Use this macro to address customer confusion between the price increase effective date and the actual increase reflected in the customer billing statement date.
+Use this macro for questions from customers on why the prices increased in the U.S.
+Use this macro for customer questions on the pricing delay between direct BritBox subscriptions Amazon, Apple and Roku.
+Use this macro for monthly subscribers who are threatening to cancel and/or are in "active-cancel" status due to the PINC, and do not want to switch to annual to lock in the current price for a year.
+Use this macro for monthly subscribers who ask about canceling, but the status is already in active-cancel, and we are acknowledging the cancelation request because of the PINC.
+Use for feedback on the size, color, etc of closed captions, from subscribers from any region.
+Use this generic first time response for non-cancellation inquiries from a customer whose account cannot be located.
+Use this response for questions regarding using BritBox for non-personal purposes, like a teacher, business or library for mass viewing.
+Use this template when the customer gives positive feedback or praise about the service, support, content, or general topics. Please tag your TM before closing the ticket so the feedback can be documented.
+Use this as a second line response for a customer who already received the first email ‘General Use - Cannot Locate Account’ and does not know how they are subscribed.
+Use this if you receive an empty or blank email from the customer.
+Use this for email follow-ups on unsuccessful callbacks.
+Use this for questions about when BritBox will be coming to other regions in the world.
+Use this for questions about how many devices a subscriber can watch on.
+Use this "confirmation of receipt of email" for press, marketing, sales inquiries, or highly unusual requests and require management review before assigning to management/BritBox. Reminder: when applicable, always add an internal note with relevant or additional details before reassigning the ticket.
+Use this for freeform written customer responses.
+Use this when referring UK customers to the BritBox UK support teams.
+Use this macro when referring customers to the Samsung support teams.
+Use this macro when referring customers to the Telstra support teams.
+Use this macro when referring customers to the Amazon Prime support teams.
+Use this response when a customer needs instructions on redeeming a promo code.
+Use this response when an active subscriber asks about receiving a promotion that is only offered to new and returning subscribers.
+Use this response when an active subscriber asks about receiving a promotion only offered to new and returning subscribers. And we will make an exception to the offer.
+Use this response when the customer asks about an expired promotion.
+Use this response for inquiries about our previous discounted subscription promotions offered through SheerID for medical, first responder, and teaching professionals.
+Use this template when the customer gives negative feedback or a complaint about the service, support, content, or general topics. Please tag your TM before closing the ticket so the feedback can be documented.
+Use this template when the customer gives feedback about the lack of incoming phone support. Please tag your TM before closing the ticket so the feedback can be documented.
+Use this for questions from customers who are curious when to contact us vs. Nordics partners C MORE, Telia & TV 2 Play..
+Use this for requests from subscribers on how to cancel.
+Use this for cancel requests from subscribers.
+Use this for cancel requests from Roku subscribers.
+Use this for cancel requests from Google Play subscribers.
+Use this for cancel requests from Apple/iTunes subscribers.
+Use this for inquiries on how to cancel, but you cannot locate an account.
+Use this for inquiries from third-party companies (i.e. C R, Subaio, etc) cancel requests, but you cannot locate an active customer account.
+Use this for inquiries from third-party companies (i.e. C R, Subaio, etc) for cancel requests that you successfully processed a cancellation.
+Use this for cancel requests from Amazon Prime subscribers.
+Use this for cancel requests from Apple TV Channel subscribers.
+Use this response when a customer contacts us to confirm their account is canceled (either by us or after canceling on their own).
+Use this response for refund requests where an exception is allowed or if the request is approved by a member of management.
+Use this confirmation for processing a refund of a gift code. Must meet refund exception policies or have Team Manager approval. Must have a refund code to complete the request.
+Use when a subscriber's subscription renewed before they had a chance to redeem a gift subscription.
+Use this macro for cancel requests and approved refund requests from subscribers.
+Use this response for refund requests outside the KB Article 'Approved exceptions to our refunds policy' or if the request is not approved by a member of management.
+			</textarea>
+		</div>
+    </body>
+<script>
+function caseSearch(kbInput='kbMacro', kbLst='lstMacro') {
+    var input, filter, ul, li, p, a, i, txtValue;
+    input = document.getElementById(kbInput);
+    filter = input.value.toUpperCase();
+    ul = document.getElementById(kbLst);
+    li = ul.getElementsByTagName("tr");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("td")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+function loadTS(){
+	let a = document.getElementById('txtMainA').value;
+	let iText = a.split('\n');
+	for(var i = 0;i < iText.length;i++){
+		document.getElementById('lstMacro').innerHTML += '<tr><td id="tr-'+i+'">'+iText[i]+'</td></tr>';
+	}
+	document.getElementById('txtMainA').value = '';
+}
+function loadTSd(){
+	let a = document.getElementById('txtMainB').value;
+	let iText = a.split('\n');
+	for(var i = 0;i < iText.length;i++){
+		document.getElementById('tr-'+i).innerHTML += '<br />'+iText[i];
+	}
+	document.getElementById('txtMainB').value = '';
+}
+loadTS();
+loadTSd();
+
+</script>	
+</html>
