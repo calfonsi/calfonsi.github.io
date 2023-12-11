@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="theme-color" content="#009578">
+        <title>Ibex - Macro</title>
+		<style>.kb-macro input{width:30em;}table, td {border: 1px solid;}</style>
+    </head>
+    <body>
+		<div class="kb-macro">
+			<input type="text" id="kbMacro" onkeyup="caseSearch('kbMacro', 'lstMacro')" placeholder="Search for Macro's.." title="Type in a Macro's">
+			<table id="lstMacro">
+			</table>
+		</div>
+		<div class="txtMain">
+			<textarea id="txtMainA">
+			</textarea>
+			<button onclick="loadTS()">Load TS</button>
+			<p id="ctrs"></p>
+		</div>
+    </body>
+<script>
+let txtm = document.getElementById('txtMainA');
+const fileUrl = 'macros.txt' // provide file location
+fetch(fileUrl)
+   .then( r => r.text() )
+   .then( t => txtm.innerHTML = t )
+   
+
+function caseSearch(kbInput='kbMacro', kbLst='lstMacro') {
+    var input, filter, ul, li, p, a, i, txtValue;
+    input = document.getElementById(kbInput);
+    filter = input.value.toUpperCase();
+    ul = document.getElementById(kbLst);
+    li = ul.getElementsByTagName("tr");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("td")[0];
+		txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+function loadTS(){
+	let a = document.getElementById('txtMainA').value;
+	let iText = a.split('\n'); let ctr = 0; var idd = '';
+	for(var i = 0;i < iText.length;i++){
+		if(isText(iText[i], '::')){
+			if(i > 0){ctr++}
+			idd = 'tr-' + ctr; 
+			document.getElementById('lstMacro').innerHTML += '<tr><td id="tr-'+ctr+'">'+iText[i]+'</td></tr>';
+		} else {
+			
+			//document.getElementById('ctrs').innerHTML += idd + ', ';
+			document.getElementById(idd).innerHTML += '<br />'+iText[i];
+		}
+        
+		//document.getElementById('lstMacro').innerHTML += '<tr><td id="tr-'+i+'">'+iText[i]+'</td></tr>';
+	}
+	document.getElementById('txtMainA').value = '';
+}
+function loadTSd(){
+	let a = document.getElementById('txtMainB').value;
+	let iText = a.split('\n');
+	for(var i = 0;i < iText.length;i++){
+		document.getElementById('tr-'+i).innerHTML += '<br />'+iText[i];
+	}
+	document.getElementById('txtMainB').value = '';
+}
+function isText(e, c){
+	if(e.length > 0){
+		var str = e.indexOf(c);
+		if(str > 0){
+			return true;
+		} else {
+			return false;
+		}		
+	}
+}
+//loadTS();
+//loadTSd();
+</script>	
+</html>

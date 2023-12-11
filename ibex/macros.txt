@@ -1,0 +1,1585 @@
+General Use :: Feedback, Closed Captions
+Use for feedback on the size, color, etc of closed captions, from subscribers from any region.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. We appreciate your feedback on how to improve our closed caption on BritBox.
+
+Though we cannot make changes to <INSERT BRIEF RECAP OF FEEDBACK>, we will keep your suggestion on file for future consideration. 
+
+It may be helpful to note that your streaming device might give options to adjust the presentation of the closed caption, especially SmartTVs. We suggest you try that to improve the appearance of the text.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Cannot Locate Account
+Use this generic first time response for non-cancellation inquiries from a customer whose account cannot be located.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+Unfortunately, we cannot find an account associated with your email. Is there an alternative email or name you might have used when subscribing? 
+
+We cannot view or manage your account details if you subscribed as an add-on in your Amazon Prime, AppleTV, or Roku. You can learn more about this on our Partner Subscription page.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: BritBox Non-Personal Viewing
+Use this response for questions regarding using BritBox for non-personal purposes, like a teacher, business or library for mass viewing.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+BritBox subscriptions and the content on BritBox are only available for personal and non-commercial use. Unfortunately, the service cannot be used for <INSERT DESCRIPTION OF HOW THE REQUESTER WANTS TO USE BRITBOX>.
+
+You can find more information in our account Terms & Conditions. Of course, we hope you enjoy the service for your personal use. (We also don't mind if you encourage your family, co-workers, and friends to sign up and do the same). :)
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Feedback, Positive or Praise
+Use this template when the customer gives positive feedback or praise about the service, support, content, or general topics. Please tag your TM before closing the ticket so the feedback can be documented.
+
+Hi Jeremias,
+
+Thanks for being a part of the BritBox family. 
+
+We strive for continuous improvement to better entertain you and all our fans! Letting us know what you like about <INSERT BRIEF RECAP OF FEEDBACK> helps us in the process. 
+
+We’ve passed on your feedback to our leadership team. We will retain your comments when making future decisions about the service. We appreciate your incredible taste in British entertainment.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Cannot Locate Account: Follow Up
+Use this as a second line response for a customer who already received the first email ‘General Use - Cannot Locate Account’ and does not know how they are subscribed.
+
+Hi Jeremias,
+
+Oh no! We still cannot locate where your subscription is managed. Can you share the details from your most recent receipt or bank statement? You can also share a screenshot of the transaction, but please do not include account numbers or private information.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Blank Email Response
+Use this if you receive an empty or blank email from the customer.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+Oh no, we received a blank email from you. We're reaching out to be sure any issues you may be experiencing are resolved, or any questions you may have are answered.
+
+Please, reply with your questions, and we will reach out to you as soon as possible. 
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Unsuccessful Callback
+Use this for email follow-ups on unsuccessful callbacks.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. We tried to call you. Unfortunately, we were unable to connect.
+
+You can reply to this email or contact us via chat from our contact page.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: No BritBox In Region
+Use this for questions about when BritBox will be coming to other regions in the world.
+
+Hi Jeremias,
+
+We love hearing from British entertainment fans from around the world!
+
+Unfortunately, we don't have specific details on when BritBox might become available in <INSERT COUNTRY NAME>. However, we hope to have news for you in the future; and of course, we will retain your comments for future use when deciding where to launch the service.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Device Limits
+Use this for questions about how many devices a subscriber can watch on.
+
+Hi Jeremias​,
+
+Thanks for being a part of the BritBox family!
+
+You can watch BritBox on multiple devices, and though it does vary from region to region, you can learn more by visiting our Multiple Devices page.
+
+You can also visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Interested Party Solicitations
+Use this 'confirmation of receipt of email' for press, marketing, sales inquiries, or highly unusual requests and require management review before assigning to management/BritBox. Reminder: when applicable, always add an internal note with relevant or additional details before reassigning the ticket.
+
+Hi Jeremias,
+
+Thanks for thinking of Britbox.
+
+We've passed your inquiry, including your contact information, to the team responsible for these requests! If we are interested in the opportunity, they'll reach out to you either now or in the future. So, stay tuned!
+
+In the meantime, please let us know if you have any additional questions about customer care, current content, or our subscriptions.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Generic Insert (Salutation and Closing)
+Use this for freeform written customer responses.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+<INSERT EMAIL CONTENT>
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Contact Info - Britbox UK
+Use this when referring UK customers to the BritBox UK support teams.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+Our support team is with the BritBox International group and is separate from BritBox UK (a streaming service inside the United Kingdom only). 
+
+BritBox UK has an outstanding customer care team, separate from us, who can be reached between 9:00 am and 6:00 pm (local time) seven days a week:
+
+Email: Help@britbox.co.uk
+Online Contact Form: https://www.britbox.co.uk/contactus 
+
+Have a great day!
+
+General Use :: Contact Info - Samsung
+Use this macro when referring customers to the Samsung support teams.
+
+Hi Jeremias,
+
+You can refer to the Samsung Contact & Support page to reach the Samsung customer support team. 
+
+They should be able to help with <INSERT SHORT RECAP OF QUESTION OR DELETE THE SENTENCE>. 
+
+Have a great day!
+
+General Use :: Contact Info - Telstra
+Use this macro when referring customers to the Telstra support teams.
+
+Hi Jeremias,
+
+You can refer to the Telstra Contact & Support page to reach their customer support team. 
+
+They should be able to help with <INSERT SHORT RECAP OF QUESTION OR DELETE THE SENTENCE>. 
+
+Have a great day!
+
+General Use :: Contact Info - Amazon
+Use this macro when referring customers to the Amazon Prime support teams.
+
+Hi Jeremias,
+
+You can refer to the Amazon Prime Contact & Support page to reach the Amazon customer support team. 
+
+They should be able to help with <INSERT SHORT RECAP OF QUESTION OR DELETE THE SENTENCE>. 
+
+Have a great day!
+
+General Use :: Redeeming Promotion Code
+Use this response when a customer needs instructions on redeeming a promo code.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family.
+
+We're happy to assist you in subscribing to our service using your <INSERT PROMOTION TITLE> promotion code. Please follow the steps below (step 9 is our personal favorite):
+
+Visit BritBox in a web browser
+Click the 'Free Trial' or the 'Start watching for free' button
+Enter your name, email, and password on the 'Register' page
+Click the 'Create Your Account' button 
+Choose <INSERT SUB DURATION APPLICABLE TO PROMOTION>
+Enter your code into the 'Promo Code' box and click 'Apply'
+Enter your credit card details
+Click 'Submit'
+Enjoy watching BritBox!
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Promotion Not Eligible (No Exception)
+Use this response when an active subscriber asks about receiving a promotion that is only offered to new and returning subscribers.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family.
+
+The limited-time <INSERT PROMOTION TITLE> promotion is only available to first-time (or former subscribers with no existing service). A good time to tell your friends, family, and co-workers about this promotion!
+
+The good news is that we love to surprise and delight our subscribers, and we know we will be bringing promotions to you soon. So, please be on the lookout for future rewards or benefits you'll be eligible for. 
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Promotion Not Eligible (Exception)
+Use this response when an active subscriber asks about receiving a promotion only offered to new and returning subscribers. And we will make an exception to the offer.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family.
+
+The limited-time <INSERT PROMOTION TITLE> promotion is only available to first-time (or former subscribers with no existing service). A good time to tell your friends, family, and co-workers about this promotion!
+
+Since we love to show our appreciation to our loyal subscribers around here, we have obtained approval to extend the promotion to you. <INSERT HOW PROMO WILL BE APPLIED>
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Promotion Is Expired
+Use this response when the customer asks about an expired promotion.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family.
+
+Sadly, the limited-time <INSERT PROMOTION TITLE> promotion ended on <INSERT PROMOTION END DATE/TIME IF KNOWN, IF NOT JUST USE HAS ENDED>.
+
+The good news is that we love to surprise and delight our subscribers, and we know we will bring new promotions to you soon. 
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: SheerID Promotion Ending
+Use this response for inquiries about our previous discounted subscription promotions offered through SheerID for medical, first responder, and teaching professionals.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+We once offered select discounted subscriptions for Teachers, Medical Professionals, and First Responders, but the promotional period ended on November 10th, 2022.
+
+Please keep on the lookout for new promotions coming soon. We offer them many times a year.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Feedback, Constructive or Complaint
+Use this template when the customer gives negative feedback or a complaint about the service, support, content, or general topics. Please tag your TM before closing the ticket so the feedback can be documented.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. We appreciate your taking the time to share your feedback with us about <INSERT BRIEF RECAP OF FEEDBACK>.
+
+We strive for continuous improvement to better entertain you and all our fans! So, we’ve passed on your feedback to our leadership team. We will retain your comments for use in future decisions about the service.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Feedback, Closed Call Hoops
+Use this template when the customer gives feedback about the lack of incoming phone support. Please tag your TM before closing the ticket so the feedback can be documented.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+We appreciate you taking the time to share your feedback with us. We’ve passed on your comment to our leadership team as we strive for continuous improvement to better support you, and all our fans! :)
+
+We can assist you now <INSERT A BRIEF RECAP OF THE  SUPPORT ISSUE OR QUESTION, AND USE OTHER APPROPRIATE MACROS TO ASSIST>
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+General Use :: Support BritBox vs. Syndication Partners (NDX ONLY)
+Use this for questions from customers who are curious when to contact us vs. Nordics partners C MORE, Telia & TV 2 Play..
+
+Hi Jeremias,
+ 
+Thank you for being part of the BritBox family. Great question!
+
+Don't hesitate to contact C MORE, Telia, or TV 2 Play directly for subscription-related questions, such as using the platform, canceling, and more.
+
+Contact us for content-related questions, such as subtitles, audio issues, or when a new episode or series will be available. That being said, did you have questions for us here at BritBox?
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+
+Account Mgmt :: How to Reset Password
+Use this template for first contact inquiries on how to reset passwords.
+
+Hi Jeremias​,
+
+Thank you for being part of the BritBox family. 
+
+We know how tricky passwords can sometimes be. Please see our Password Update page first to reset your password. 
+
+If you haven't received an email with the password reset link. Please be sure to check the spam folder in your inbox. It may be possible you've signed up with a different email address. We suggest you try the 'Forgot Password' process with other email addresses you might have used.
+
+If you're subscribed via Amazon Prime, Apple TV, or Roku TV, you may not be able to log in to our website or apps. You can learn more about this on our Partner Subscription page.
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Payment Declined & Update Method (NA, NDX, AU ONLY)
+Use this for customers (non-South Africa) who need to update their payment because a transaction was declined.
+
+Hi Jeremias,
+ 
+Thank you for being part of the BritBox family. 
+
+We looked into this, and the credit card on file was declined. If you recently received a new credit card (or need to update to a different one). The steps to update your payment information are located on our support page.
+
+Your account has entered a grace period, and you have until <INSERT RENEWAL DATE> to get a new card on file before the service is canceled.
+
+Have questions? We're here to help. Please feel free to visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Payment Declined & Update Method (ZA ONLY)
+Use this for customers in South Africa who need to update their payment because a transaction was declined.
+
+Hi Jeremias,
+ 
+Thank you for being part of the BritBox family. 
+
+We looked into this, and the credit card on file was declined. If you recently received a new credit card (or need to update to a different one). The steps to update your payment information are located on our support page.
+
+Your account has entered a grace period, so please be sure to update your credit card details soon so you do not lose access to BritBox.
+
+Have questions? We're here to help. Please feel free to visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Upgrading Monthly to Annual
+Use this for customers interested in upgrading from a monthly to an annual subscription.
+
+Hi Jeremias,
+ 
+Thank you for being part of the BritBox family.
+
+ We're excited to hear you want to switch from a monthly subscription to an annual subscription. Please follow these steps in our help center to make the upgrade. 
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Downgrading Annual to Monthly
+Use this for customers interested in downgrading from an annual to a monthly subscription.
+
+Hi Jeremias,
+ 
+Thank you for being part of the BritBox family.
+
+ To downgrade to a monthly BritBox subscription from an annual subscription, you will first need to cancel your subscription and re-subscribe after the current subscription expires. The steps differ depending on how you subscribed. Learn more at our Downgrade Subscription page.
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Temporary Preauthorization
+Use this for questions from customers who see the nominal $1 or $0 authorization charge in their bank account statement.
+
+Hi Jeremias,
+ 
+Thank you for being part of the BritBox family. 
+
+The small charge you see on your bank account is a temporary preauthorization from our billing team. It's used to validate your credit card before charging your card in full when the subscription payment is due. 
+
+The charge usually drops off in 5-7 bank processing days. 
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Payment Declined & Pending New Card (NA, NDX, AU ONLY)
+Use this for customers (non-South Africa) who need to update payment details because a transaction was declined but are waiting for a
+
+Hi Jeremias​,
+
+Thank you for being part of the BritBox family. 
+
+We are sorry you have not yet received your new card credit card. Not to worry! Your account has entered a grace period, and you have until <INSERT RENEWAL DATE> to get a new card on file before the service is canceled.
+
+Have questions? We're here to help. You can visit the Help Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Payment Declined & Pending New Card (ZA ONLY)
+Use this for customers in South Africa who need to update payment details because a transaction was declined but are waiting for a new credit card.
+
+Hi Jeremias​,
+
+Thank you for being part of the BritBox family. 
+
+We are sorry you have not yet received your new card credit card. Not to worry! Your account has entered a grace period which will allow for some time to update your payment method. If you have another credit card to add on file, you can use that too!
+
+If the subscription cancels before your new card comes, all you need to do is resubscribe. Here is more information on how.
+
+Have questions? We're here to help. You can visit the Help Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: How to Update Password
+Use this template for customer inquiries on how to change/update the account password.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. Here are the steps to change your password:  
+
+Log in to your account at BritBox or our mobile apps
+Access your account and click on “Account Details”
+Click on the “Password” tab
+Enter your current password and your new password
+Click “Change”
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: How to Update Payment Method
+Use this template for customer inquiries on how to change/update the payment method on the account.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. 
+
+You can find the instructions on how to update your payment method at our help center. Here is the link:
+
+Updating Payment Method
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Disable Parental Controls
+Use this macro for questions about how to deactivate/remove parental controls on BritBox.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+You can learn how to disable parental controls by visiting the help center's Disable Parental Controls page.
+
+Have questions? We're here to help. You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Enable Parental Controls
+Use this macro for questions about how to activate/use parental controls on BritBox.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+You can learn how to enable parental controls by visiting the help center's Enable Parental Controls page.
+
+Have questions? We're here to help. You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Portability (NDX ONLY)
+Use this for generic questions about portability from Nordic countries to other countries in the EU.
+
+Hi Jeremias,
+ 
+Thank you for being part of the BritBox family.
+
+BritBox portability applies to subscribers in Sweden, Finland, Denmark, and Norway, and you can watch BritBox in any other EU member country if you are already subscribed. Learn more about portability here.
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase Inquiry - General
+Use this macro for customer (for approved bulk replies, annual or sub-unknown) questions on why the prices are increasing in September 2023.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. 
+
+We are updating our prices to reflect our investment in our service and technology and to continue bringing you more of the great British TV you love. 
+
+We're excited to support the outstanding British entertainment talent you'll find in our current catalog and upcoming releases.
+
+Have questions? We're here to help. You can visit the Help & Support Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase Apple Consent
+Use this macro for customer questions on the Apple consent policy, with monthly customers who experienced the price increase in 2022 and 2023.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. 
+
+We are updating our prices to reflect our investment in our service and technology and to continue bringing you more of the great British TV you love. Subscribers through our partner, Apple, must agree to the price increase to continue to enjoy BritBox. 
+
+Once logged into your Apple account, you can accept or consent to prevent the subscription from being cancelled. 
+
+Have questions? We're here to help. You can visit the Help & Support Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase Inquiry - SheerID and/or Existing Promo
+Use this macro for customers on active promos like the Sheer ID for teachers or first responders and how it may be affected by the prices increasing in September 2023. Agent must look up the end of the active promotion in Evergent.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+ 
+For new customers, BritBox pricing was updated on August 1, 2023. Existing customers like yourself will see the updated price on the first renewal date after September 6, 2023. 
+ 
+However, you will continue getting the <CHOOSE ONE: Teacher's Discount OR First Responder's Discount OR ______ Promotion> until <PROMO DATE END>. Afterward, you will be charged $8.99 (plus applicable taxes). 
+
+Have questions? We're here to help. You can visit the Help & Support Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase '2nd-Increase' Response
+Use this macro for customer questions on why the prices have increased for a second time in two consecutive years.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. 
+
+We're committed to maintaining the quality, value, and volume of exciting new releases as costs continue to rise.
+
+We're excited to support the outstanding British entertainment talent you'll find in our current catalog and upcoming releases.
+
+Have questions? We're here to help. You can visit the Help Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase Notification Missed
+Use this macro to address customers who did not receive the email about the price increase. This does not apply to the period between August 1 and August 2/3 when we run the A/B tests, this will only apply after August 3.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. 
+
+We are updating our prices to reflect our investment in service and technology and to continue bringing you more of the great British TV you love.
+
+We emailed all our subscribers about the updated pricing in the first week of August. Your email notification might have gone to your Junk/Spam folder if you did not receive it. Please be sure to mark our email as safe to prevent future emails from being flagged or sent to SPAM. :)
+
+We're excited to support the outstanding British entertainment talent you'll find in our current catalog and upcoming releases.
+
+Have questions? We're here to help. You can visit the Help & Support Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase Tax Added
+Use this macro for customer questions about the price increase and how the taxation may be added, or apply to the increase.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. 
+
+We updated our prices to reflect our investment in service and technology and to continue bringing you more of the great British TV you love. The additional cost to your subscription is due to the taxes applied by your regional government.
+
+Taxes can be applied to subscription streaming services but vary depending on your region. 
+
+Please visit our Billing & Payments page for more information.
+
+Have questions? We're here to help. You can visit the Help & Support Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase Date vs. Billing Date Question
+Use this macro to address customer confusion between the price increase effective date and the actual increase reflected in the customer billing statement date.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. 
+
+For new customers, BritBox pricing was updated on August 1, 2023. Existing customers like yourself will see the updated price on the first renewal date after September 6, 2023. 
+
+We looked it up, and <INSERT CUSTOMERS NEXT BILLING CYCLE DATE> is the date you will be charged the updated price for your BritBox subscription. 
+
+Have questions? We're here to help. You can visit the Help & Support Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase Inquiry - Non-US
+Use this macro for questions from customers on why the prices increased in the U.S.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+We are updating our prices in select regions to reflect our investment in service and technology and to continue bringing our subscribers more of the great British TV you love.
+
+However, pricing for our communities in <INSERT REGION> will remain the same.
+
+<OR DELETE INAPPLICABLE>
+
+Unfortunately, we don't have specific details on when BritBox might become available in <INSERT COUNTRY NAME>.
+
+Have questions? We're here to help. You can visit the Help Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase Amazon/Apple/Roku Delay
+Use this macro for customer questions on the pricing delay between direct BritBox subscriptions Amazon, Apple and Roku.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+We are updating our prices to reflect our investment in service and technology and to continue bringing you more of the great British TV you love. 
+
+Subscribers through our partner, <INSERT PARTNER NAME>, will see the increase later this year.
+
+We're excited to support the outstanding British entertainment talent you'll find in our current catalog and upcoming releases.
+
+Have questions? We're here to help. You can visit the the Help & Support Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase Monthly Cancel/Save
+Use this macro for monthly subscribers who are threatening to cancel and/or are in 'active-cancel' status due to the PINC, and do not want to switch to annual to lock in the current price for a year.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+We are sorry to hear that you want to cancel your BritBox subscription. 
+
+We’ve added a complimentary month of BritBox to your subscription as a token of our appreciation, hoping that you will give us a second chance. This will appear on your account for one month, replacing your next billing charge.
+
+If you would like to proceed with the cancellation, please let us know, and we will cancel your account. 
+
+We're excited to support the outstanding British entertainment talent you'll find in our current catalog and upcoming releases.
+
+Have questions? We're here to help. Visit the Help & Support Center for more info, or reply to this email.
+
+Have a great day!
+
+Account Mgmt :: Price Increase Active-Cancel Acknowledgment
+Use this macro for monthly subscribers who ask about canceling, but the status is already in active-cancel, and we are acknowledging the cancelation request because of the PINC.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+ 
+We are sorry to hear that you want to cancel your BritBox subscription.
+ 
+We are updating our prices to reflect our investment in our service and technology and to continue bringing you more of the great British TV you love.
+ 
+We located your account and can confirm you have successfully canceled. You will still have access to BritBox until the end of the current billing cycle on <INSERT DATE>.
+
+Have questions? We're here to help. Visit the Help & Support Center for more info, or reply to this email.
+
+Have a great day!
+
+
+Signing Up :: FireTV App
+Use this for questions about setting up Fire TV devices and basic sign-in questions.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+Our app is available for FireTV Stick, Cube, and Fire Edition TVs. Here is a comprehensive list of FireTV Devices we support. Follow these easy steps to install the BritBox app on your FireTV device.
+
+Finally, Amazon also has helpful guides if you have questions about your FireTV, such as features, setup, and more. Here's a link to Amazon's FireTV guides.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Signing Up :: Amazon vs. Direct w/ BritBox
+Use this for inquiries about subscription management between Amazon Prime and directly with BritBox.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+You can choose a BritBox subscription through Amazon. Although the same great content is available on all our platforms, including Amazon, some differences exist. If you sign up through Amazon:
+
+You can only access the content through Amazon, not at the BritBox site or our associated apps
+Account updates and cancellations must be made through Amazon
+General assistance, including billing, is exclusively managed through Amazon
+BritBox gift subscriptions are not redeemable on Amazon platforms
+Some features and functionality are slightly different 
+
+Amazon supports a wide range of devices to watch on, including devices we currently do not support. To learn more, check out: Amazon Prime-Supported Devices.
+
+We can still help with anything content-related, so please feel free to contact us about the programming. Remember, any billing-related questions must go through Amazon.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Signing Up :: Apple TV Channel vs. Direct w/ BritBox
+Use this for inquiries about subscription management between the Apple Channel and directly with BritBox.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+You can choose a BritBox subscription through The Apple TV Channel. Although the same great content is available on all our platforms, including the Apple Channel, some differences exist. If you sign up through Apple:
+
+You can only access the content through the Apple Channel, not at the BritBox site or our associated apps
+Account updates and cancellations must be made through the Apple Channel
+General assistance, including billing, is exclusively managed through the Apple Channel
+BritBox gift subscriptions are not redeemable on the Apple Channel platforms
+Some features and functionality are slightly different 
+
+We can still help with anything content-related, so please feel free to contact us about the programming. Just to remind you, any billing-related questions must go through the Apple Channel.
+
+Need more help? Please feel free to visit the Help Center or reply to this email.
+
+Have a great day!
+
+Signing Up :: CMORE vs. Direct w/ BritBox (NDX ONLY)
+Use this for inquiries about subscription management between CMORE and directly with BritBox.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+You can choose a BritBox subscription through CMORE. Although the same great content is available on all our platforms, including CMORE, some differences exist. If you sign up through CMORE:
+
+You can only access the content through CMORE, not at the BritBox site or our associated apps
+Account updates and cancellations must be made through CMORE
+General assistance, including billing, is exclusively managed through CMORE
+BritBox gift subscriptions are not redeemable on CMORE platforms
+Some features and functionality are slightly different 
+
+We can still help with anything content-related, so please feel free to contact us about the programming. Just to remind you, any billing-related questions must go through CMORE.
+
+Need more help? Please feel free to visit the Help Center or reply to this email.
+
+Have a great day!
+
+Signing Up :: DStv Bundling General Info
+Use this for DStv inquiries about bundling BritBox with a premium package with DStv.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+You can choose to add BritBox to your bundle of premium services. Although the same great content is available on all our platforms, including DStv Bundles, some differences exist:
+
+You can only access the content through DStv, not at the BritBox site or our associated apps
+Account updates and cancellations must be made through DStv
+General assistance, including billing, is exclusively managed through DStv
+BritBox gift subscriptions are not redeemable on DStv platforms
+
+Need help adding Britbox to your bundle of premium services? Just contact DStv customer support through WhatsApp at 060 060 3788. Or reach out to them via their DStv Contact page. 
+
+Finally, you can use your existing BritBox account to log in to the BritBox app on DStv, without adding it as a bundle.
+
+Need more help? Please feel free to visit the Help Center or reply to this email.
+
+Have a great day!
+
+Signing Up :: Roku Channel vs. Direct w/ BritBox
+Use this for inquiries about subscription management between the Roku Channel and directly with BritBox.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+You can choose a BritBox subscription through The Roku Channel. Although the same great content is available on all our platforms, including the Roku Channel, some differences exist. If you sign up through Roku:
+
+You can only access the content through the Roku Channel, not at the BritBox site or our associated apps
+Account updates and cancellations must be made through the Roku Channel
+General assistance, including billing, is exclusively managed through the Roku Channel
+BritBox gift subscriptions are not redeemable on the Roku Channel platforms
+Some features and functionality are slightly different 
+
+We can still help with anything content-related, so please feel free to contact us about the programming. Just to remind you, any billing-related questions must go through the Roku Channel.
+
+Need more help? Please feel free to visit the Help Center or reply to this email.
+
+Have a great day!
+
+Signing Up :: Roku Log In
+Use this for questions on how to log into a Roku device using an existing subscription.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+The steps for logging into your Roku device with your existing account information are below:
+
+From the BritBox app home page, click 'Sign In' in the top right corner of the screen
+Click 'Sign In' in the menu that opens
+On the window that says, 'Let's create your account!' click on 'Cancel'
+Enter your BritBox registered email address and click 'Done'
+Enter your BritBox password and then click 'Sign In'
+
+If you don't remember your password, you can click 'Forgot Password' and enter your email address to reset your password.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Signing Up :: Re-Subscribing
+Use this for customers who want to re-subscribe.
+
+Hi Jeremias,
+
+First, welcome back! 
+
+Thank you for being a part of the BritBox family. We are so excited to hear you're interested in re-subscribing. 
+
+Please follow these steps on our support page to re-subscribe and get back to the best in British entertainment. 
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Signing Up :: Apple TV
+Use this for questions on how to log into a Apple TV device using an existing subscription.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+The steps for logging into your Apple device with your account information are on our support page. 
+
+If you don't remember your password, you can click 'Forgot Password' and enter your email address to reset your password.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Signing Up :: Free Trial Details
+Use this for questions about how the free trial works for our service.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+We offer a 7-day free trial for most new subscribers, including all new subscribers in the United States, Canada, Australia, Sweden, Denmark, Finland and Norway. If you're in South Africa, the 7-day free trial only applies if you subscribe through DStv. 
+
+Here is some helpful information about the free trial:
+
+The free trial is measured using days, not hours; the first day of your trial counts as the full day of your signup
+If you decide BritBox is not for you, you can cancel before the end of your free trial without being charged
+Please cancel at least 24 hours before your free trial ends to avoid being charged; please note uninstalling BritBox apps won't automatically cancel the subscription
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Signing Up :: Taxation
+Use this for any tax-related questions on a subscriber's account.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. 
+
+Taxes can be applied to subscription streaming services, but they vary depending on your region. Please visit our Billing & Payments page for more information.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Cancellation :: How to Cancel
+Use this for requests from subscribers on how to cancel.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. We're sorry to hear you're thinking about canceling your subscription.
+
+You can locate instructions on how to cancel on our Cancellation Support page.
+
+Please note you'll need to cancel your subscription at least 24 hours before your subscription is due to renew. Once canceled, you'll be able to continue watching through to the end of your current subscription period.
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Cancellation :: General
+Use this for cancel requests from subscribers.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. We are sorry to hear you want to cancel your subscription. 
+
+We have canceled your subscription. You will still have access to BritBox until the end of the current billing cycle on <INSERT DATE>. 
+
+If there was a reason you had trouble canceling the service, or you want to offer feedback on why you canceled, please let us know. 
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Cancellation :: Roku
+Use this for cancel requests from Roku subscribers.
+Hi Jeremias, 
+
+Thank you for being part of the BritBox family. We are sorry to hear you want to cancel your subscription. 
+
+We located your account, and you subscribed to BritBox through your Roku account. Unfortunately, we cannot cancel the subscription since we cannot access Roku's billing platforms. 
+
+However, the cancellation process is straightforward and located on the Roku Support Cancel page. Thanks for trying BritBox.
+
+Have a great day!
+
+Cancellation :: Google Play
+Use this for cancel requests from Google Play subscribers.
+
+Hi Jeremias, 
+
+Thank you for being part of the BritBox family. We are sorry to see you go!
+
+We located your account, and you subscribed to BritBox through your Google Play account. Unfortunately, we cannot cancel the subscription since we cannot access Google's billing platforms. 
+
+However, the cancellation process is straightforward and on the Google Play Subscription Cancel page. 
+
+Have a great day!
+
+Cancellation :: Apple/iTunes
+Use this for cancel requests from Apple/iTunes subscribers.
+
+Hi Jeremias, 
+
+Thank you for being part of the BritBox family, and we are sorry to hear you want to cancel your subscription. 
+
+Unfortunately, we cannot process the cancelation since you've subscribed to BritBox through your Apple/iTunes account. We do not have access to Apple's billing platforms.  
+
+The cancelation process is straightforward and located on the Apple Subscription Cancel page. 
+
+Feel free to respond here if you'd like to give us feedback on why you're canceling. 
+
+Have a great day!
+
+Cancellation :: Cannot Locate Account
+Use this for inquiries on how to cancel, but you cannot locate an account.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family, and we are sorry to hear you want to cancel your subscription.
+
+We are having trouble locating your account with the email address <INSERT EMAIL>. Did you sign up using a different email address? Or directly through Amazon Prime, Apple, Roku, or the GooglePlay app?
+
+Unsure how you subscribed or what email address is associated with your account? Please provide us with a screenshot of the charge description on your bank statement, and we can look into this further. 
+
+We look forward to hearing from you. You can visit the Help Center for more info as well.
+
+Have a great day!
+
+Cancellation :: 3rd Party Request - Cannot Locate Active Account
+Use this for inquiries from third-party companies (i.e. C R, Subaio, etc) cancel requests, but you cannot locate an active customer account.
+
+Hi Jeremias,
+
+We could not locate an active account with the information provided. 
+
+This could be because the customer's account has already been canceled. Or they may be subscribed under another name/email address. Or subscribed through Amazon Prime, Apple, Roku, or the GooglePlay app, in which case you need to contact the vendor partner managing their billing. 
+
+Have a great day!
+
+Cancellation :: 3rd Party Request - General
+Use this for inquiries from third-party companies (i.e. C R, Subaio, etc) for cancel requests that you successfully processed a cancellation.
+
+Hi Jeremias,
+
+We were able to locate an account with the information provided, and we have successfully canceled it for you, on behalf of our customer.
+
+Per our terms and conditions, we do not offer refunds for unused time, so we did not refund the account as requested.
+
+Have a great day!
+
+Cancellation :: Amazon
+Use this for cancel requests from Amazon Prime subscribers.
+
+Hi Jeremias,
+ 
+Thank you for being part of the BritBox family, and we are sorry to hear you want to cancel your subscription. 
+
+Unfortunately, we cannot process the cancelation since you've subscribed to BritBox through your Amazon account. We do not have access to Amazon's billing platforms. 
+
+The cancellation process is easy and on the Amazon Prime Subscription Cancel page. 
+
+Feel free to respond here if you'd like to give us feedback on why you're canceling. 
+
+Have a great day!
+
+Cancellation :: Apple TV Channels
+Use this for cancel requests from Apple TV Channel subscribers.
+
+Hi Jeremias, 
+
+Thank you for being part of the BritBox family, and we are sorry to hear you want to cancel your subscription.
+
+Unfortunately, we cannot process the cancelation since you've subscribed to BritBox through your Apple TV account. We do not have access to Apple's billing platforms.
+
+The cancelation process is straightforward and located on the Apple Subscription Cancel page.
+
+Feel free to respond here if you'd like to give us feedback on why you're canceling. 
+
+Have a great day!
+
+Cancellation :: Already Processed/Canceled
+Use this response when a customer contacts us to confirm their account is canceled (either by us or after canceling on their own).
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. We are sorry to see you go!
+
+We located your account and can confirm you have successfully canceled. There is no active subscription on file.
+
+Have questions? We're here to help. Visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+
+Refunding :: Exception
+Use this response for refund requests where an exception is allowed or if the request is approved by a member of management.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+We processed a refund for $<INSERT REFUND VALUE>. 
+
+Funds are credited to your original payment method. Depending on your bank, you should receive the refund within the next 3-10 days.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Refunding :: Gift Code Exception
+Use this confirmation for processing a refund of a gift code. Must meet refund exception policies or have Team Manager approval. Must have a refund code to complete the request.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family.
+
+We located the gift subscription, deactivated the gift code, and refunded you. The refund total was $ <Insert Refund Value>.
+
+Funds are credited to your original payment method. Depending on your bank, you should receive the refund within the next 3-10 days.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Refunding :: Renewal Before Gift Redemption
+Use when a subscriber's subscription renewed before they had a chance to redeem a gift subscription.
+
+Hi Jeremias,
+
+Thank you for being a part of the BritBox family. We're happy to hear that you've received the gift of BritBox for another year. 
+
+We will fix this for you! The easiest way is to refund you for your payment, deactivate the code for the gift subscription, and keep the service active for the coming year. 
+
+We processed the refund for $<INSERT REFUND VALUE>. Depending on your bank, receiving the funds may take 3-5 business days. Please note that the refund is processed to the original payment method.
+
+If you think you'll receive a gift subscription next year, we recommend turning off auto-renewal by canceling your subscription. You can continue watching as usual even if you cancel before your subscription ends. This time next year, you can redeem the gift subscription for another year without any unwanted hassle.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Refunding :: Cancel w/ Refund Exception
+Use this macro for cancel requests and approved refund requests from subscribers.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. We are sorry to see you go!
+
+We have canceled your subscription. You will still have access to the content until the end of the billing cycle, dated <INSERT DATE>. 
+
+We have received approval to refund you for <INSERT REFUND REASON>. The refund amount is $<INSERT REFUND AMOUNT>.
+
+Funds are credited to your original payment method. Depending on your bank, you should receive the refund within the next 3-10 days.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+Refunding :: No Exception
+Use this response for refund requests outside the KB Article 'Approved exceptions to our refunds policy' or if the request is not approved by a member of management.
+
+Hi Jeremias,
+
+Thank you for being part of the BritBox family. We have reviewed your refund request, and unfortunately, we can not offer a refund. 
+
+As noted in our Terms & Conditions, we do not offer refunds for unused time. We've confirmed that your subscription remained active through the end of the final billing cycle. 
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+
+
+Troubleshooting :: Website Specific More Info Needed
+Use this if the customer is contacting us about an issue watching BritBox on the web, but we need more details to assist them.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+We're sorry to hear that you are having issues watching BritBox. To best assist you, would you please provide the following details:
+ 
+What browser are you using?
+What web version is it?
+Briefly describe what's happening to your computer when you play content?
+Does it happen to everything you've tried to watch or a specific show?
+If applicable, what show/episode or movie is it?
+What type of computer or device are you using?
+Can you watch in any of our apps, such as our app for Roku?
+What is your internet speed/bandwidth? (Please visit www.fast.com from the same web browser or WiFi/data network where you're watching BritBox and share the result)
+ 
+These details will assist us in better understanding how to get you back to enjoying BritBox. 
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+..
+
+
+
+
+Troubleshooting :: Resetting Password for Customer
+Use this template when resetting a customer's password because they cannot successfully do this on their own using our reset password guide.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+We have just sent you an email to reset your password. If you do not receive the email within the next 10 minutes, please check your spam/junk folder.
+ 
+Please let us know if you still have not received the reset email! We can create a temporary password you can change once you log in using the temporary credentials.
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+Troubleshooting :: Downtime Active
+Use this macro for all active downtime responses. (Downtime is not over). Approved for both single-use messaging and bulk reply messaging.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+We're currently experiencing a service disruption. Our team is currently working to fix the issue, and we hope to have it resolved shortly. We'll continue to post updates in our Help Center, or you can try again soon to see if it's been restored.
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+Troubleshooting :: Downtime Restored
+Use this to communicate to the customers when downtime has ended.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+We recently experienced a service disruption, but the good news is that our service has been restored. So you should be able to watch BritBox again. 
+ 
+If you continue to experience problems, please let us know.
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+Troubleshooting :: Unsupported Device
+Use this response for customer questions about a device we currently do not support.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+Unfortunately, BritBox does not support <INSERT DEVICE NAME AND/OR DEVICE NAME AND VERSION DATA>. However, the great news is we're adding new ways to watch all the time, so we hope we'll support your preferred device soon. 
+ 
+Here are other ways you can stream BritBox. We know you will find one that fits your need! 
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+Troubleshooting :: Buffering
+Use this as first response to customers who are complaining about buffering, but before attempting more complex troubleshooting.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+We're sorry to hear that you're having trouble watching BritBox. We have a few suggestions to help reduce buffering and improve the streaming:
+ 
+Close other apps and programs taking up bandwidth
+Pause the stream for a few moments, restart streaming
+Remove unused devices connected to your network
+Try a wired ethernet connection
+ 
+If you continue to experience buffering, please give us more information to identify ways to improve your experience.
+ 
+Is the buffering happening when the app is loading, or when you're playing shows?
+What are you watching when the buffering happens?
+What device are you using? Including the version if applicable? 
+What is your internet speed/bandwidth? (Please visit www.fast.com from the same web browser or WiFi/data network where you're watching BritBox and share the result)
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+Troubleshooting :: Signout on Samsung, LG and FireTV
+Use this for customers experiencing frequent signouts on the Samsung, LG and FireTV Apps.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+To avoid being logged out of BritBox each time you watch a show or movie, exit the BritBox app by hitting the 'Home' button on your remote. You may be signed out of your device when you hit 'Exit' or the back button on your remote.
+ 
+Finally, any automatic updates to the device or app, interruption in internet connection, or power will also sign you out of the BritBox app. So please be sure your apps and operating systems are updated here. 
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+Troubleshooting :: Chromecast Issues
+Use this as a first-time email to help troubleshoot most Chromecast issues.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+We're sorry to hear you are having issues casting with Chromecast. Here are some helpful steps that may help:
+ 
+Navigate to your device's 'Settings' section and select 'Check for Updates' to download and install the most recent software version. Once updated, we recommend uninstalling the BritBox and Chromecast apps and reinstalling them, as this will also refresh the apps. 
+Ensure BritBox has access to Bluetooth on your device. Without access, BritBox is unable to connect with the Chromecast app.
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+Troubleshooting :: Continue Watching List Management
+Use this for customers who contact us on how to delete content from their continue watching list.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+The option to delete content from your 'Continue Watching' list has been deactivated on some apps and platforms so we can improve your streaming experience. To remove shows under your 'Continue Watching' list follow these steps:
+ 
+Log in to britbox.com site using a web browser
+Navigate to the 'Continue Watching' list
+Highlight the show you want to remove
+Hit the 'X' to remove
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+Troubleshooting :: TV Pairing
+Use this for customer questions about how to log in using TV Pairing.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+We're happy to assist you with your questions about signing in for your first time to BritBox through your TV. Here is our Device Support page for specific instructions on your device.
+ 
+To avoid being logged out of BritBox each time you watch a show or movie, exit the BritBox app by hitting the 'Home' button on your remote. You may be signed out of your device when you hit 'Exit' or the back button on your remote.
+ 
+Finally, any automatic updates to the device or app, interruption in internet connection, or power will also sign you out of the BritBox app. So please be sure your apps and operating systems are updated here. 
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+
+Troubleshooting :: Roku Double Billing-Error Refund
+Use this macro for customer questions about receiving a refund from Roku/Britbox, due to the duplicate billing error from from March 2022 to March 2023.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family.
+ 
+It was recently brought to our attention that a Roku billing error occurred where select customers were charged twice for their subscriptions in error. The Roku billing team has identified the issue and fixed it. Additionally, the Roku billing team is processing refunds for the affected accounts. If you've received a refund, this is why. 
+ 
+We thank you for your patience and understanding from us and our friends at Roku.
+ 
+Need more help? Please contact the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+Troubleshooting :: General App Fix-Refresh
+Use this response for follow-up communications to the customers about a recent fix or app release and the technical issue will only happen with a app update or reinstall.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+The fix for the reported issue has been completed. Next, however, you will need to update your BritBox app. If you haven't done this already and need help, learn more about app updating here.
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+JF
+You
+Nov 29, 5:32 PM
+Gifting :: More Information
+Use this for follow-up to a gifting inquiry missing adequate data to assist the customer.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. 
+ 
+We are happy to assist you. Could you please provide one or more of the following for us?
+ 
+The email address or first/last name of the individual who purchased the gift subscription.
+The email address or first/last name of the individual redeeming the gift subscription.
+ 
+If you know, has the gift subscription been redeemed?
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+..
+
+
+
+
+Gifting :: Feedback, Credit Card to Redeem
+Use this for inquiries from customers who have recently received the gift of BritBox, but have concerns/questions about entering a credit card.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family. We are so excited you've received the gift of BritBox. 
+ 
+We understand your concerns about adding a credit card when redeeming your gift. Worry not! We do not charge your card to redeem the gift.
+ 
+Your credit card details will only be used when your subscription is due for renewal after your gift subscription ends.
+ 
+If you prefer not to renew, you can cancel at any time, up to 24 hours before your renewal is scheduled to process. YES, even on the same day you redeem your gift. You will still be able to enjoy BritBox until the end of your annual subscription.
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+
+...
+
+
+
+
+Gifting :: Already Subscribed via Amazon, Apple, Google Play or Roku
+Use this when the inquiry concerns a gift subscription and the customer is subscribed via Amazon, Apple, Google Play or Roku.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for being a part of the BritBox family.
+ 
+We are delighted to hear you've been given the gift of BritBox; of course, we are sorry you're having issues redeeming it. BritBox gift subscriptions cannot be redeemed via Amazon, Apple, Google Play or Roku. The good news is that you can still use your gift subscription! 
+ 
+Here's how:
+ 
+Step 1: check that you can watch BritBox on your preferred device. Please check out our Supported Devices page for more.
+Step 2: Cancel your subscription with Amazon, Apple, Google Play or Roku. This step must be completed by you, with them directly. 
+Step 3: Head to BritBox.com, click 'free trial', and create a new account. You can find out more by visiting our Gifting page. 
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+
+
+Gifting :: Give the Gift of BritBox
+Use this email if the customer is inquiring about how to gift a subscription.
+
+
+
+
+Hi Jeremias,
+ 
+Thank you for wanting to give BritBox as a gift!
+ 
+It's easy to give your family, friends, or co-workers the best British entertainment for an entire year! Simply go to our BritBox Gifting page. 
+ 
+You can learn more about gifting a subscription by visiting our Gifting Guide.
+ 
+Need more help? You can visit the Help Center for more info or reply to this email.
+ 
+Have a great day!
+
+Gifting :: South Africa Availability
+Use this when the inquiry concerns a gift subscription and the gift purchaser, or recipient is in South Africa.
+
+Hi Jeremias,
+
+Thank you for wanting to give BritBox as a gift!
+
+Sadly, gift subscriptions are unavailable in South Africa, we only offer monthly subscriptions to our South African subscribers. Find out more here.
+
+Need more help? You can visit the Help Center for more info or reply to this email.
+
+Have a great day!
+
+
+
+
+
+
+
+
