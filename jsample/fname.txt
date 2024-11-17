@@ -1,0 +1,32 @@
+ Volume in drive E has no label.
+ Volume Serial Number is F0EF-376D
+
+ Directory of E:\Tools\JavaScript
+
+04/26/2009  04:51 PM    <DIR>          .
+04/26/2009  04:51 PM    <DIR>          ..
+04/26/2009  04:55 PM    <DIR>          Background Effects
+04/26/2009  04:55 PM    <DIR>          Buttons
+04/26/2009  04:55 PM    <DIR>          Calculators
+04/26/2009  04:54 PM    <DIR>          Calendars
+04/26/2009  04:54 PM    <DIR>          Clocks
+04/26/2009  04:54 PM    <DIR>          Cookies
+04/26/2009  04:54 PM    <DIR>          Equivalents
+04/26/2009  04:54 PM    <DIR>          Forms
+04/26/2009  04:54 PM    <DIR>          Games
+04/26/2009  04:54 PM    <DIR>          Messages
+04/26/2009  04:52 PM    <DIR>          Miscellaneous
+04/26/2009  04:52 PM    <DIR>          Navigation
+04/26/2009  04:52 PM    <DIR>          Page Details
+04/26/2009  04:52 PM    <DIR>          Passwords
+04/26/2009  04:52 PM    <DIR>          picture
+04/26/2009  04:52 PM    <DIR>          Scrolls
+04/26/2009  04:52 PM    <DIR>          support
+04/26/2009  04:52 PM    <DIR>          Tradetouch
+04/26/2009  04:51 PM    <DIR>          User Details
+04/26/2004  08:17 AM           775,742 index.htm
+11/20/2003  11:19 PM            21,368 logo2.gif
+11/20/2003  11:23 PM               873 top.htm
+04/27/2009  06:45 PM                 0 fname.txt
+               4 File(s)        797,983 bytes
+              21 Dir(s)   7,068,119,040 bytes free
