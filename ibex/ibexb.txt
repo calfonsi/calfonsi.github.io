@@ -1,0 +1,376 @@
+data:text/html,<div id="div-main"></div><div id="div-temp"><textarea id="txtMain"></textarea><br /><button onclick="document.getElementById('div-main').innerHTML += document.getElementById('txtMain').value">Run</button></div><script>let mmc = [];mmc.fxn = {}; let fxn = {}; let macro;</script>
+
+
+======================================================
+
+<style>
+#div-main,
+#div-temp{
+width:100%;
+float:left;
+margin-left:40px;
+}
+#sidebar {
+  height: 100%;
+  width: 40px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+#sidebar a {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+#sidebar a:hover {
+  color: #f1f1f1;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button, #tab1 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 14px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.kbMacro, .kbs {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+.col-50{float:left;width:48%;margin-right:0.5%;}
+.col-3{float:left;width:31%;margin-right:0.5%;height:600px;overflow-y:scroll;}
+.col-3a{float:left;width:31%;margin-right:0.5%;}
+.col-2{float:left;width:48%;height:600px;overflow-y:scroll;}
+.col-1{float:left;width:38%;height:600px;overflow-y:scroll;}
+.kb-macro input{width:30em;}
+table, td {font-size: 15px;border: 1px solid;}
+.table-list {height:600px;overflow-y:scroll;}
+#kbh1a, #kbh1b, #kbh1c, #kbh1d{display:none;}
+#sl{float:left;width:400px;transition: margin-left .5s;}
+#sr{transition: margin-left .5s;}
+#txtM,#txId{width: 98%;}
+.closebtn{position: absolute;top: 0;right: 25px;font-size: 36px;  margin-left: 50px;}
+a{text-decoration: none;}
+#tab-btn span{position: relative;left:5px;}
+.macs{}
+</style>
+<div id="sidebar">
+  <a href="#" title="toggle" onclick='fxn.Toggle("sl")'>&#9776;</a>
+  <a href="#" title="LTS::" onclick="mmc.txtM = document.getElementById('txtM').value.split('\n'); fxn.loadTSS('::')">&#x2248;</a>
+  <a href="#" title="LTS" onclick="mmc.txtM = document.getElementById('txtM').value.split('\n'); fxn.loadTS()">&#x2225;</a>
+<a href="#" title="Rx" id="Rx" onclick='fxn.Toggle=new Function("dv",`
+  let ld = document.getElementById(dv);
+  ld.style.display == "none" ? ld.style.display = "inline-block" : ld.style.display = "none";
+  document.getElementById("div-temp").style.display = "none";
+`);
+fxn.kbHide=new Function("a","b","c","d","e","f",`
+  document.getElementById(a).style.display = "none";
+  document.getElementById(b).style.display = "none";
+  document.getElementById(c).style.display = "none";
+  document.getElementById(d).style.display = "none";
+  document.getElementById(e).style.display = "none";
+  document.getElementById(f).style.display = "none";
+  document.getElementById(a).style.display = "block";
+`);
+fxn.Clear=new Function("dv",`
+  document.getElementById(dv).innerHTML="";
+`);
+fxn.Cls=new Function(`
+  let dv = document.getElementById("txId").value;
+  document.getElementById(dv).innerHTML="";
+`);
+fxn.Change=new Function(`
+  let dv = document.getElementById("txId").value;
+  let a=document.getElementById("txtM").value;
+  document.getElementById(dv).innerHTML = a;
+`);
+fxn.Tabs=new Function("evt", "tabName", `
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+`);
+fxn.newTabs=new Function("tabName", `
+  var z = txt.split(",");
+  var ztxt = "";
+  for (var i = 0; i < z.length; i++) {
+
+  }
+`);
+fxn.iframe=new Function("x","y", `
+  var a = x.getAttribute("link");
+  document.getElementById(y).setAttribute("src", a);
+  document.getElementById(y).setAttribute("title", x.innerHTML);
+`);
+fxn.searchKB=new Function("kbInput","kbLst",`var input, filter, ul, li, p, a, i, txtValue;
+    input = document.getElementById(kbInput);
+    filter = input.value.toUpperCase();
+    ul = document.getElementById(kbLst);
+    li = ul.getElementsByTagName("tr");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("td")[0];
+        txtValue = a.textContent.trim() || a.innerText.trim();
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+`);
+fxn.isText=new Function("e","c",`
+  if(e.length > 0){
+    var str = e.indexOf(c);
+    if(str > 0){
+      return true;
+    } else {
+      return false;
+    }
+  }
+`);
+fxn.loadTSS=new Function("y",`
+  let iText = mmc.txtM;
+  let x = document.getElementById("txId").value;
+  let ctr = 0; var idd = ""; var ddv = "";
+  for(var i = 0; i < iText.length; i++){
+    if(fxn.isText(iText[i], y)){
+      if(i > 0){ctr++}
+      idd = x+"-tr-" + ctr;
+      ddv = "<tr><td id=" +idd+ " onclick=fxn.ctrlV(this)>" +iText[i]+ " ||</td></tr>";
+      document.getElementById(x).innerHTML += ddv;
+    } else {
+      ddv = "\\n<br>" + iText[i];
+      document.getElementById(idd).innerHTML += ddv;
+    }
+  }
+  document.getElementById("txtM").value = "";
+  mmc.txtM="";
+`);
+fxn.loadTS=new Function(`
+  let iText = mmc.txtM;
+  let x = document.getElementById("txId").value;
+  let ctr = 0; var idd = ""; var ddv = ""; var ddt = "";
+  for(var i = 0; i < iText.length; i++){
+    idd = x+"-tr-" + i;
+    ddt = iText[i].trim();
+    if(ddt.length > 0 ){
+      ddv = "<tr><td id=" +idd+ " onclick=fxn.ctrlV(this)>" +ddt+"||</td></tr>";
+      document.getElementById(x).innerHTML += ddv;
+    }
+  }
+  document.getElementById("txtM").value = "";
+  mmc.txtM="";
+`);
+fxn.addHtml=new Function("x",`
+  let a=document.getElementById("txtM").value;
+  document.getElementById(x).innerHTML = document.getElementById(x).innerHTML + a;
+`);
+fxn.split=new Function("x", "y",`
+  return x.split(y);
+`);
+fxn.ctrlV=new Function("x",`
+  var txtValue = x.textContent || x.innerText;
+  var res=""; var y="";
+  if(fxn.isText(txtValue, "Hi Jeremias,")){
+    y = txtValue.split("Hi Jeremias,");
+res = "Hi Jeremias," + y[1];
+  } else {
+    y = txtValue.split("||");
+res = y[1];
+  }
+  document.getElementById("clipboard").value = res;
+`);
+fxn.openNav=new Function("sl","sr","wid",`
+  document.getElementById(sl).style.width = wid+"px";
+  document.getElementById("sr").style.marginLeft = wid+"px";
+`);
+fxn.closeNav=new Function("sl","sr",`
+  document.getElementById(sl).style.width = "0";
+  document.getElementById("sr").style.marginLeft = "0";
+`);
+fxn.xRun=new Function(`
+  var x = document.getElementById("txtM").value;
+  mmc.mac=JSON.parse(x);
+  alert(mmc.mac[2].title);
+`);
+fxn.alert=new Function(`
+  var x = document.getElementsByTagName("td");
+  var l = x.length;
+  for (var i = 0; i < l; i += 1) {
+    document.getElementById("clipboard").innerHTML += x[i].textContent;
+  }
+`);
+fxn.wordCount=new Function("a","b",`
+  let text = a.value;
+  let numWords = 0;
+  let wcount = document.getElementById(b);
+  for (let i = 0; i < text.length; i++) {
+    let currentCharacter = text[i];
+    if (currentCharacter == " ") {
+      numWords += 1;
+    }
+    numWords += 1;
+    wcount.innerHTML = numWords;
+  }
+`);'>&#x21af;</a>
+  <a href="#" title="RxLoad" onclick="document.getElementById('Rx').setAttribute('onclick', document.getElementById('txtM').value); alert(document.getElementById('Rx').getAttribute('onclick'));">&#x21ba;</a>
+  <a href="#" title="innerHTML" onclick='fxn.Change()'>&#x2195;</a>
+  <hr>
+  <a href="#" title="fxnRun" onclick="fxn.alert()">&#x3a9;</a>
+</div>
+
+<div id="sl">
+  <textarea id="txtM"></textarea><br />
+  <input id="txId" type="text" />
+</div><!-- End #sl -->
+
+<div id="sr">
+  <div id="tab-btn" class="tab">
+    <button id="tbtn1" title="tbtn1" class="tablinks" onclick="fxn.Tabs(event, 'tab1')">Tab 1</button>
+    <button id="tbtn2" title="tbtn2" class="tablinks" onclick="fxn.Tabs(event, 'tab2')">Tab 2</button>
+    <button id="tbtn3" title="tbtn3" class="tablinks" onclick="fxn.Tabs(event, 'tab3')">Tab 3</button>
+    <button id="tbtn4" title="tbtn4" class="tablinks" onclick="fxn.Tabs(event, 'tab4')">Tab 4</button>
+    <button id="tbtn5" title="tbtn5" class="tablinks" onclick="fxn.Tabs(event, 'tab5')">Tab 5</button>
+    <button id="tbtn6" title="tbtn6" class="tablinks" onclick="fxn.Tabs(event, 'tab6')">Tab 6</button>
+    <button id="tbtn7" title="tbtn7" class="tablinks" onclick="fxn.Tabs(event, 'tab7')">Tab 7</button>
+    <button id="tbtn8" title="tbtn8" class="tablinks" onclick="fxn.Tabs(event, 'tab8')">Tab 8</button>
+    <button id="tbtn9" title="tbtn9" class="tablinks" onclick="fxn.Tabs(event, 'tab9')">Tab 9</button>
+  </div><!-- End #tab-btn -->
+  <div id="tab-data">
+    <div id="tab1" class="tabcontent">
+      <div class="col-2">
+        <div id="kbh1a">
+          <input type="text" id="kb1a" class="kbs kb1a" onkeyup="fxn.searchKB('kb1a', 'lst1a')" placeholder="Search..." title="kb1a...lst1a">
+          <table id="lst1a"></table>
+        </div>
+        <div id="kbh1b">
+          <input type="text" id="kb1b" class="kbs kb1b" onkeyup="fxn.searchKB('kb1b', 'lst1b')" placeholder="Search..." title="kb1b...lst1b">
+          <table id="lst1b"></table>
+        </div>
+        <div id="kbh1c">
+          <input type="text" id="kb1c" class="kbs kb1c" onkeyup="fxn.searchKB('kb1c', 'lst1c')" placeholder="Search..." title="kb1c...lst1c">
+          <table id="lst1c"></table>
+        </div>
+        <div id="kbh1d">
+          <input type="text" id="kb1d" class="kbs kb1d" onkeyup="fxn.searchKB('kb1d', 'lst1d')" placeholder="Search..." title="kb1d...lst1d">
+          <table id="lst1d"></table>
+        </div>
+        <div id="kbh1e">
+          <input type="text" id="kb1e" class="kbs kb1e" onkeyup="fxn.searchKB('kb1e', 'lst1e')" placeholder="Search..." title="kb1e...lst1e">
+          <table id="lst1e"></table>
+        </div>
+        <div id="kbh1f">
+          <input type="text" id="kb1f" class="kbs kb1f" onkeyup="fxn.searchKB('kb1f', 'lst1f')" placeholder="Search..." title="kb1f...lst1f">
+          <table id="lst1f"></table>
+        </div>
+      </div>
+      <div class="col-1">
+        <button class="macs" onclick='fxn.kbHide("kbh1a","kbh1b","kbh1c","kbh1d","kbh1e","kbh1f")'>Macro</button>  
+        <button class="macs" onclick='fxn.kbHide("kbh1b","kbh1a","kbh1c","kbh1d","kbh1e","kbh1f")'>Contact</button>  
+        <button class="macs" onclick='fxn.kbHide("kbh1c","kbh1b","kbh1a","kbh1d","kbh1e","kbh1f")'>Canned</button>
+        <button class="macs" onclick='fxn.kbHide("kbh1d","kbh1a","kbh1b","kbh1c","kbh1e","kbh1f")'>KB</button>
+<button class="macs" onclick='fxn.kbHide("kbh1e","kbh1a","kbh1b","kbh1c","kbh1d","kbh1f")'>EAR</button>
+<button class="macs" onclick='fxn.kbHide("kbh1f","kbh1a","kbh1b","kbh1c","kbh1d","kbh1e")'>My</button><br/>
+        <textarea id="clipboard" style="width:96%;margin:1%;"></textarea>
+        <textarea style="width:96%;margin:1%;"></textarea>
+      </div>
+    </div><!-- End #tab1 -->
+    <div id="tab2" class="tabcontent">
+	  <textarea id="mtxta" style="width:48%;margin:1%;"></textarea>
+	  <textarea id="mtxtb" style="width:48%;margin:1%;"></textarea>
+    </div><!-- End #tab2 -->
+    <div id="tab3" class="tabcontent">
+      <div class="col-3">
+        <div id="kbh3a">
+          <input type="text" id="kb3a" class="kbs kb3a" onkeyup="fxn.searchKB('kb3a', 'lst3a')" placeholder="Search..." title="kb3a...lst3a">
+          <table id="lst3a"></table>
+        </div>
+      </div>		
+      <div class="col-3">
+        <div id="kbh3b">
+          <input type="text" id="kb3b" class="kbs kb3b" onkeyup="fxn.searchKB('kb3b', 'lst3b')" placeholder="Search..." title="kb3b...lst3b">
+          <table id="lst3b"></table>
+        </div>
+      </div>		
+      <div class="col-3">
+        <textarea id="clipboard" style="width:96%;margin:1%;"></textarea>
+        <textarea style="width:96%;margin:1%;"></textarea>
+      </div>
+	</div><!-- End #tab3 -->
+    <div id="tab4" class="tabcontent"></div><!-- End #tab4 -->
+    <div id="tab5" class="tabcontent"></div><!-- End #tab5 -->
+    <div id="tab6" class="tabcontent"></div><!-- End #tab6 -->
+    <div id="tab7" class="tabcontent"></div><!-- End #tab7 -->
+    <div id="tab8" class="tabcontent">
+      <div class="col-3">
+        <div id="kbh2a">
+          <input type="text" id="kb2a" class="kbs kb2a" onkeyup="fxn.searchKB('kb2a', 'lst2a')" placeholder="Search..." title="kb2a...lst2a">
+          <table id="lst2a"></table>
+        </div>
+      </div>
+      <div class="col-2">
+        <iframe id="iframe" src="" title="description" style="width:96%;margin:1%;"></iframe>
+      </div>
+    </div><!-- End #tab8 -->
+    <div id="tab9" class="tabcontent">
+      <div class="col-3">
+        <textarea onkeyup='fxn.wordCount(this,"wordCount")' style="width:96%;margin:1%;"></textarea>
+        <span id="wordCount">0</span>
+      </div>
+    </div><!-- End #tab9 -->
+  </div><!-- End #tab-data -->
+</div><!-- End #sr -->
+
+
+
+
+
+
+
+
