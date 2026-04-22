@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="utf-8" />
+<!-- v27243 -->
+
+
+<title>BCT Testing (Issue Replication) &ndash; BritBox Edge</title>
+
+
+
+<meta name="description" content="This testing article explains the verification and testing steps required before escalating any Billing, Content, or Tech (BCT) issue for..." /><meta property="og:image" content="https://britboxedge.zendesk.com/hc/theming_assets/01KEVKCWHXJN9Q7RMES2HD58ZS" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="BritBox Edge" />
+<meta property="og:title" content="BCT Testing (Issue Replication)" />
+<meta property="og:description" content="This testing article explains the verification and testing steps required before escalating any Billing, Content, or Tech (BCT) issue for further investigation.OverviewWhen a subscriber reports an ..." />
+<meta property="og:url" content="https://britboxedge.zendesk.com/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication" />
+<link rel="canonical" href="https://britboxedge.zendesk.com/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication">
+<link rel="alternate" hreflang="en-us" href="https://britboxedge.zendesk.com/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication">
+<link rel="alternate" hreflang="x-default" href="https://britboxedge.zendesk.com/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication">
+
+<link rel="stylesheet" href="//static.zdassets.com/hc/assets/application-4f03043d3b7bad43ce9a304b007cb1a7.css" media="all" id="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/hc/theming_assets/9599431/28997645170327/style.css?digest=39539506905111">
+
+<link rel="icon" type="image/x-icon" href="/hc/theming_assets/01KEVK55K9QS1FJCT0SAQXJ2SP">
+
+
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<!-- Make the translated search clear button label available for use in JS -->
+<!-- See buildClearSearchButton() in script.js -->
+<script type="text/javascript">window.searchClearButtonLabelLocalized = "Clear search";</script>
+
+
+
+
+<link rel="stylesheet" href="https://use.typekit.net/oko4tvu.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body class="">
+<div id="navbar-container" data-navbar="{&quot;locale&quot;:&quot;en-us&quot;,&quot;locale_direction&quot;:&quot;ltr&quot;,&quot;show_brand_settings_link&quot;:false,&quot;avatar_url&quot;:&quot;https://help.britbox.com/system/photos/37690013809303/USE_THIS_PHOTO_TO_UPDATE_YOUR_ZENDESK_DISPLAY_PICTURE.jpg&quot;,&quot;current_brand&quot;:&quot;BritBox Edge&quot;,&quot;brand_selector_payload&quot;:{&quot;brands&quot;:[{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://help.britbox.com/hc/signin&quot;,&quot;label&quot;:&quot;BritBox&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://britboxaustralia.zendesk.com/hc/signin&quot;,&quot;label&quot;:&quot;BritBox Australia&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://britboxedge.zendesk.com/hc/signin&quot;,&quot;label&quot;:&quot;BritBox Edge&quot;}],&quot;brand_settings_url&quot;:&quot;https://britbox.zendesk.com/agent/admin/brands&quot;,&quot;brand_settings_label&quot;:&quot;Brand settings&quot;},&quot;user_dropdown_items&quot;:[{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;/access/return_to?return_to=https%3A%2F%2Fbritbox.zendesk.com%2Fagent%2Fusers%2F19240923840791&quot;,&quot;label&quot;:&quot;View profile&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;options&quot;:{&quot;identifier&quot;:&quot;user_profile&quot;,&quot;name&quot;:&quot;Jeremias F.&quot;,&quot;avatar&quot;:&quot;https://help.britbox.com/system/photos/37690013809303/USE_THIS_PHOTO_TO_UPDATE_YOUR_ZENDESK_DISPLAY_PICTURE.jpg&quot;}},{&quot;type&quot;:&quot;separator&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://support.zendesk.com/hc/en-us/sections/360004109213&quot;,&quot;label&quot;:&quot;Guide help center&quot;,&quot;target&quot;:&quot;_blank&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://support.zendesk.com/hc/en-us/community/topics/1260801308530&quot;,&quot;label&quot;:&quot;Give feedback&quot;,&quot;target&quot;:&quot;_blank&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://www.zendesk.com/company/customers-partners/privacy-policy/&quot;,&quot;label&quot;:&quot;Privacy policy&quot;,&quot;target&quot;:&quot;_blank&quot;},{&quot;type&quot;:&quot;separator&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;/access/logout?return_to=https%3A%2F%2Fbritboxedge.zendesk.com%2Fhc%2Fen-us&quot;,&quot;label&quot;:&quot;Sign out&quot;}],&quot;record_action_button&quot;:{&quot;label&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;target&quot;:&quot;&quot;,&quot;disabled&quot;:true},&quot;user_profile_button&quot;:{&quot;label&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;target&quot;:&quot;&quot;,&quot;disabled&quot;:true},&quot;user_identifier&quot;:&quot;ac209dfcbbd07cab195a70aa2fe7a7c376f27649&quot;,&quot;products_endpoint&quot;:&quot;/api/v2/products.json&quot;,&quot;product&quot;:&quot;guide&quot;,&quot;appearance_version&quot;:&quot;2.0&quot;,&quot;plan_information&quot;:{&quot;trial_active&quot;:false},&quot;general_dropdown_title&quot;:&quot;Add&quot;,&quot;general_dropdown_items&quot;:[],&quot;resizer_label&quot;:&quot;Guide navigation&quot;,&quot;profile_button_label&quot;:&quot;Click your profile icon to open the profile menu&quot;,&quot;sandbox_config&quot;:null,&quot;product_tray_version&quot;:&quot;v2&quot;}" style="height: 50px;width: 100%;background-color: #fff;border-bottom: 1px solid #ddd;box-shadow: 0 0 20px 0 rgba(36, 83, 107, 0.15)"></div>
+
+
+
+<a class="skip-navigation" tabindex="1" href="#main-content">Skip to main content</a>
+
+<header class="header">
+<div class="logo">
+<a title="Home" href="/hc/en-us">
+<img src="/hc/theming_assets/01KEVKCWHXJN9Q7RMES2HD58ZS" alt="BritBox Edge Help Center home page" />
+</a>
+</div>
+
+<div class="nav-wrapper-desktop">
+<nav class="user-nav" id="user-nav">
+<ul class="user-nav-list">
+
+</ul>
+</nav>
+
+<div class="user-info dropdown">
+<button class="dropdown-toggle" aria-haspopup="true">
+<img class="user-avatar" src="/hc/theming_assets/01JGXFB58AQ3E3V6V783WHFVW0" alt="User">
+
+<span class="user-name">
+<span data-user-name="true"></span>
+<svg class="sign-in-bar" width="4" height="20" viewBox="0 0 4 20" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation" title="Sign In">
+<circle cx="2" cy="2" r="2" fill="white"/>
+<circle cx="2" cy="10" r="2" fill="white"/>
+<circle cx="2" cy="18" r="2" fill="white"/>
+</svg>
+</span>
+</button>
+<div class="dropdown-menu" role="menu">
+
+<a role="menuitem" class="requests-link" href="/hc/en-us/requests">Requests</a>
+<a role="menuitem" href="/hc/contributions/comments?locale=en-us">Activities</a>
+
+
+<a role="menuitem" href="/access/logout?return_to=https%3A%2F%2Fbritboxedge.zendesk.com%2Fhc%2Fen-us">Sign out</a>
+</div>
+</div>
+
+</div>
+
+<div class="nav-wrapper-mobile">
+<button class="menu-button-mobile" aria-controls="user-nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+
+<img class="user-avatar" src="/hc/theming_assets/01JGXFB58AQ3E3V6V783WHFVW0" alt="User">
+
+<svg class="sign-in-bar" width="4" height="20" viewBox="0 0 4 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="2" cy="2" r="2" fill="white"/>
+<circle cx="2" cy="10" r="2" fill="white"/>
+<circle cx="2" cy="18" r="2" fill="white"/>
+</svg>
+</button>
+<nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false">
+<ul class="menu-list-mobile-items">
+
+<li class="item"></li>
+<li class="item">
+<a class="menuitem requests-link" href="/hc/en-us/requests">
+Requests
+</a>
+</li>
+<li class="item"><a role="menuitem" href="/hc/contributions/comments?locale=en-us">Activities</a></li>
+
+</li>
+</ul>
+</nav>
+</div>
+
+</header>
+
+
+<main role="main">
+<div class="container-divider"></div>
+<div class="container">
+<div class="category-search">
+<div class="search-container">
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true" role="presentation" title="Search">
+<circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
+<path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
+</svg>
+<form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input type="hidden" name="utf8" value="&#x2713;" autocomplete="off" /><input type="search" name="query" id="query" placeholder="Search for answers" aria-label="Search for answers" /></form>
+</div>
+</div>
+<nav class="sub-nav">
+<nav aria-label="Current location">
+<ol class="breadcrumbs">
+
+<li>
+
+<a href="/hc/en-us">BritBox Edge</a>
+
+</li>
+
+<li>
+
+<a href="/hc/en-us/categories/28998398380311-Escalations-and-Exception-Processing">Escalations and Exception Processing</a>
+
+</li>
+
+<li>
+
+<a href="/hc/en-us/sections/29871855357847-BCT-Escalation-Procedures">BCT Escalation Procedures</a>
+
+</li>
+
+</ol>
+</nav>
+
+</nav>
+
+<div class="article-container" id="article-container">
+<div class="article-container-inner">
+<article id="main-content" class="article">
+<header class="article-header">
+<h1 title="BCT Testing (Issue Replication)" class="article-title">
+BCT Testing (Issue Replication)
+
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 16 16" class="icon-lock" title="Only visible to agents and admins">
+<rect width="12" height="9" x="2" y="7" fill="currentColor" rx="1" ry="1"/>
+<path fill="none" stroke="currentColor" d="M4.5 7.5V4a3.5 3.5 0 017 0v3.5"/>
+</svg>
+
+</h1>
+
+
+
+
+</header>
+
+<section class="article-info">
+<div class="article-content">
+<div class="article-body"><p>This testing article explains the verification and testing steps required before escalating any Billing, Content, or Tech (BCT) issue for further investigation.</p><hr><h3 id="h_01K485EW2E07M2ZSP78TEMD9Y6">Overview</h3><p>When a subscriber reports an issue to Customer Care, the first step is to identify the correct issue type (Billing, Content, or Tech) so you can determine the appropriate next actions.</p><ul><li data-list-item-id="e1c47437bac434899b54936a7499848c6"><span class="wysiwyg-underline">Billing</span>: Issues related to payment processing, refund errors, entitlement access, whitelisting, or billing failures.</li><li data-list-item-id="eeb7b7f354bf420884eb2dfcbdaf30e8e"><span class="wysiwyg-underline">Content</span>: Missing episodes, incorrect availability, wrong-title playback, or other content-related errors.</li><li data-list-item-id="e9cea17266a7ceb5d485ab3b0880e3b86"><span class="wysiwyg-underline">Tech</span>: Problems affecting playback, app performance, logins, or streaming functionality.</li></ul><p>Once the issue type is confirmed, Customer Care should complete three core tasks in their investigation:</p><ul><li data-list-item-id="e820ff0492ac98638d2757cacdb7beda4">Perform basic troubleshooting steps.</li><li data-list-item-id="e0ae9046d992a06af8335205a1dba5d3b">Test or replicate the issue when possible. If testing is not possible, collect screenshots or video from the subscriber.</li><li data-list-item-id="e25eb856310aa3471fbf45c27ad9157c9">Collect key information from the subscriber, including ruling out potential blockers (e.g., a VPN for tech issues or a chargeback for billing issues).</li></ul><p>All must be completed fully before escalating the ticket further.</p><p style="background-color: #fff8e1; border-left: 5px solid #ffcc00; padding: 10px;">⚠️ <strong>Attention: </strong>The BCT articles (Escalation Workflows, Data Gathering Guide, Troubleshooting Steps, and Testing) do not follow a fixed sequence. Customer Care should start with the article that best fits the situation, as the order may change based on the subscriber’s concern. These resources work together and should be applied thoughtfully for each case.</p><p>One of the most important core tasks is issue testing. And don’t worry—you won’t get a fail on this part.</p><p>Before any issue is escalated for research, we must complete all relevant tests to confirm the problem. Proper testing ensures we understand the subscriber’s experience, prevents unnecessary escalations, and gives HCL the clear information they need to investigate effectively.</p><h3 id="h_01K7SC36DQHHGGK4HVDY6Y0RT6" data-end="683">Replicating Issues Using the Lab Devices</h3><p data-end="1021">When helping a subscriber, Customer Care should run their own replication and testing using any matching devices in the Device Lab. The agent handling the case should complete the testing themselves so they understand the issue fully. Observing, documenting, and noting all test results ensures accurate assessment based on firsthand insight.</p><p>To see which devices are available in the lab, refer to the table below.</p><figure class="wysiwyg-table" style="height: 717px; width: 99.43%;"><table class="wysiwyg-table-resized" style="background-color: #CEE2F2; border-collapse: collapse; border-style: none;"><colgroup><col style="width: 20%;"><col style="width: 29%;"><col style="width: 51%;"></colgroup><tbody><tr style="height: 44px;"><td style="height: 41px; text-align: left; vertical-align: middle; width: 39.3293%;"><p class="wysiwyg-text-align-center wysiwyg-indent1"><strong>Device Type</strong></p></td><td style="height: 41px; text-align: left; vertical-align: middle; width: 1.44509%;"><p class="wysiwyg-text-align-center wysiwyg-indent1"><strong>Model Number or Serial Number</strong></p></td><td style="height: 41px; text-align: left; vertical-align: middle; width: 48.4861%;"><p class="wysiwyg-text-align-center wysiwyg-indent1"><strong>Operating System (OS), Software, or Firmware Version</strong></p></td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;"><p class="wysiwyg-text-align-left">Apple iPad (10th Gen) 1</p></td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">DX3HF94QN73C</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: iOS 18.5</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Apple iPad (10th Gen) 2</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">R52X90JCDWY</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: iOS 18.5</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Apple iPad (10th Gen) 3</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">L41H93J7J3</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: iOS 18.5</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Apple iPad (10th Gen) 4</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">RGHFQYKWNM</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: iOS 18.5</td></tr><tr><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">Apple iPad (10th Gen) 5</p></td><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">DW1J2K392Q</p></td><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">Software Version: iOS 18.5</p></td></tr><tr><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">Apple iPad (10th Gen) 5</p></td><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">TW7GPYQK6X</p></td><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">Software Version: iOS 18.5</p></td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Apple iPhone 11</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">MHDG3ZP/A</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: iOS 18.6.2</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Apple TV</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">A2169 (64 GB)</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">OS Version: tvOS 18.6</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Fetch Streaming Box</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">H626T</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">-</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Amazon Fire TV Stick</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">-</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">OS Version: Fire OS 6.7.1(NS6711/5866)</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Google Chromecast</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">-</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">OS Version: 14</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Helix Streaming</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">TX061AEI</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: 192.1.10</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">HP Laptop 1</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">-</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">OS Version: 26100.4351</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">HP Laptop 2</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">-</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">OS Version: 22631.3593</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">HP Laptop 3</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">-</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">OS Version: 22631.3672</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">LG Smart TV 1</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">50UN7300PPC</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: webOS TV 5.6.1-4</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">LG Smart TV 2</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">43UP7720PSC</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: webOS TV 6.5.2-4401</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Rogers</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">AX061AEI</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: V57.0.0</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Roku Streaming</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">AX061AEI</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: 14.6</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Samsung Galaxy A23</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">R52X909NCSH</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: One UI Version 7.0</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Samsung Galaxy A51</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">SM-A515f/DSN</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: One UI Version 5.1</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Samsung Galaxy Tab S9 FE 1</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">SM-X510</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: One UI Version: 7.0</td></tr><tr><td style="background-color: #eef7ff; vertical-align: middle; width: 39.3293%;"><p class="wysiwyg-indent1">Samsung Galaxy Tab S9 FE 2</p></td><td style="background-color: #eef7ff; vertical-align: middle; width: 1.44509%;"><p class="wysiwyg-indent1">SM-X510</p></td><td class="wysiwyg-indent1" style="background-color: #eef7ff; vertical-align: middle; width: 48.4861%;">Software Version: One UI Version: 7.0</td></tr><tr style="height: 28px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 28px; text-align: left; vertical-align: middle; width: 39.3293%;">Samsung Galaxy Tab S9 FE 3</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 28px; text-align: left; vertical-align: middle; width: 1.44509%;">SM-X510</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 28px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: One UI Version: 7.0</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Samsung Galaxy Tab S9 FE 4</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">SM-X510</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: One UI Version: 7.0</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Samsung Galaxy Tab S9 FE 5</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">SM-X510</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: One UI Version: 7.0</td></tr><tr><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">Samsung Galaxy Tab S9 FE 6</p></td><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">SM-X510</p></td><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">Software Version: One UI Version: 7.0</p></td></tr><tr><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">Samsung Galaxy Tab S9 FE 5G</p></td><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">SM-X513B</p></td><td style="background-color: #eef7ff; vertical-align: middle;"><p class="wysiwyg-indent1">Software Version: One UI Version: 7.0</p></td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Samsung Smart TV 1</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">UA43AU8000GXXP</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: T-NKLAUABC-2220.9, BT-S</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Samsung Smart TV 2</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">UA65RU7100GXXP</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: T-MSLUABC-142.0</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Vizio Smart TV</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">V435m-K04</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: 1.710.30.5-1</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Xfinity 1</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">XI11WN9215200F63IACO</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: v57.0.0</td></tr><tr style="height: 22px;"><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 39.3293%;">Yoton Y9 (Netrange)</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 1.44509%;">Yoton_96B8</td><td class="wysiwyg-indent1" style="background-color: #eef7ff; height: 22px; text-align: left; vertical-align: middle; width: 48.4861%;">Software Version: Jun 04 2024_16:52:08_6.1_Yoton_Y9_V2.3.0.3-J</td></tr></tbody></table></figure><h3 id="h_01KA22HMM6AD3589XSASW8KM0B" data-end="683">Tips for Replicating Issues in the Device Lab</h3><p>Effective replication helps ensure accurate troubleshooting and consistent results. Before running any tests, keep these quick reminders in mind to maintain reliability and avoid false outcomes.</p><ul><li data-list-item-id="e30a06e06fb0e5969dd762f576f2bbb92"><span class="wysiwyg-underline">Match the subscriber’s setup as closely as possible</span>: Use the same device model, app version, and login flow they’re using.</li><li data-list-item-id="efa06c1a0b360d74b6097f3b3e5da4a1a"><span class="wysiwyg-underline">Check the network connection first</span>: Ensure the device is connected to a stable and correct Wi-Fi network (e.g., AU, US, CA, etc.) to avoid incorrect replication.</li><li data-list-item-id="e109c9358742915cc518504c5c4452246"><span class="wysiwyg-underline">Start with a clean state</span>: Close any unused apps, clear the cache if needed, and restart the device you're using, if possible, to avoid interference.</li><li data-list-item-id="e96a92333137e5a8e96abc76a98737b09"><span class="wysiwyg-underline">Follow the exact steps described by the subscriber</span>: Replicate their click path, timing, and actions to catch sequence-related issues.</li><li data-list-item-id="e0a84efd5e066a1a7b5d1f373613f6eb4"><span class="wysiwyg-underline">Take note of all observations</span>: Document what worked, what didn’t, error messages, loading behaviors, and response times.</li><li data-list-item-id="e804d92da2fd6d3d11028b64b73e02035"><span class="wysiwyg-underline">Document your test results</span>: Screenshots or short screen recordings are helpful and should always be attached to the agent’s notes. This will allow HCL to validate findings more quickly if the case needs to be escalated.</li><li data-list-item-id="e55649566728c2692b8b4a6eb78a6149e"><span class="wysiwyg-underline">Try at least two attempts</span>:&nbsp;Some issues appear only under certain conditions or on repeat actions.</li><li data-list-item-id="e3f6a631a57446da1a8a864d50b5f2d0c"><span class="wysiwyg-underline">Test variations when needed</span>: If the issue doesn’t appear the first time, adjust small factors (e.g., logging out/in, reinstalling the app).</li><li data-list-item-id="e2e5c17c95e73c42b2ba637443cbddfa0"><span class="wysiwyg-underline">Check device settings</span>: Ensure OS updates, app updates, display settings, and time/date settings match typical subscriber environments.</li><li data-list-item-id="e2dd718b8fee41eaacc35e2092f43427f"><span class="wysiwyg-underline">Be mindful of shared devices</span>: When done, always return devices to default state after testing (logged out, app reset if changed, cables reconnected).</li></ul><p style="background-color: #fff8e1; border-left: 5px solid #ffcc00; padding: 10px;">⚠️ <strong>Attention: </strong>If you cannot replicate the issue, we must obtain a video that shows the full sequence or clear images that capture the error or behavior..</p><h3 id="01KA1VR1NCQED2EK6C59MXG969" data-end="683">Replicating Issues While on Live Messaging</h3><p>If assisting a subscriber through messaging and you need to run a test:</p><ul><li data-list-item-id="e7ea5da1c2564d7c69dc4b8eb01d601ba">Place the subscriber on hold using <span style="color: #CC7A00;"><em>Chat-Insert :: Hold</em></span> to set clear expectations (you can ask the subscriber to wait for more than 6-8 minutes as long as they agree to it).</li><li data-list-item-id="e5facdada157f5a657b605586336348e5">Check in regularly and follow the proper hold procedure.</li><li data-list-item-id="efa9d2ba607089394fb8aa5779e5568b0">Provide short updates on what you are testing and why. Use <span style="color: #CC7A00;"><em>Chat-Insert :: Add </em></span>Hold for these updates.</li><li data-list-item-id="e33a978e3196858de6418e8451387fe32">Never leave the subscriber waiting without context or feeling unattended.</li></ul><p>Clear communication builds trust and improves the overall support experience.</p><h3 id="h_01KA1VWZECPKQ87AR551SZF5TW" data-start="2256" data-end="2320">If the Device Is Not Available in the Lab</h3><p>If the subscriber is using a device that is not available in the Device Lab, such as Fetch or Foxtel, follow the guidelines below:</p><ul><li data-list-item-id="ece30fbf66d697c14575b5f3620e154a0">Ask the subscriber to perform the replication on their end.</li><li data-start="2474" data-end="2532" data-list-item-id="ea20a57787c54f467a4a57bf024ab4b47">Request proof of the issue, preferably a video that shows the full sequence or clear images that capture the error or behavior.</li></ul><p data-start="2663" data-end="2753">More visual evidence leads to a more accurate assessment and a quicker path to resolution. You can never have too much information.&nbsp;</p><h3 id="h_01KA1VVV67H6AFDBT2W7VQJQ7V">Device Care and Returning Equipment</h3><p data-start="81" data-end="212">After using any device from the Device Lab, including laptops, tablets, iPads, mobile devices, or remotes, agents are expected to:</p><ul><li data-start="216" data-end="260" data-list-item-id="e1bf59cccc11a19dd76e66becfb9cca15">Return all devices promptly after testing.</li><li data-start="263" data-end="321" data-list-item-id="ead3a7800d970f5cf850322546e6fe77f">Ensure devices are placed back in their proper location.</li><li data-start="324" data-end="398" data-list-item-id="e78e6e7c9245396853a686530b5b8d3c6">Make sure the equipment is ready for the next team member who may need it.</li></ul><p data-start="400" data-end="496" data-is-last-node="" data-is-only-node="">Proper device management helps maintain smooth operations and ensures availability for everyone.</p><h3 id="h_01KA3JXR6R87NMV6FM9V722ZCY" data-end="496">Phrasing Guidelines</h3><p>Did you know that testing and replicating can mean different things across teams and regions? The word replicating does not imply success on its own. It only means you attempted to recreate the issue, and using it incorrectly can confuse HCL or the BritBox Technical teams.</p><p>Use the phrasing below when documenting your testing:</p><ul><li data-list-item-id="e7a6753a6e7f731edc237366f483292c0"><span class="wysiwyg-underline">If reproduced</span>: “Tested and replicated (or reproduced) the error.”</li><li data-list-item-id="ef961793cb5d409fa673da84232098c70"><span class="wysiwyg-underline">If not reproduced</span>: “Tested but could not replicate (or reproduce) the error.”</li><li data-list-item-id="e365959bc757094c38d8346d74c3fde21"><span class="wysiwyg-underline">If testing isn’t possible</span>: “Unable to test and replicate the error.”</li></ul><p class="wysiwyg-indent1" style="background-color: #fff8e1; border-left: 5px solid #ffcc00; padding-bottom: 10px; padding-right: 10px; padding-top: 10px;">💡 <strong>Tip:</strong> If testing is not possible, document the reason in the ticket. For example, you may note that the device is not available in the lab.</p></div>
+
+
+
+
+</div>
+</section>
+
+<footer>
+<div class="article-return-to-top">
+<a href="#article-container">
+Return to top
+<svg xmlns="http://www.w3.org/2000/svg" class="article-return-to-top-icon" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true">
+<path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+</svg>
+</a>
+</div>
+</footer>
+</article>
+
+
+<div class="article-votes">
+<span class="article-votes-question" id="article-votes-label">Was this article helpful?</span>
+
+<div class="article-votes-question-wrapper">
+<div class="article-votes-controls" role="group" aria-labelledby="article-votes-label">
+<button type="button" class="button article-vote article-vote-up" data-helper="vote" data-item="article" data-type="up" data-id="36315775573015" data-upvote-count="2" data-vote-count="2" data-vote-sum="2" data-vote-url="/hc/en-us/articles/36315775573015/vote" data-value="null" data-label="2 out of 2 found this helpful" data-selected-class="button-primary" aria-label="This article was helpful" aria-pressed="false">Yes</button>
+<button type="button" class="button article-vote article-vote-down" data-helper="vote" data-item="article" data-type="down" data-id="36315775573015" data-upvote-count="2" data-vote-count="2" data-vote-sum="2" data-vote-url="/hc/en-us/articles/36315775573015/vote" data-value="null" data-label="2 out of 2 found this helpful" data-selected-class="button-primary" aria-label="This article was not helpful" aria-pressed="false">No</button>
+</div>
+<small class="article-votes-count">
+<span class="article-vote-label" data-helper="vote" data-item="article" data-type="label" data-id="36315775573015" data-upvote-count="2" data-vote-count="2" data-vote-sum="2" data-vote-url="/hc/en-us/articles/36315775573015/vote" data-value="null" data-label="2 out of 2 found this helpful">2 out of 2 found this helpful</span>
+</small>
+</div>
+</div>
+
+
+
+<div class="mobile-article-sidebar" aria-labelledby="section-articles-title">
+
+<div class="collapsible-sidebar">
+
+<span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
+Articles in this section
+</span>
+<div class="collapsible-sidebar-body">
+<ul>
+
+<li>
+<a href="/hc/en-us/articles/36307571846423-BCT-and-HCL-Escalation-Workflows" class="sidenav-item ">BCT and HCL Escalation Workflows</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36306462253719-BCT-Data-Gathering-Guide" class="sidenav-item ">BCT Data Gathering Guide</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication" class="sidenav-item current-article">BCT Testing (Issue Replication)</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps" class="sidenav-item ">BCT Troubleshooting Steps</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/35753349437847-Discover-HCL" class="sidenav-item ">Discover HCL</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+
+
+<div class="viewed-related-articles">
+
+<div class="article-relatives">
+<div data-recent-articles></div>
+</div>
+
+
+
+<div class="article-relatives">
+
+<section class="related-articles">
+
+<h2 class="related-articles-title">Related articles</h2>
+
+<ul>
+
+<li>
+<a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJdoS7YAIToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBcc52wHIToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJAL2hjL2VuLXVzL2FydGljbGVzLzM2Mjg2OTQyMTExODk1LUJDVC1Ucm91Ymxlc2hvb3RpbmctU3RlcHMGOwhUOglyYW5raQY%3D--c66d8a3782ed3f2dd1aaba8d62145759ef0000e6" rel="nofollow">BCT Troubleshooting Steps</a>
+</li>
+
+<li>
+<a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJciyUEFIToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBcc52wHIToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI%2FL2hjL2VuLXVzL2FydGljbGVzLzM2MzA2NDYyMjUzNzE5LUJDVC1EYXRhLUdhdGhlcmluZy1HdWlkZQY7CFQ6CXJhbmtpBw%3D%3D--576cbf84b0738ebffd6ec867786835bb1713953d" rel="nofollow">BCT Data Gathering Guide</a>
+</li>
+
+<li>
+<a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBct7IMFIToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBcc52wHIToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJHL2hjL2VuLXVzL2FydGljbGVzLzM2MzA3NTcxODQ2NDIzLUJDVC1hbmQtSENMLUVzY2FsYXRpb24tV29ya2Zsb3dzBjsIVDoJcmFua2kI--0147a142fd164ba3fe90837baf6e3d0b72f76e4f" rel="nofollow">BCT and HCL Escalation Workflows</a>
+</li>
+
+<li>
+<a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJcUZ4hxIDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBcc52wHIToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJBL2hjL2VuLXVzL2FydGljbGVzLzM1NjcxOTkxODUwMTM1LUN1cnJlbnQtU2NoZWR1bGUtSW52ZW50b3J5BjsIVDoJcmFua2kJ--711c47027c8834b8fb8c05522c009e444e01d6fd" rel="nofollow">Current Schedule Inventory</a>
+</li>
+
+<li>
+<a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBfXraIUIDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBcc52wHIToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI2L2hjL2VuLXVzL2FydGljbGVzLzM1MjczMDAwNzM2NTM1LUNvbnRhY3QtUmVhc29ucwY7CFQ6CXJhbmtpCg%3D%3D--ee5131111447c6a84812e07789d0640255fc7045" rel="nofollow">Contact Reasons</a>
+</li>
+
+</ul>
+</section>
+
+
+</div>
+
+</div>
+
+<div class="article-comments" id="article-comments">
+<section class="comments">
+<header class="comment-overview">
+<h2 class="comment-heading">
+Comments
+</h2>
+<p class="comment-callout">0 comments</p>
+
+
+
+
+<form data-form="" data-form-type="comment" class="comment-form" action="/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication/comments" accept-charset="UTF-8" method="post"><input type="hidden" name="utf8" value="&#x2713;" autocomplete="off" />
+<div class="avatar comment-avatar">
+<img class="user-avatar" alt="" data-user-avatar="true" src="https://assets.zendesk.com/hc/assets/default_avatar.png" />
+</div>
+<div class="comment-container">
+<textarea name="comment[body]" id="comment_body" placeholder="" data-helper="wysiwyg" aria-required="true" aria-label="Add your comment">
+</textarea><input type="hidden" name="request[comment][body_mimetype]" id="request_comment_body_mimetype" value="text/html" style="display: none;" autocomplete="off" />
+<div class="comment-form-controls">
+<input type="submit" name="commit" value="Submit" class="button button-large" />
+</div>
+</div>
+</form>
+
+<div class="container-divider"></div>
+<p class="comment-callout">Be the first to write a comment.</p>
+</section>
+</div>
+
+</div>
+
+<aside class="article-sidebar" aria-labelledby="section-articles-title">
+<div class="collapsible-sidebar">
+<button type="button" class="collapsible-sidebar-toggle" aria-labelledby="section-articles-title" aria-expanded="false">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon chevron-icon">
+<path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon x-icon">
+<path stroke="currentColor" stroke-linecap="round" d="M3 9l6-6m0 6L3 3"/>
+</svg>
+</button>
+<span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
+Articles in this section
+</span>
+<div class="collapsible-sidebar-body">
+<ul>
+
+<li>
+<a href="/hc/en-us/articles/36307571846423-BCT-and-HCL-Escalation-Workflows" class="sidenav-item ">BCT and HCL Escalation Workflows</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36306462253719-BCT-Data-Gathering-Guide" class="sidenav-item ">BCT Data Gathering Guide</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication" class="sidenav-item current-article">BCT Testing (Issue Replication)</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps" class="sidenav-item ">BCT Troubleshooting Steps</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/35753349437847-Discover-HCL" class="sidenav-item ">Discover HCL</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</aside>
+
+</div>
+</div>
+
+</main>
+
+<footer class="footer">
+<div class="footer-inner">
+<a href="https://www.britbox.com/us">
+<img src="/hc/theming_assets/01JGXFB53DYHKGQJ37DJ28N8WY" alt="Footer Logo Icon">
+</div>
+</div>
+</footer>
+
+
+
+<!-- / -->
+
+
+<script src="//static.zdassets.com/hc/assets/en-us.32c65bc8ca19487330be.js"></script>
+
+
+<script type="text/javascript">
+/*
+
+Greetings sourcecode lurker!
+
+This is for internal Zendesk and legacy usage,
+we don't support or guarantee any of these values
+so please don't build stuff on top of them.
+
+*/
+
+HelpCenter = {};
+HelpCenter.account = {"subdomain":"britbox","environment":"production","name":"BritBox"};
+HelpCenter.user = {"identifier":"ac209dfcbbd07cab195a70aa2fe7a7c376f27649","email":"jeremias.francisco@ibex.co","name":"Jeremias F.","tags":[],"locale":"en-us","role":"agent","avatar_url":"https://help.britbox.com/system/photos/37690013809303/USE_THIS_PHOTO_TO_UPDATE_YOUR_ZENDESK_DISPLAY_PICTURE.jpg","is_admin":false,"organizations":[{"name":"Ibex","tags":[],"isShared":false}],"groups":[{"name":"Support","default":true,"isActive":true},{"name":"Unbabel","default":false,"isActive":true},{"name":"Messaging Support","default":false,"isActive":true},{"name":"Email Support","default":false,"isActive":true}]};
+HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":"hc:hcobject:server:idyxM-7djRzZffjyym_daLPi28e6pZ6dfKAn9ApHzroEqjKorNpVqTD0CEUZbZTzyjdAx6PQRETHMiJjhMUw1g","shared_csrf_token":"eMkR2Sd2d6iTGQVF-xxIP32upwSgg0Y3V0EJ5R2sEXs"},"usage_tracking":{"event":"article_viewed","data":"BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGwrCBcc52wHIToKX21ldGF7DDoPYWNjb3VudF9pZGkDx3mSOhNoZWxwX2NlbnRlcl9pZGwrCJfbZ4xfGjoNYnJhbmRfaWRsKwiX9laKXxo6DHVzZXJfaWRsKwgXQW7gfxE6E3VzZXJfcm9sZV9uYW1lSSIKQUdFTlQGOwZUOwBJIgplbi11cwY7BlQ6GmFub255bW91c190cmFja2luZ19pZDA=--86aac61f433f626fd6115ae2bfd38a39a531a996","url":"https://britboxedge.zendesk.com/hc/activity"},"current_record_id":"36315775573015","current_record_url":"/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication","current_record_title":"BCT Testing (Issue Replication)","current_text_direction":"ltr","current_brand_id":28997645170327,"current_brand_name":"BritBox Edge","current_brand_url":"https://britboxedge.zendesk.com","current_brand_active":true,"current_path":"/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication","show_autocomplete_breadcrumbs":true,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":false,"has_multi_language_help_center":true,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_help_center_auth_enabled":false,"embeddables_connect_ipms":false},"answer_bot_subdomain":"static","gather_plan_state":"subscribed","has_article_verification":true,"has_gather":true,"has_ckeditor":true,"has_community_enabled":false,"has_community_badges":true,"has_community_post_content_tagging":false,"has_gather_content_tags":true,"has_guide_content_tags":true,"has_user_segments":true,"has_answer_bot_web_form_enabled":true,"has_garden_modals":false,"theming_cookie_key":"hc-ac209dfcbbd07cab195a70aa2fe7a7c376f27649-2-preview","is_preview":false,"has_search_settings_in_plan":true,"theming_api_version":3,"theming_settings":{"ticket_form_id":"","brand_color":"rgba(0, 32, 43, 1)","brand_text_color":"#FFFFFF","text_color":"#2F3941","link_color":"#1F73B7","hover_link_color":"#0F3554","visited_link_color":"#9358B0","background_color":"#FFFFFF","heading_font":"'MuseoSans', sans-serif","text_font":"-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif","logo":"/hc/theming_assets/01KEVKCWHXJN9Q7RMES2HD58ZS","show_brand_name":true,"favicon":"/hc/theming_assets/01KEVK55K9QS1FJCT0SAQXJ2SP","homepage_background_image":"/hc/theming_assets/01JGXF4CC65J3B2GY391P0P2JY","community_background_image":"/hc/theming_assets/01JGXF4CT59528JKH9WQ277DBF","community_image":"/hc/theming_assets/01JGXF4D73Q640KP6XNZ1F0Z27","instant_search":false,"scoped_kb_search":false,"scoped_community_search":true,"show_recent_activity":true,"show_articles_in_section":true,"show_article_author":true,"show_article_comments":true,"show_follow_article":false,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":false,"show_follow_section":false,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true,"request_list_beta":false,"alert_banner_bg_color":"rgba(249, 247, 247, 1)","alert_banner_text_color":"#2F3941","alert_banner_brdr_color":"#00B6E6","alert_banner_text":"BritBoxers, stay in the loop and ahead of the game! 🚀 As the months roll on, make it a habit to check out the latest article updates and changes—so you’re always aligned, informed, and ready to go."},"has_pci_credit_card_custom_field":true,"help_center_restricted":false,"is_assuming_someone_else":false,"flash_messages":[],"user_photo_editing_enabled":true,"user_preferred_locale":"en-us","base_locale":"en-us","login_url":"/hc/en-us/restricted?return_to=https%3A%2F%2Fbritboxedge.zendesk.com%2Fhc%2Fen-us%2Farticles%2F36315775573015-BCT-Testing-Issue-Replication","has_alternate_templates":true,"has_custom_statuses_enabled":false,"has_hc_generative_answers_setting_enabled":true,"has_generative_search_with_zgpt_enabled":true,"has_suggested_initial_questions_enabled":false,"has_guide_service_catalog":true,"has_service_catalog_search_poc":false,"has_service_catalog_itam":false,"has_csat_reverse_2_scale_in_mobile":false,"has_knowledge_navigation":false,"has_trial_presumptive_setup":false,"has_unified_navigation":false,"has_unified_navigation_eap_access":true,"has_knowledge_global_nav_ga_banner":true,"has_csat_bet365_branding":false,"has_help_center_gen_search_follow_up_conversation":false,"version":"v27243","dev_mode":false,"arrange_articles_url":"https://britbox.zendesk.com/knowledge/arrange?brand_id=28997645170327","article_verification_url":"https://britbox.zendesk.com/knowledge/verification?brand_id=28997645170327","community_badges_url":"https://britbox.zendesk.com/knowledge/community_badges?brand_id=28997645170327","community_settings_url":"https://britbox.zendesk.com/knowledge/community_settings?brand_id=28997645170327","content_tags_url":"https://britbox.zendesk.com/knowledge/content_tags?brand_id=28997645170327","docs_importer_url":"https://britbox.zendesk.com/knowledge/import_articles?brand_id=28997645170327","general_settings_url":"https://britboxedge.zendesk.com/hc/admin/general_settings?locale=en-us","guide_language_settings_url":"https://britboxedge.zendesk.com/hc/admin/language_settings?locale=en-us","search_settings_url":"https://britbox.zendesk.com/knowledge/search_settings?brand_id=28997645170327","user_segments_url":"https://britbox.zendesk.com/knowledge/user_segments?brand_id=28997645170327"};
+</script>
+
+
+
+<script src="//static.zdassets.com/hc/assets/hc_enduser-725a273fe9a0aaac66f090205d64844e.js"></script>
+<script type="text/javascript" src="/hc/theming_assets/9599431/28997645170327/script.js?digest=39539506905111"></script>
+
+</body>
+</html>

@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="utf-8" />
+<!-- v27243 -->
+
+
+<title>BCT Troubleshooting Steps &ndash; BritBox Edge</title>
+
+
+
+<meta name="description" content="Use to troubleshoot common issues and confirm what details to gather from subscribers before escalating for Billing, Content, or Tech..." /><meta property="og:image" content="https://britboxedge.zendesk.com/hc/theming_assets/01KEVKCWHXJN9Q7RMES2HD58ZS" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="BritBox Edge" />
+<meta property="og:title" content="BCT Troubleshooting Steps" />
+<meta property="og:description" content="Use to troubleshoot common issues and confirm what details to gather from subscribers before escalating for Billing, Content, or Tech (BCT) research.
+Table of Contents
+
+Troubleshooting Basics
+Commo..." />
+<meta property="og:url" content="https://britboxedge.zendesk.com/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps" />
+<link rel="canonical" href="https://britboxedge.zendesk.com/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps">
+<link rel="alternate" hreflang="en-us" href="https://britboxedge.zendesk.com/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps">
+<link rel="alternate" hreflang="x-default" href="https://britboxedge.zendesk.com/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps">
+
+<link rel="stylesheet" href="//static.zdassets.com/hc/assets/application-4f03043d3b7bad43ce9a304b007cb1a7.css" media="all" id="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/hc/theming_assets/9599431/28997645170327/style.css?digest=39539506905111">
+
+<link rel="icon" type="image/x-icon" href="/hc/theming_assets/01KEVK55K9QS1FJCT0SAQXJ2SP">
+
+
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<!-- Make the translated search clear button label available for use in JS -->
+<!-- See buildClearSearchButton() in script.js -->
+<script type="text/javascript">window.searchClearButtonLabelLocalized = "Clear search";</script>
+
+
+
+
+<link rel="stylesheet" href="https://use.typekit.net/oko4tvu.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body class="">
+<div id="navbar-container" data-navbar="{&quot;locale&quot;:&quot;en-us&quot;,&quot;locale_direction&quot;:&quot;ltr&quot;,&quot;show_brand_settings_link&quot;:false,&quot;avatar_url&quot;:&quot;https://help.britbox.com/system/photos/37690013809303/USE_THIS_PHOTO_TO_UPDATE_YOUR_ZENDESK_DISPLAY_PICTURE.jpg&quot;,&quot;current_brand&quot;:&quot;BritBox Edge&quot;,&quot;brand_selector_payload&quot;:{&quot;brands&quot;:[{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://help.britbox.com/hc/signin&quot;,&quot;label&quot;:&quot;BritBox&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://britboxaustralia.zendesk.com/hc/signin&quot;,&quot;label&quot;:&quot;BritBox Australia&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://britboxedge.zendesk.com/hc/signin&quot;,&quot;label&quot;:&quot;BritBox Edge&quot;}],&quot;brand_settings_url&quot;:&quot;https://britbox.zendesk.com/agent/admin/brands&quot;,&quot;brand_settings_label&quot;:&quot;Brand settings&quot;},&quot;user_dropdown_items&quot;:[{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;/access/return_to?return_to=https%3A%2F%2Fbritbox.zendesk.com%2Fagent%2Fusers%2F19240923840791&quot;,&quot;label&quot;:&quot;View profile&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;options&quot;:{&quot;identifier&quot;:&quot;user_profile&quot;,&quot;name&quot;:&quot;Jeremias F.&quot;,&quot;avatar&quot;:&quot;https://help.britbox.com/system/photos/37690013809303/USE_THIS_PHOTO_TO_UPDATE_YOUR_ZENDESK_DISPLAY_PICTURE.jpg&quot;}},{&quot;type&quot;:&quot;separator&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://support.zendesk.com/hc/en-us/sections/360004109213&quot;,&quot;label&quot;:&quot;Guide help center&quot;,&quot;target&quot;:&quot;_blank&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://support.zendesk.com/hc/en-us/community/topics/1260801308530&quot;,&quot;label&quot;:&quot;Give feedback&quot;,&quot;target&quot;:&quot;_blank&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;https://www.zendesk.com/company/customers-partners/privacy-policy/&quot;,&quot;label&quot;:&quot;Privacy policy&quot;,&quot;target&quot;:&quot;_blank&quot;},{&quot;type&quot;:&quot;separator&quot;},{&quot;type&quot;:&quot;item&quot;,&quot;url&quot;:&quot;/access/logout?return_to=https%3A%2F%2Fbritboxedge.zendesk.com%2Fhc%2Fen-us&quot;,&quot;label&quot;:&quot;Sign out&quot;}],&quot;record_action_button&quot;:{&quot;label&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;target&quot;:&quot;&quot;,&quot;disabled&quot;:true},&quot;user_profile_button&quot;:{&quot;label&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;target&quot;:&quot;&quot;,&quot;disabled&quot;:true},&quot;user_identifier&quot;:&quot;ac209dfcbbd07cab195a70aa2fe7a7c376f27649&quot;,&quot;products_endpoint&quot;:&quot;/api/v2/products.json&quot;,&quot;product&quot;:&quot;guide&quot;,&quot;appearance_version&quot;:&quot;2.0&quot;,&quot;plan_information&quot;:{&quot;trial_active&quot;:false},&quot;general_dropdown_title&quot;:&quot;Add&quot;,&quot;general_dropdown_items&quot;:[],&quot;resizer_label&quot;:&quot;Guide navigation&quot;,&quot;profile_button_label&quot;:&quot;Click your profile icon to open the profile menu&quot;,&quot;sandbox_config&quot;:null,&quot;product_tray_version&quot;:&quot;v2&quot;}" style="height: 50px;width: 100%;background-color: #fff;border-bottom: 1px solid #ddd;box-shadow: 0 0 20px 0 rgba(36, 83, 107, 0.15)"></div>
+
+
+
+<a class="skip-navigation" tabindex="1" href="#main-content">Skip to main content</a>
+
+<header class="header">
+<div class="logo">
+<a title="Home" href="/hc/en-us">
+<img src="/hc/theming_assets/01KEVKCWHXJN9Q7RMES2HD58ZS" alt="BritBox Edge Help Center home page" />
+</a>
+</div>
+
+<div class="nav-wrapper-desktop">
+<nav class="user-nav" id="user-nav">
+<ul class="user-nav-list">
+
+</ul>
+</nav>
+
+<div class="user-info dropdown">
+<button class="dropdown-toggle" aria-haspopup="true">
+<img class="user-avatar" src="/hc/theming_assets/01JGXFB58AQ3E3V6V783WHFVW0" alt="User">
+
+<span class="user-name">
+<span data-user-name="true"></span>
+<svg class="sign-in-bar" width="4" height="20" viewBox="0 0 4 20" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation" title="Sign In">
+<circle cx="2" cy="2" r="2" fill="white"/>
+<circle cx="2" cy="10" r="2" fill="white"/>
+<circle cx="2" cy="18" r="2" fill="white"/>
+</svg>
+</span>
+</button>
+<div class="dropdown-menu" role="menu">
+
+<a role="menuitem" class="requests-link" href="/hc/en-us/requests">Requests</a>
+<a role="menuitem" href="/hc/contributions/comments?locale=en-us">Activities</a>
+
+
+<a role="menuitem" href="/access/logout?return_to=https%3A%2F%2Fbritboxedge.zendesk.com%2Fhc%2Fen-us">Sign out</a>
+</div>
+</div>
+
+</div>
+
+<div class="nav-wrapper-mobile">
+<button class="menu-button-mobile" aria-controls="user-nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+
+<img class="user-avatar" src="/hc/theming_assets/01JGXFB58AQ3E3V6V783WHFVW0" alt="User">
+
+<svg class="sign-in-bar" width="4" height="20" viewBox="0 0 4 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="2" cy="2" r="2" fill="white"/>
+<circle cx="2" cy="10" r="2" fill="white"/>
+<circle cx="2" cy="18" r="2" fill="white"/>
+</svg>
+</button>
+<nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false">
+<ul class="menu-list-mobile-items">
+
+<li class="item"></li>
+<li class="item">
+<a class="menuitem requests-link" href="/hc/en-us/requests">
+Requests
+</a>
+</li>
+<li class="item"><a role="menuitem" href="/hc/contributions/comments?locale=en-us">Activities</a></li>
+
+</li>
+</ul>
+</nav>
+</div>
+
+</header>
+
+
+<main role="main">
+<div class="container-divider"></div>
+<div class="container">
+<div class="category-search">
+<div class="search-container">
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true" role="presentation" title="Search">
+<circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
+<path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
+</svg>
+<form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input type="hidden" name="utf8" value="&#x2713;" autocomplete="off" /><input type="search" name="query" id="query" placeholder="Search for answers" aria-label="Search for answers" /></form>
+</div>
+</div>
+<nav class="sub-nav">
+<nav aria-label="Current location">
+<ol class="breadcrumbs">
+
+<li>
+
+<a href="/hc/en-us">BritBox Edge</a>
+
+</li>
+
+<li>
+
+<a href="/hc/en-us/categories/28998398380311-Escalations-and-Exception-Processing">Escalations and Exception Processing</a>
+
+</li>
+
+<li>
+
+<a href="/hc/en-us/sections/29871855357847-BCT-Escalation-Procedures">BCT Escalation Procedures</a>
+
+</li>
+
+</ol>
+</nav>
+
+</nav>
+
+<div class="article-container" id="article-container">
+<div class="article-container-inner">
+<article id="main-content" class="article">
+<header class="article-header">
+<h1 title="BCT Troubleshooting Steps" class="article-title">
+BCT Troubleshooting Steps
+
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 16 16" class="icon-lock" title="Only visible to agents and admins">
+<rect width="12" height="9" x="2" y="7" fill="currentColor" rx="1" ry="1"/>
+<path fill="none" stroke="currentColor" d="M4.5 7.5V4a3.5 3.5 0 017 0v3.5"/>
+</svg>
+
+</h1>
+
+
+
+
+</header>
+
+<section class="article-info">
+<div class="article-content">
+<div class="article-body"><p>Use to troubleshoot common issues and confirm what details to gather from subscribers before escalating for Billing, Content, or Tech (BCT) research.</p><div class="wysiwyg-text-align-left" style="background-color: #ededed; border-radius: 5px; border: 2px solid #ededed; padding: 15px;">
+<h3 id="h_01KJSNF1XARBSVH8PKD0NC9MM9">Table of Contents</h3>
+<ul>
+<li data-list-item-id="efe771b15494db628fcff01c30212edb0"><a href="#h_01K485EW2E07M2ZSP78TEMD9Y6">Troubleshooting Basics</a></li>
+<li data-list-item-id="e9b6b4e29c3e770930edd600126111a7a"><a href="#h_01K9WKBAFJF5SMS2XNP612S7VK">Common Troubleshooting Steps</a></li>
+<li data-list-item-id="e130b3dc1b481e6477458ab32ce4429b8"><a href="#h_01K9WKAC3YXJQMWR30DV4828Q1">Clearing Cache and Cookies (Web Browsers)</a></li>
+<li data-list-item-id="e9eab0a2f3c42241b699c68a89ce9fdaf"><a href="#h_01K9WKKJ4JYKY0S2VQDJ0WB9FP">Updating Web Browsers</a></li>
+<li data-list-item-id="eae35c0f7753fb4ee319da591c21e504c"><a href="#h_01K9WNHGJEW611XM7NGE4Z1Y1J">Updating BritBox App</a></li>
+<li data-list-item-id="e0ebf2ab4efb9538d3dff66d7e6840ecc"><a href="#h_01K9WKR1RRBW8PA38CKAFH7VYQ">Force Stopping an Application</a></li>
+<li data-list-item-id="ef2cdbcda0e620db131c49d49002a1f8e"><a href="#h_01K9WKXFJMPSKPS1VPTGM5WA7P">Clearing App Cache and Data (Android and Fire TV)</a></li>
+<li data-list-item-id="ecc76f7a00161304dc6e8e295a0318aed"><a href="#h_01K9WM2FVDC8ZRV39X18B7E8S6">Rebooting or Restarting Devices</a></li>
+<li data-list-item-id="e6707292653c0d5d9ed2630344d4c2a13"><a href="#h_01K9WMA31RW3C93P45MDH6ZM3B">Running Speed and Network Tests</a></li>
+<li data-list-item-id="ee4175e16937082a3ed4c825c842be704"><a href="#h_01K9WMHFTCBWPJRXYTDWQVD94E">Uninstalling and Reinstalling the BritBox App</a></li>
+<li data-list-item-id="e2e655932c66d4932b9e9a7da96df6bdb"><a href="#h_01K9Y9HW7G63B29ZW1A8H1TFJ0">Information to Gather After Troubleshooting</a></li>
+</ul>
+</div><div style="height: 10px;"></div><hr><h3 id="h_01K485EW2E07M2ZSP78TEMD9Y6">Troubleshooting Basics</h3><p>When a subscriber reports an issue to Customer Care, the first step is to identify the correct issue type (Billing, Content, or Tech) so you can determine the appropriate next actions.</p><ul>
+<li data-list-item-id="e1c47437bac434899b54936a7499848c6">
+<span class="wysiwyg-underline">Billing</span>: Issues related to payment processing, refund errors, entitlement access, whitelisting, or billing failures.</li>
+<li data-list-item-id="eeb7b7f354bf420884eb2dfcbdaf30e8e">
+<span class="wysiwyg-underline">Content</span>: Missing episodes, incorrect availability, wrong-title playback, or other content-related errors.</li>
+<li data-list-item-id="e9cea17266a7ceb5d485ab3b0880e3b86">
+<span class="wysiwyg-underline">Tech</span>: Problems affecting playback, app performance, logins, or streaming functionality.</li>
+</ul><p>Once the issue type is confirmed, Customer Care should complete three core tasks in their investigation:</p><ul>
+<li data-list-item-id="e820ff0492ac98638d2757cacdb7beda4">Perform basic troubleshooting steps.</li>
+<li data-list-item-id="e0ae9046d992a06af8335205a1dba5d3b">Test or replicate the issue when possible. If testing is not possible, collect screenshots or video from the subscriber.</li>
+<li data-list-item-id="e25eb856310aa3471fbf45c27ad9157c9">Collect key information from the subscriber, including ruling out potential blockers (e.g., a VPN for tech issues or a chargeback for billing issues).</li>
+</ul><p>All must be completed fully before escalating the ticket further.</p><p style="background-color: #fff8e1; border-left: 5px solid #ffcc00; padding: 10px;">⚠️ <strong>Attention: </strong>The BCT articles (Escalation Workflows, Data Gathering Guide, Troubleshooting Steps, and Testing) do not follow a fixed sequence. Customer Care should start with the article that best fits the situation, as the order may change based on the subscriber’s concern. These resources work together and should be applied thoughtfully for each case.</p><h3 id="h_01K9WKBAFJF5SMS2XNP612S7VK">Common Troubleshooting Steps</h3><p>The action steps below cover the most common troubleshooting steps to complete with a subscriber when they report an issue, but they are not a complete list of every possible fix or supported device.</p><p>If you encounter a device or version not listed here, search online for the specific action and device name (for example, 'clear cache Samsung Smart TV') to guide the subscriber accurately. Always verify that the instructions you share align with BritBox’s supported platforms and current app behavior.</p><p class="wysiwyg-indent1" style="background-color: #fff8e1; border-left: 5px solid #ffcc00; padding-bottom: 10px; padding-right: 10px; padding-top: 10px;">💡 <strong>Tip:</strong> Not all of these actions need to be performed for every issue, but many of them may apply.</p><h3 id="01K9YA03QP7V0FHM9FNWXBE2EJ">Clearing Cache and Cookies (Web Browsers)</h3><p>Cached data and cookies help websites load faster, but over time, they can store outdated information that interferes with updates or playback. Clearing them can resolve login, playback, or loading issues.</p><p>If the subscriber recently experienced errors after a site update, clearing cache, and cookies is often the first troubleshooting step.</p><p>Below are the steps to clear the cache and cookies in different browsers on various devices.</p>
+<div class="wysiwyg-indent1" style="border: 2px solid #00b6e6; padding-top: 4px; padding-right: 12px; padding-bottom: 4px; color: #ffffff; font-size: 16px; font-weight: bold; display: inline-block; border-radius: 8px; background: linear-gradient(90deg, #00b6e6 10%, #002147 50%, #e60000 90%);">Instructions:</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 10px;"></div><h4 class="wysiwyg-indent2" id="h_01K9WKBAFJM0428RV8DE3JHV1C">Google Chrome (Computer)</h4><p class="wysiwyg-indent2">Option 1 – Clear all cookies and cache</p><ol>
+<li data-list-item-id="ee6d8640fdb504021406b4dc869ef7770">Open Chrome</li>
+<li data-list-item-id="eb48259426a471023a7e507f9adcaf0a7">In the top-right corner, click <em>'More </em>(⋮)<em>'</em>
+</li>
+<li data-list-item-id="e5e2b5237227c4cb8a175ba253524431e">Select <em>'Settings'</em> &gt; <em>'Privacy and security'</em> &gt; <em>'Clear browsing data'</em>
+</li>
+<li data-list-item-id="ea654ae36db9e999b8699d61866d3675d">Choose a time range (for example, All time)</li>
+<li data-list-item-id="e2d53dc06d17cfd1728e00d39ee73cac3">Select <em>'Cookies and other site data'</em> and <em>'Cached images and files'</em>
+</li>
+<li data-list-item-id="ece589dd9b119c7a12fcdcb71455ceb2c">Click <em>'Clear data'</em>
+</li>
+</ol><p class="wysiwyg-indent2">Clearing cookies signs the user out of most websites and may remove saved preferences.</p><p class="wysiwyg-indent2">Option 2 – Clear data for a specific site</p><ol>
+<li data-list-item-id="e2467be014d9afc82651ac2f7b0d58ba2">Open Chrome and go to <em>'Settings' </em>&gt;<em> 'Privacy and security'</em> &gt; <em>'Third-party cookies'</em>
+</li>
+<li data-list-item-id="e4128bb455c0803b27ceafb4f713f296b">Select <em>'See all site data and permissions'</em>
+</li>
+<li data-list-item-id="ebc303c6209d75b283066b81f87a1c8c1">Search for BritBox.com in the top-right search bar</li>
+<li data-list-item-id="ecc75b027609d0fbd84368571fbe26774">Click <em>'Delete'</em> next to the site name, then confirm by clicking <em>'Delete'</em> again</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WKCR7WCQJVRFZ4W2CZ1CCJ">Google Chrome (Android)</h4><ol>
+<li data-list-item-id="ea00a7335f0ff985ea4c9e678f6f5a36a">Open Chrome</li>
+<li data-list-item-id="e1fbda0d4583b9a2dd95173a850292049">Tap <em>'More</em> (⋮)<em>'</em> &gt; <em>'Clear browsing data'</em>
+</li>
+<li data-list-item-id="ed1882e4e301ef92744f9a95010682923">Choose a time range or tap <em>'All time'</em>
+</li>
+<li data-list-item-id="e285e3a77351047189083319ca890bf97">Select <em>'Cookies and site data'</em> and <em>'Cached images and files'</em>
+</li>
+<li data-list-item-id="e25590552cd150f921bd24349c16e8e8c">Tap <em>'Clear data'</em>
+</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WKD89BB96KJYN6754Y65CA">Google Chrome (iPhone / iPad)</h4><ol>
+<li data-list-item-id="e802de410882cc210cf2c27edd61b5387">Open Chrome</li>
+<li data-list-item-id="e110a16d12f5a659d2a842780f910f9f4">Tap <em>'More</em> (⋮)<em>'</em> &gt; <em>'Clear browsing data'</em>
+</li>
+<li data-list-item-id="eb29442f693c0f614f12de9a28d9a1e05">Select the types of data to remove</li>
+<li data-list-item-id="e1d5c4d99765db05794e81f6e8d4a5671">Tap <em>'Clear browsing data,'</em> then tap <em>'Done'</em>
+</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WKDJM2CGGZ6QY5FAGR2WB7">Mozilla Firefox (Computer)</h4><p class="wysiwyg-indent2">Option 1 – Clear all data</p><ol>
+<li data-list-item-id="e27aa939faa2bdedac29a1dd90d490d3e">Click the <em>'Menu</em> (☰)<em>'</em> button in the top-right corner</li>
+<li data-list-item-id="e82248d03c941d4c609a57abd7714c16d">Go to <em>'Settings'</em> &gt; <em>'Privacy &amp; Security'</em>
+</li>
+<li data-list-item-id="eb317cb88498879450e4f7a3fe1846803">Scroll to <em>'Cookies and Site Data'</em>
+</li>
+<li data-list-item-id="e2487e36461bd94252b66016a46184304">Click<em> 'Clear Data,'</em> select both checkboxes, and click <em>'Clear Now'</em>
+</li>
+</ol><p class="wysiwyg-indent2">Option 2 – Clear data for BritBox only</p><ol>
+<li data-list-item-id="e6762fc30111a824424b53421918219eb">While on the BritBox website, click the padlock icon next to the URL</li>
+<li data-list-item-id="e3c2b288f28994ee8217ccd8182284027">Select <em>'Clear Cookies and Site Data'</em>
+</li>
+<li data-list-item-id="e82ce1e95b4c5541588b5b57983ae30b0">Click <em>'Remove'</em> to confirm</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WKFBCG394VAQ7QKSDWQ1MC">Microsoft Edge (Computer)</h4><p class="wysiwyg-indent2">Option 1 – Clear all cookies and cache</p><ol>
+<li data-list-item-id="e2cfc4a77f1ade870e9889340bcffeee5">Open Edge</li>
+<li data-list-item-id="e056d938fb5948d96004ed9715168645a">Click <em>'More</em> (⋯)<em>'</em> in the upper-right corner &gt; <em>'Settings'</em>
+</li>
+<li data-list-item-id="e1b2f2a1cfe0546d489ccca9b100d5a66">Select <em>'Privacy, search, and services'</em>
+</li>
+<li data-list-item-id="e3ff77df3d51eb7d7fb2502632db101ed">Under Clear browsing data, click Choose what to clear</li>
+<li data-list-item-id="e10d91e847208086ff88b859b116e2b6c">Choose a time range</li>
+<li data-list-item-id="e1491886b42ff61d0321423d672de924e">Select <em>'Cookies and other site data,'</em> then click <em>'Clear now'</em>
+</li>
+</ol><p class="wysiwyg-indent2">Option 2 – Clear data for BritBox only</p><ol>
+<li data-list-item-id="e6c964f951f22d2520dc99f9ec48128a9">Open Edge &gt; <em>'Settings'</em> &gt; <em>'Cookies and site permissions'</em>
+</li>
+<li data-list-item-id="eb133753c8d9e1f28908c065dc8778053">Select <em>'Manage'</em> and delete cookies and site data &gt; <em>'See all cookies and site data'</em>
+</li>
+<li data-list-item-id="e16545bd8c4d719bcf57cb9a07dea648b">Search for BritBox.com, expand the entry, and select <em>'Delete'</em>
+</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WKGH3GAXP7EC5B8SCT5KFQ">Apple Safari (Computer)</h4><ol>
+<li data-list-item-id="e416a72004dbf0d97a2abc69907a93505">Open Safari</li>
+<li data-list-item-id="ec31f44b108558dcfee7c400f65fa8870">In the menu bar, click Safari &gt; <em>'Settings'</em> &gt; <em>'Privacy'</em>
+</li>
+<li data-list-item-id="e33a0ceefbc6bd5ba74eedfccbc92aa4e">Click<em> 'Manage Website Data,'</em> then <em>'Remove All'</em> or search for BritBox.com and click <em>'Remove'</em>
+</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WKGZ5X99B1RK1T299ZQDYB">Apple Safari (iPhone / iPad)</h4><ol>
+<li data-list-item-id="ef6b90fb616a38cec42708b6b99b150db">Open <em>'Settings'</em> on the device</li>
+<li data-list-item-id="e6748fa6a7c8c4c6fc44d969ac109856e">Scroll down and tap <em>'Safari'</em>
+</li>
+<li data-list-item-id="efbfa5cbe7ba8a66e3fab4bb955d149fd">Tap <em>'Clear History and Website Data,'</em> then confirm</li>
+</ol><h3 id="h_01K9WKKJ4JYKY0S2VQDJ0WB9FP">Updating Web Browsers</h3><p>Keeping browsers up to date helps prevent playback issues, improves security, and ensures compatibility with the latest BritBox features.</p><p>If a subscriber experiences freezing, blank pages or playback errors, check that their browser is updated to the latest version.</p><p>Below are the steps to update web browsers on different devices.</p>
+<div class="wysiwyg-indent1" style="border: 2px solid #00b6e6; padding-top: 4px; padding-right: 12px; padding-bottom: 4px; color: #ffffff; font-size: 16px; font-weight: bold; display: inline-block; border-radius: 8px; background: linear-gradient(90deg, #00b6e6 10%, #002147 50%, #e60000 90%);">Instructions:</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 10px;"></div><h4 class="wysiwyg-indent2" id="h_01KK1ACGC6CP8GM0T79C148NNF">Google Chrome, Mozilla Firefox and Microsoft Edge (Windows)</h4><ol>
+<li data-list-item-id="e3518b0fa16b9eaf6221ac448402b57ce">Open the browser</li>
+<li data-list-item-id="eba3b4674ca260a7566cc3ad6bd921df5">Click the <em>'Menu</em> (⋮ or ☰)<em>'</em> icon in the top-right corner</li>
+<li data-list-item-id="ef8b74d76e3115e9b3791b97a3b83cf2f">Select <em>'Help'</em> &gt;<em> 'About</em> [Browser Name]<em>'</em>
+</li>
+<li data-list-item-id="ea5068c1f3c7d8eb348e6ccf9ec6e3195">The browser will automatically check for updates and install any available version</li>
+<li data-list-item-id="ef4636356d7f173817fef13105a7888a6">When prompted, click <em>'Relaunch'</em> or <em>'Restart'</em> to complete the update</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WKMZQCNJFTCMCERVAHSPZN">Apple Safari (Mac)</h4><ol>
+<li data-list-item-id="e84951dfa929d8380f3534a9815ed2116">Click the Apple menu in the top-left corner</li>
+<li data-list-item-id="e545f6c7024101ed6e5e05857f37a9899">Select <em>'System Settings'</em> (or System Preferences on older macOS versions)</li>
+<li data-list-item-id="e994b693aa9bf1e313d7635db888df470">Go to <em>'General'</em> &gt; <em>'Software Update'</em>
+</li>
+<li data-list-item-id="e7aa280d9b42d27c094f706e79e47491b">If a macOS update is available, click <em>'Update Now.'</em> Safari updates automatically through macOS updates</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WKNFSFY40GFXZ8P91EM79Q">Linux Systems</h4><p class="wysiwyg-indent2">Linux browsers can be updated through the system’s package manager or directly within the browser.<br>Encourage the subscriber to check their distribution’s documentation for specific steps.</p><p class="wysiwyg-indent2">Microsoft Edge may not be available on all Linux distributions.</p><h3 id="h_01K9WNHGJEW611XM7NGE4Z1Y1J">Updating BritBox App</h3><p>Keeping the BritBox app updated ensures access to the latest features, performance improvements, and bug fixes.</p><p>If a subscriber reports playback issues or missing features, confirm they are using the most recent version of the app.</p><p>Below are the steps to update the BritBox app on different devices.</p>
+<div class="wysiwyg-indent1" style="border: 2px solid #00b6e6; padding-top: 4px; padding-right: 12px; padding-bottom: 4px; color: #ffffff; font-size: 16px; font-weight: bold; display: inline-block; border-radius: 8px; background: linear-gradient(90deg, #00b6e6 10%, #002147 50%, #e60000 90%);">Instructions:</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 10px;"></div><h4 class="wysiwyg-indent2" id="h_01KK1ACGC6Y7B5BNGS7BBX5A8Z">Android Devices</h4><ol>
+<li data-list-item-id="e367ca9e342293055ba75f0d8049ca092">Open the Google Play Store</li>
+<li data-list-item-id="e1afd2eaeb1347540fee6f73056883c85">Tap the Profile icon in the top-right corner</li>
+<li data-list-item-id="e9aff824c4c3bc4127ed19d314bac69e0">Select <em>'Manage apps &amp; device'</em>
+</li>
+<li data-list-item-id="e27a38ca9dd9ee3c13ed25f7cf67f5775">Under <em>'Updates available,'</em> look for <em>'BritBox'</em>
+</li>
+<li data-list-item-id="ebf91db9fd3ac55ae90df7c20f2b69a5b">Tap <em>'Update'</em>
+</li>
+</ol><p class="wysiwyg-indent2">If BritBox doesn’t appear, the app is already up to date.</p><h4 class="wysiwyg-indent2" id="h_01K9WNJ5H5650P8RCE38SM94JK">Apple iPhone and iPad</h4><ol>
+<li data-list-item-id="e90030b65ab95a1d8443e9e65d8d4ca74">Open the App Store</li>
+<li data-list-item-id="e455a1defd9557d7b5f4cc6ea4debc7e5">Tap the Profile icon in the top-right corner</li>
+<li data-list-item-id="e6305c495da5fd9ad7eb45eefd9dce834">Scroll down to see pending updates</li>
+<li data-list-item-id="e25d69c105f60f534068b084a6a19e211">If BritBox appears, tap <em>'Update'</em>
+</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WNJHK0SYZ88GPERR7WKGCS">Roku</h4><ol>
+<li data-list-item-id="e6a561910f5702ca6c72fd8d3f84d6d5a">Highlight the BritBox channel on the Home screen</li>
+<li data-list-item-id="e9c6b390ab247262633ccf14f8c93e8f0">Press the <em>'Star</em> (*)<em>'</em> button on the remote</li>
+<li data-list-item-id="e30d587e72393f2eb0f6e823ba09aec24">Select <em>'Check for updates'</em>
+</li>
+<li data-list-item-id="e565a4c3a0d930556444ffcb591d67f7a">If an update is available, Roku will install it automatically</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WNJX2YR4HRTTCEE2TN804C">Fire TV</h4><ol>
+<li data-list-item-id="e324deb2b31479f15e3346884334370bc">Highlight the BritBox app on the Home screen</li>
+<li data-list-item-id="ec3fc3d8dca428b39d88f4c6f1e724416">Press the <em>'Menu</em> (☰)<em>'</em> button on the remote</li>
+<li data-list-item-id="e52637ef2b2487e8dd4c25984f2e786c7">Select <em>'More Info'</em>
+</li>
+<li data-list-item-id="ec8253a6af31f73a1345d08defb0dad3b">If an update is available, choose <em>'Update'</em>
+</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WNK875MP75574M101E337K">Apple TV</h4><ol>
+<li data-list-item-id="e01e34b760ad068771c5a447f3aca443b">Open <em>'Settings'</em> &gt; <em>'Apps'</em>
+</li>
+<li data-list-item-id="ed51273a99dfaf6a88f2e762389946255">Ensure <em>'Automatically Update Apps'</em> is turned on</li>
+<li data-list-item-id="e1f2dfc6c35878fa2ac9cf890fe581ecc">To manually update, open the App Store, find BritBox and select <em>'Update'</em> if available</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WNKKBGSZY87C64JWMDNJXP">Samsung Smart TVs</h4><ol>
+<li data-list-item-id="eec11673d9e57b62680412473ca09718b">Press the<em> 'Home'</em> button on the remote</li>
+<li data-list-item-id="e004e8864de25007a345263e30ca68fa7">Select <em>'Apps,'</em> then the Settings icon</li>
+<li data-list-item-id="e0037a83273bddeff9acecf3292f48a58">Highlight BritBox</li>
+<li data-list-item-id="e5922585bb246783fbc6ec7d292f206a7">Select <em>'Update'</em> if available</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WNM10BBWQ2E0PMNQV9MSSS">LG Smart TVs</h4><ol>
+<li data-list-item-id="ecfd352e7bbd710bd4d60692d709fd57b">Open the LG Content Store</li>
+<li data-list-item-id="ea453a758dcb1af35a507f06c85c92cdd">Select <em>'Apps'</em> &gt; <em>'My Apps'</em>
+</li>
+<li data-list-item-id="ec61eb24bc267b223bf5fabd11e1e32ff">Highlight BritBox and select <em>'Update'</em>
+</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WNMFHV4MCK7FQ4BV8ZPS1R">Fetch</h4><ol>
+<li data-list-item-id="e16db671ee82f38fdbd89378d0697d4dc">Press <em>'Menu'</em> &gt; <em>'Manage'</em> &gt; <em>'Apps'</em>
+</li>
+<li data-list-item-id="e8fb8066c1e9820bedf6d35a9798f06b2">Highlight BritBox and select <em>'Update App' </em>if available</li>
+</ol><p>Here’s the updated list of apps.</p><p><span class="wysiwyg-underline">North America and Nordics</span></p><p>Check the list below for the latest app versions to ensure your device is up-to-date for seamless streaming. Please note, the list is updated regularly, but there may be a slight delay from the release date.</p><ul>
+<li data-list-item-id="e5c6b6c368fdc007522a5f27ba5e298e6">
+<strong>Android</strong>: App Version 2.6.8</li>
+<li data-list-item-id="ebacc1d4fa2c0da7cd2ca7d732c9a3971">
+<strong>Android TV</strong>: App Version 4.149.146</li>
+<li data-list-item-id="e2ee64d3027c4f2aa40387834bcd11391">
+<strong>Chromecast</strong>: Use the same version noted above for your iOS or Android device</li>
+<li data-list-item-id="e5dcb674399ca5573829e867b1bf11184">
+<strong>Elisa Digibox (Netgem)</strong>: App Version v4.140.9 <em>-Only available in Finland</em>
+</li>
+<li data-list-item-id="e69370aef2f72adb506177231a38be9a8">
+<strong>Elisa Plus (Android TV)</strong>: App Version 4.147.145 <em>-Only available in Finland</em>
+</li>
+<li data-list-item-id="ec9b2dd5af323d5eabc67a05a8f7bd81c">
+<strong>Fire TV</strong>: App Version 4.149.146</li>
+<li data-list-item-id="e4e3dfdd01b4f4270e2b3c411f59631ad">
+<strong>Fire TV Stick 4K Select (Vegas OS)</strong>: App Version 0.0.14 -<em>Only available in the United States and Canada</em>
+</li>
+<li data-list-item-id="e99f890c0eafb135649c17b446415afe5">
+<strong>Hisense TV</strong>: App Version v4.140.9</li>
+<li data-list-item-id="e6ee8b17bd7b3542906018dc2aeee2653">
+<strong>iOS/Apple*</strong>: App Version 2.6.8 (555)</li>
+<li data-list-item-id="e6c7c9708c877de8e787e0945dd077494">
+<strong>LG TV</strong>: App Version v4.140.9</li>
+<li data-list-item-id="e3f2623dba67a12c11b4a26a6fde1d285">
+<strong>Netrange</strong>: App Version 4.125.20 -<em>Only available in the United States and Canada</em>
+</li>
+<li data-list-item-id="e0aba0736e9f3a1fcd9eff57ad7470f3a">
+<strong>Rogers</strong>: App Version 2.5.2 <em>-Only available in Canada</em>
+</li>
+<li data-list-item-id="eba06960f8722ed407e62481cc774e2d0">
+<strong>Roku</strong>: App Version 4.142.3 -<em>Only available in the United States and Canada</em>
+</li>
+<li data-list-item-id="ebdc764b53a32d6226fe8ffd67c0ecf8a">
+<strong>Samsung TV</strong>: App Version 4.132.13</li>
+<li data-list-item-id="e1332fe83f19b95615394733f3e1fee6e">
+<strong>tvOS</strong>: App Version 2.147.893</li>
+<li data-list-item-id="e8a2b29cd981253aba61fc43f2a83e7e3">
+<strong>Videotron</strong>: App Version 2.5.2 -<em>Only available in Canada</em>
+</li>
+<li data-list-item-id="e9097f47ba4921579c46169fc819f8278">
+<strong>Vizio TV</strong>: App Version 2.6.0 -<em>Only available in the United States and Canada</em>
+</li>
+<li data-list-item-id="e69c3b47da2e750fe818ef5a54f639a9f">
+<strong>Xfinity Flex/X1/XClass: </strong>App Version 2.5.2 -<em>Only available in the United States</em>
+</li>
+<li data-list-item-id="e548d5034d2d257ee951e1af11ac12757">
+<strong>Xfinity Xumo/Xumo Stream Box: </strong>App Version 2.5.2 -<em>Only available in the United States</em>
+</li>
+<li data-list-item-id="e399ccf8a4e628d3d152d174f84636ed8">
+<strong>Xumo TV</strong>: App Version <span style="background-color: rgb(255,255,255);"><span style="display: inline !important;">2.5.2 </span><em><span style="display: inline !important;">-Only available in the United States</span></em></span>
+</li>
+<li data-list-item-id="ea1b1917c0450cfc1dff2922cf88ddb0f">
+<strong>Website: </strong>Site Version RW206</li>
+</ul><p><em>*Apple platforms: if you cannot update to the newest app version, your device may need a software update or no longer support it. Please take a look at the </em><a href="https://support.apple.com/ios/update"><em>Apple FAQ</em></a><em>.</em></p><p><span class="wysiwyg-underline">Australia</span></p><p>Check the list below for the latest app versions to ensure your device is up-to-date for seamless streaming. Please note, the list is updated regularly, but there may be a slight delay from the release date.</p><ul>
+<li data-list-item-id="eba9faa6dd97f55a5f927f50e87b3e247">
+<strong>Android</strong>: App Version 2.6.8</li>
+<li data-list-item-id="e16a5e9106eb6834947b525a9241b06df">
+<strong>Android TV</strong>: App Version 4.149.146</li>
+<li data-list-item-id="e927e9856b44ea9b98cd010d568ced84b">
+<strong>Chromecast</strong>: Use the same version noted above for your iOS or Android device</li>
+<li data-list-item-id="e4a93fdc50dd2dbca51a571aee80e0b36">
+<strong>Fetch TV</strong>: App Version 2.5.2</li>
+<li data-list-item-id="e6933381e4d48bedf398871a79a54888a">
+<strong>Fire TV</strong>: App Version 4.149.146</li>
+<li data-list-item-id="e62e158f989363688690b670767453bf5">
+<strong>Fire TV Stick 4K Select (Vegas OS)</strong>: App Version 0.0.14</li>
+<li data-list-item-id="e843fe3b39de654a40755d7215785ea8f">
+<strong>Foxtel: </strong>App Version v4.140.9</li>
+<li data-list-item-id="e438f1be7ab5d3523518f981acd273db3">
+<strong>Hisense TV</strong>: App Version v4.140.9</li>
+<li data-list-item-id="e3564e01519db3eeef73dc4048cdc7c13">
+<strong>iOS/Apple*</strong>: App Version 2.6.8 (555)</li>
+<li data-list-item-id="e2233b34e1a83bbdb153692ce82f64d4d">
+<strong>LG TV</strong>: App Version v4.140.9</li>
+<li data-list-item-id="e7c13c525a4ee3ecb42ad09c1646946b1">
+<strong>Netrange</strong>: App Version 4.125.20</li>
+<li data-list-item-id="ed7f7ed9150d26ad2648d2fd87397787a">
+<strong>Roku</strong>: App Version 4.142.3</li>
+<li data-list-item-id="ea9cc5943a7bd7d47e067453d2b4d657d">
+<strong>Samsung TV</strong>: App Version 4.132.13</li>
+<li data-list-item-id="ecc6dca283d9b6d62e5823eb655497a99">
+<strong>tvOS</strong>: App Version 2.147.893</li>
+<li data-list-item-id="e5702b26caa0c9cc747fabc1af16f23cb">
+<strong>Website: </strong>Site Version RW206</li>
+</ul><p><em>*Apple platforms: if you cannot update to the newest app version, your device may need a software update or no longer support it. Please take a look at the </em><a href="https://support.apple.com/en-us/104985"><em>Apple FAQ</em></a><em>.</em></p><h3 id="h_01K9WKR1RRBW8PA38CKAFH7VYQ">Force Stopping an Application</h3><p>Force stopping closes an app that may be frozen, unresponsive, or running in the background. This is often one of the first steps when the BritBox app fails to load, freezes, or won’t close properly.</p><div><div><div tabindex="-1"><div><div dir="auto" data-message-author-role="assistant" data-message-id="8f06cb5d-ce55-42a4-a447-a6dfc83b8a4c" data-message-model-slug="gpt-5-2"><div><div><p data-start="0" data-end="70" data-is-last-node="" data-is-only-node="">Below are the steps to force stop an application on different devices.</p></div></div></div></div></div></div></div>
+<div class="wysiwyg-indent1" style="border: 2px solid #00b6e6; padding-top: 4px; padding-right: 12px; padding-bottom: 4px; color: #ffffff; font-size: 16px; font-weight: bold; display: inline-block; border-radius: 8px; background: linear-gradient(90deg, #00b6e6 10%, #002147 50%, #e60000 90%);">Instructions:</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 10px;"></div><h4 class="wysiwyg-indent2" id="h_01KK1ACGC76EKV7DBM24QGXEVH">Android Devices</h4><p class="wysiwyg-indent2">Method 1 – Through Settings</p><ol>
+<li data-list-item-id="eac83f068502c77e75eed1045de9a5ba9">Open the Settings app</li>
+<li data-list-item-id="e367e26e28734a05cada0b6b9ac89aa30">Tap <em>'Apps'</em> or <em>'Apps &amp; notifications'</em>
+</li>
+<li data-list-item-id="eead69f3cdb243c7a3a98f24d4553c50c">Find and select BritBox from the list</li>
+<li data-list-item-id="ec10a96549ba3940e9f8aaa0c38f91b42">Tap <em>'Force Stop,'</em> then confirm</li>
+</ol><p class="wysiwyg-indent2">Method 2 – From the App Icon (Android 7 or newer)</p><ol>
+<li data-list-item-id="edccd9fc84ca8078f739a43343d041bab">Long-press the BritBox app icon</li>
+<li data-list-item-id="ea61a3b80cef4969d997b4b8c7d491607">Select <em>'App info'</em>
+</li>
+<li data-list-item-id="eff5e9a9fc73905619a6334f4543533fc">Tap <em>'Force Stop,'</em> then confirm</li>
+</ol><p class="wysiwyg-indent2">After force stopping, you can also clear the app’s cache and data if issues persist.</p><h4 class="wysiwyg-indent2" id="h_01K9WKRK2FFQKMR3S7P90JSKXK">Fire TV Devices</h4><ol>
+<li data-list-item-id="ef8a8b714c32df4f4f53df3d8f8f2896d">From the Home screen, go to <em>'Settings' </em>&gt;<em> 'Applications' </em>&gt;<em> 'Manage Installed Applications'</em>
+</li>
+<li data-list-item-id="e87681424daec7fbd02baa51a6e5742f4">Select BritBox</li>
+<li data-list-item-id="e7437b56aae4129a0ee4918c8568478eb">Choose<em> 'Force Stop'</em>
+</li>
+</ol><p class="wysiwyg-indent2">If the problem continues, clear the app’s cache and data in the same menu.</p><h4 class="wysiwyg-indent2" id="h_01K9WKRRDWKJWFG1H9SC460788">Apple TV</h4><ol>
+<li data-list-item-id="e9c49d11274271940f0c1547c2097977d">Press the TV button on the Siri Remote twice to open the App Switcher</li>
+<li data-list-item-id="e032734737ef1f4615657daa1ef812ba5">Swipe left or right to locate BritBox</li>
+<li data-list-item-id="ec6d1daa20a4d1d9b5e88e992ba50a8c1">Swipe up on the remote’s touch surface to close the app</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WKRVPCYJ4XGAT33VJEZ3ZQ">iPhone and iPad</h4><ol>
+<li data-list-item-id="ec751016d0167f175c6ba29b865737534">Swipe up from the bottom of the screen and pause in the middle (or double-click the <em>'Home'</em> button on older models)</li>
+<li data-list-item-id="ed91140e439d6c3b3fde5246b9212314a">Swipe left or right to locate BritBox</li>
+<li data-list-item-id="ea06d677948b3674bd4c16de11003aa0a">Swipe up on the app preview to close it</li>
+</ol><h3 id="h_01K9WKXFJMPSKPS1VPTGM5WA7P">Clearing App Cache and Data (Android and Fire TV)</h3><p>Clearing an app’s cache and data removes temporary files that may interfere with playback, logins, or app performance. This step often resolves errors such as the app freezing, crashing, or showing outdated information.</p><p>Clearing data will sign the subscriber out of their BritBox account.</p><div><div><div tabindex="-1"><div><div dir="auto" data-message-author-role="assistant" data-message-id="8f06cb5d-ce55-42a4-a447-a6dfc83b8a4c" data-message-model-slug="gpt-5-2"><div><div>
+<p data-start="0" data-end="70" data-is-last-node="" data-is-only-node="">Below are the steps to clear the app cache and data on Android and Fire TV.</p>
+<p>Below are the steps to update the BritBox app on different devices.</p>
+</div></div></div></div></div></div></div>
+<div class="wysiwyg-indent1" style="border: 2px solid #00b6e6; padding-top: 4px; padding-right: 12px; padding-bottom: 4px; color: #ffffff; font-size: 16px; font-weight: bold; display: inline-block; border-radius: 8px; background: linear-gradient(90deg, #00b6e6 10%, #002147 50%, #e60000 90%);">Instructions:</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 10px;"></div><h4 class="wysiwyg-indent2" id="h_01KK1ACGC7B31YN75X00TB2H6B">Android Devices</h4><p class="wysiwyg-indent2">Method 1 – Through Settings</p><ol>
+<li data-list-item-id="e736da88f660a54be353a10c24962ae57">Open the Settings app</li>
+<li data-list-item-id="e324c3e2cac0b905bb2e2486f1a6ac2ca">Tap <em>'Apps'</em> or <em>'Apps &amp; notifications'</em>
+</li>
+<li data-list-item-id="eb9abde9c66898ec34da973096c78dae2">Find and select BritBox</li>
+<li data-list-item-id="e02534d640f0a4212c6079e01897cf02c">Tap <em>'Storage &amp; cache'</em>
+</li>
+<li data-list-item-id="eb4ac61d0cf8b6fb73d984df8c6a9c0fb">Tap <em>'Clear Cache,'</em> then <em>'Clear Storage or Clear Data'</em>
+</li>
+</ol><p class="wysiwyg-indent2">Method 2 – From the App Icon (Android 7 or newer)</p><ol>
+<li data-list-item-id="e73aa0e39ac31d34f89dbd1bab774e259">Long-press the BritBox app icon</li>
+<li data-list-item-id="eac8b3f13e3de4ae2c25c2bd306fc1f85">Select <em>'App info'</em>
+</li>
+<li data-list-item-id="e0979cd05a8ba7b1b15c268b470b95d69">Tap <em>'Storage &amp; cache'</em>
+</li>
+<li data-list-item-id="e1433df985b2fed9fcf22be8084de91d4">Tap<em> 'Clear Cache,'</em> then <em>'Clear Storage or Clear Data'</em>
+</li>
+</ol><p class="wysiwyg-indent2">Clear cache first, then data if the issue persists. This helps remove old files without immediately signing the user out.</p><h4 class="wysiwyg-indent2" id="h_01K9WKZ6M542K3F5887JX9VA3Z">Fire TV Devices</h4><ol>
+<li data-list-item-id="e0f79cc4500c3a014a5ed537271c3af4f">From the Home screen, go to <em>'Settings'</em> &gt; <em>'Applications'</em> &gt; <em>'Manage Installed Applications'</em>
+</li>
+<li data-list-item-id="e715007026082456a91efced0aa89dff9">Select BritBox</li>
+<li data-list-item-id="e3b751eeb6d8f6b091de411b4b6dd58c7">Choose <em>'Clear Cache,'</em> then <em>'Clear Data'</em>
+</li>
+</ol><p class="wysiwyg-indent2">Always clear the cache first, then the data. Clearing data removes stored account information, so the user will need to sign in again.</p><p class="wysiwyg-indent2">After clearing cache and data: Reopen the BritBox app, sign back in and test playback. If issues continue, restart the device before trying again.</p><h3 id="h_01K9WM2FVDC8ZRV39X18B7E8S6">Rebooting or Restarting Devices</h3><p>Restarting a device can resolve temporary software issues and clear background processes that may interfere with app performance. This should be done after major updates, cache clears, or whenever the BritBox app becomes unresponsive.</p><div><div><div tabindex="-1"><div><div dir="auto" data-message-author-role="assistant" data-message-id="eee8ae65-b658-4243-8abc-75f863361812" data-message-model-slug="gpt-5-2"><div><div><p data-start="0" data-end="59" data-is-last-node="" data-is-only-node="">Below are the steps to reboot or restart different devices.</p></div></div></div></div></div></div></div>
+<div class="wysiwyg-indent1" style="border: 2px solid #00b6e6; padding-top: 4px; padding-right: 12px; padding-bottom: 4px; color: #ffffff; font-size: 16px; font-weight: bold; display: inline-block; border-radius: 8px; background: linear-gradient(90deg, #00b6e6 10%, #002147 50%, #e60000 90%);">Instructions:</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 10px;"></div><h4 class="wysiwyg-indent2" id="h_01KK1ACGC7DAQ2K2WP8QV58H8V">Android Devices</h4><ol>
+<li data-list-item-id="ef768af29df560af6babe11d686c7a858">Hold the Power button until the Power menu appears</li>
+<li data-list-item-id="ee774bfd9b8fecfb7d827d037526719f8">Tap <em>'Restart'</em> or <em>'Reboot'</em>
+</li>
+<li data-list-item-id="e811e4d0a135ca697d835c31cb1c5ca7c">Wait for the device to fully power back on before reopening BritBox</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WM3C879E6SB7AY5EN5YC9M">Apple iPhone and iPad</h4><ol>
+<li data-list-item-id="e1c60895f4d35e8d22fc93d11201549d4">Hold the Power button and either Volume button until the <em>'Slide to Power Off'</em> slider appears</li>
+<li data-list-item-id="ec8e83e82fb9ddeed1b1a386996a9d0f2">Drag the slider to turn the device off</li>
+<li data-list-item-id="e07c220b51622402a6e946a07ad971401">Wait a few seconds, then hold the Power button again until the Apple logo appears</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WM4CZFQBGGXG9VZVN48CFM">Roku</h4><ol>
+<li data-list-item-id="ef754ba6a981e1ffff4184c8362ce7369">Press the<em> 'Home' </em>button on the Roku remote</li>
+<li data-list-item-id="e2d962cf5b13bf562aa6701c529aef711">Go to <em>'Settings'</em> &gt; <em>'System'</em> &gt;<em> 'System Restart'</em>
+</li>
+<li data-list-item-id="e62f5380b1f86fc56f411ca55759f6146">Select Restart and wait for the device to reboot</li>
+</ol><p class="wysiwyg-indent2">For Roku TVs:<br>Go to <em>'Settings'</em> &gt; <em>'System</em>' &gt; <em>'Power'</em> &gt; <em>'System Restart'</em> &gt; <em>'Restart'</em></p><h4 class="wysiwyg-indent2" id="h_01K9WM549AVA9BFR016MR4EVSJ">Fire TV</h4><ol>
+<li data-list-item-id="e018fc059dcb690608033bf6fd07f38aa">From the Home screen, go to <em>'Settings'</em> &gt; <em>'My Fire TV'</em> &gt; <em>'Restart'</em>
+</li>
+<li data-list-item-id="e9ebe6da4007e6c6cfe09f2b8ac6bd8cc">Confirm when prompted</li>
+<li data-list-item-id="e5fec6d5bf4c6b959903cbeafce71eeca">Wait for the device to power back on before reopening BritBox</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WM5G5F97YH29KH7078KTAT">Apple TV</h4><ol>
+<li data-list-item-id="e0d3d18b645f31b713ff93f183854cce9">Open the Settings app</li>
+<li data-list-item-id="e123af6a793e6641b52ae7a0e08b6a1bd">Go to <em>'System'</em> &gt; <em>'Restart'</em>
+</li>
+<li data-list-item-id="eeddcc246e45c11c79ef6b31bd66b184e">Confirm and wait for the device to reboot</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WM5X49NNG4ZQ54RB2BNCMS">Samsung Smart TV</h4><ol>
+<li data-list-item-id="ef355755126be4d616f39f7099f265696">Hold the <em>'Power'</em> button on the Samsung remote until the TV turns off and back on</li>
+<li data-list-item-id="e765fb61907b4b45d0b16297058f235f2">Wait for the Samsung logo to appear before releasing the button</li>
+</ol><p class="wysiwyg-indent2">Releasing the button too early will only put the TV in standby mode.</p><h4 class="wysiwyg-indent2" id="h_01K9WM69T79JGVMX3KR6Z5S219">LG Smart TV</h4><ol>
+<li data-list-item-id="eb8615ba13021ded21e8361992783d892">Hold the <em>'Volume Down'</em> and <em>'Power'</em> buttons on the remote at the same time</li>
+<li data-list-item-id="e7a552b3d7770d87f21ef86cfe11eab6c">Continue holding until the TV powers off and the LG logo appears</li>
+<li data-list-item-id="e4aaa8debf6fa17ee2a0b739deec81e2c">Release both buttons when the logo displays</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WM7B1EJA34CR6W1KHR76RN">Fetch</h4><ol>
+<li data-list-item-id="e88395be406a0404212f68cbb7a9d2842">On the remote, press <em>'Menu'</em> &gt; <em>'Manage'</em> &gt; <em>'Settings'</em> &gt; <em>'Device Info'</em> &gt; <em>'Restart Fetch Box'</em>
+</li>
+<li data-list-item-id="ef6e5a098de5879051c6b90873ad71860">Confirm and wait for the box to restart</li>
+</ol><p>Always confirm the BritBox app version after a reboot. A restart often triggers updates or clears lingering background errors.</p><h3 id="h_01K9WMA31RW3C93P45MDH6ZM3B">Running Speed and Network Tests</h3><p>Internet speed and network stability directly affect streaming quality. Running a quick connection test helps determine if playback issues are caused by slow speeds or weak signal strength.</p><p>Speed tests should be done on the same device that is experiencing the issue to get the most accurate results.</p><div><div><div tabindex="-1"><div><div dir="auto" data-message-author-role="assistant" data-message-id="eee8ae65-b658-4243-8abc-75f863361812" data-message-model-slug="gpt-5-2"><div><div>
+<p data-start="0" data-end="59" data-is-last-node="" data-is-only-node="">Below are the steps to run speed and network tests on various devices.</p>
+<p>Below are the steps to update the BritBox app on different devices.</p>
+</div></div></div></div></div></div></div>
+<div class="wysiwyg-indent1" style="border: 2px solid #00b6e6; padding-top: 4px; padding-right: 12px; padding-bottom: 4px; color: #ffffff; font-size: 16px; font-weight: bold; display: inline-block; border-radius: 8px; background: linear-gradient(90deg, #00b6e6 10%, #002147 50%, #e60000 90%);">Instructions:</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 10px;"></div><h4 class="wysiwyg-indent2" id="h_01KK1ACGC7X5HN61JGHQXBSS2E">All Web Browsers (Computer, Phones and Tablets)</h4><ol>
+<li data-list-item-id="e4dbd29ef6784939c736522d7e52c7319">Open a web browser on the affected device</li>
+<li data-list-item-id="e7d357f22bc57757024306abb02ba8365">Go to one of the following sites:<ul>
+<li data-list-item-id="e5e6d872660601bfbff6b5cb898ea3649"><a href="https://www.speedtest.net">www.speedtest.net</a></li>
+<li data-list-item-id="e59de25e4243ce5b1fcb549dfe9528e39"><a href="https://www.fast.com">www.fast.com</a></li>
+</ul>
+</li>
+<li data-list-item-id="ef11302041a408fb61b18a2160b17380d">Click <em>'Go'</em> or <em>'Start Test'</em>
+</li>
+<li data-list-item-id="eaf46ea373fcce1568b0262d6a4dbdd1c">Note the download speed and ping/latency results</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WMC0HWMNA8K52RNT8TGNVM">Google Search Option</h4><ol>
+<li data-list-item-id="e327e7611aec33e0c4ae83bba1cc81b4a">Go to <a href="https://Google.com">Google.com</a>
+</li>
+<li data-list-item-id="e47353dd349eda9b5e5e95878e5c207ab">Type speed test in the search bar</li>
+<li data-list-item-id="edfefa975818d3dc10d5fba801e0a0b65">Click <em>'Run Speed Test'</em> or <em>'Start Speed Test'</em>
+</li>
+</ol><p class="wysiwyg-indent2">This option may not be available on all mobile or Smart TV browsers.</p><h4 class="wysiwyg-indent2" id="h_01K9WMCQJ0JTPPHWHRD6J4T8FG">Roku Devices</h4><ol>
+<li data-list-item-id="e860294191d3f2e828f96caae1773ac56">Press the<em> 'Home' </em>button on the Roku remote</li>
+<li data-list-item-id="ecd24916431fe4607e0b9fc93ba2553d6">Go to <em>'Settings'</em> &gt; <em>'Network'</em> &gt; <em>'Check Connection'</em>
+</li>
+<li data-list-item-id="e47f15421ddcc4522ca448a37e5510f4c">After the test, select <em>'About'</em> to view connection details<ul>
+<li data-list-item-id="efb257bb40ee064a4c279ad0d9aa4a9b9">
+<span class="wysiwyg-underline">Network Connection Strength</span>: shows signal quality to the router</li>
+<li data-list-item-id="e82fc50e360739c4dae4e348ce0689362">
+<span class="wysiwyg-underline">Download Speed</span>: shows estimated streaming speed</li>
+</ul>
+</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WMD4B8GSGYJQ7HQWPPX1RN">Samsung Smart TVs</h4><ol>
+<li data-list-item-id="e7c11581410954bbfc8c1fdc35863249f">On the remote, press <em>'Settings'</em>
+</li>
+<li data-list-item-id="e6a92eeeb40ccce8978d6511a5df614d2">Go to <em>'General'</em> &gt; <em>'Network'</em> &gt; <em>'Network Status to test the internet connection'</em>
+</li>
+<li data-list-item-id="e71fa0bb1ebf9253151282774a0fccbbb">For additional testing, go to <em>'Support'</em> &gt; <em>'Self Diagnosis'</em> &gt; <em>'Start Smart Hub Connection Test'</em>
+</li>
+<li data-list-item-id="eacc6483c0a9106a8ec21505b0a62204f">If either test fails, have the subscriber restart their TV and router, then retest</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WMDGMJRWW3RV6MWNESZYA5">Fire TV Devices</h4><ol>
+<li data-list-item-id="ea99d1a6c20feb3d34da8a23200d76cde">From the Home screen, go to<em> 'Settings'</em> &gt;<em> 'Network'</em>
+</li>
+<li data-list-item-id="e7c6310b2146760fcd9ee7bc398daa8b7">Highlight the connected network and press the<em> 'Play/Pause' </em>button</li>
+<li data-list-item-id="ed60be21c52c0f7dcf275f94a97ff18ce">View the Signal Strength reading (should be 'Good' or 'Very Good')</li>
+</ol><p class="wysiwyg-indent2">Fire TV and Apple TV can run full-speed tests using an internet browser app if installed.</p><h4 class="wysiwyg-indent2" id="h_01K9WMEXA8VSGP93FNJVZ48WDM">Fetch&nbsp;</h4><ol>
+<li data-list-item-id="e50721a7c7764147bbfb3001608161f19">Network testing is handled through the Fetch connection menu</li>
+<li data-list-item-id="e23370902c205b2c736303b707d301bb4">Press <em>'Menu'</em> &gt; <em>'Manage'</em> &gt; <em>'Settings'</em> &gt; <em>'Network'</em> &gt; <em>'Connection Test'</em>
+</li>
+<li data-list-item-id="e7b50996253fd3080945938048762a2ca">Wait for results and confirm signal strength and connectivity</li>
+</ol><p>If results show low speed or poor signal strength, recommend restarting the router and reconnecting the device before trying playback again.</p><h3 id="h_01K9WMHFTCBWPJRXYTDWQVD94E">Uninstalling and Reinstalling the BritBox App</h3><p>Uninstalling and reinstalling the BritBox app can resolve issues caused by corrupted files, outdated data, or incomplete updates. This process ensures a clean installation and refreshes the app’s connection to the device.</p><p>Below are the steps to uninstall and reinstall the BritBox app, depending on the device.</p>
+<div class="wysiwyg-indent1" style="border: 2px solid #00b6e6; padding-top: 4px; padding-right: 12px; padding-bottom: 4px; color: #ffffff; font-size: 16px; font-weight: bold; display: inline-block; border-radius: 8px; background: linear-gradient(90deg, #00b6e6 10%, #002147 50%, #e60000 90%);">Instructions:</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 10px;"></div><h4 class="wysiwyg-indent2" id="h_01KK1ACGC788EEJR0Y3WYAQ21N">Android Devices</h4><p class="wysiwyg-indent2">Method 1 – Through Settings</p><ol>
+<li data-list-item-id="e5e79b0d0aba9f136d7a6e5db9a56ae1e">Open the Settings app</li>
+<li data-list-item-id="e7236411ffc096039b3c9a1c75fa89d92">Tap<em> 'Apps'</em> or <em>'Apps &amp; notifications'</em>
+</li>
+<li data-list-item-id="ecd4a75d9d9dbc828213aa1a5e8d9984e">Find and select BritBox</li>
+<li data-list-item-id="e57c8ff970f73604b170601c85716253f">Tap <em>'Uninstall,'</em> then confirm</li>
+<li data-list-item-id="e1025cfffed6d266fb53f1e309102ec2c">Restart the device before reinstalling the app from the Google Play Store</li>
+</ol><p class="wysiwyg-indent2">Method 2 – From the App Icon (Android 7 or newer)</p><ol>
+<li data-list-item-id="e0a90e4ac6ed71eb96fd98aed2f3fc491">Long-press the BritBox app icon</li>
+<li data-list-item-id="e4e4ff91eed848b1af948f968f4c4b609">Select<em> 'App info'</em>
+</li>
+<li data-list-item-id="e51675c60060b6de96ad03dda2a129274">Tap<em> 'Uninstall,'</em> then confirm</li>
+<li data-list-item-id="e9702f368240ec9d6f10002f09ce358a4">Restart the device before reinstalling from the Google Play Store</li>
+</ol><p class="wysiwyg-indent2">Clear the cache and data before uninstalling to remove stored files completely.</p><h4 class="wysiwyg-indent2" id="h_01K9WMK0JY7QRYJS09XAVPE86G">Apple iPhone and iPad</h4><ol>
+<li data-list-item-id="eec6ca7798854cd276bcf73bd135e09a8">Find the BritBox app on the Home screen</li>
+<li data-list-item-id="e70ed8753b05eac8899101a189d96f4fb">Long-press the app icon until options appear</li>
+<li data-list-item-id="ef6f235b3727fd9a2d68b8e5fd6a1d14c">Tap <em>'Delete App,'</em> then confirm</li>
+<li data-list-item-id="e8fc54c3e0fb99096fdca86050733f204">On older iOS versions, tap the <em>'X'</em> in the corner of the app icon</li>
+<li data-list-item-id="eab1f8f919893a921de1426f926d127aa">Restart the device before reinstalling from the App Store</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WMK93QV6Z0YETSM7GJD6YE">Roku Devices</h4><ol>
+<li data-list-item-id="e251ee6a42e35a21296a78bbbddf4499a">Press the <em>'Home'</em> button on the Roku remote</li>
+<li data-list-item-id="ec64d5c3f47bd535854ae126cc02a377b">Highlight the BritBox channel</li>
+<li data-list-item-id="eb32a5707ddbe1bfcf0839619055b07f3">Press the <em>'Star</em> (*)<em>'</em> button to open options</li>
+<li data-list-item-id="e9e1ec38058ef99d945ce38785f9ee766">Select <em>'Remove Channel,'</em> then confirm</li>
+<li data-list-item-id="e3473d1f9dc5f630345d5b0e4ee115a7a">Restart the Roku from <em>'Settings'</em> &gt; <em>'System'</em> &gt; <em>'System Restart'</em>
+</li>
+<li data-list-item-id="e5871233737df7d99d650baf14acc3316">Reinstall BritBox from the Roku Channel Store</li>
+</ol><p class="wysiwyg-indent2">If the user has a Roku-billed BritBox subscription, they must cancel the subscription before removing the channel.</p><h4 class="wysiwyg-indent2" id="h_01K9WMM30EW3AR3A1RFEHBV162">Fire TV Devices</h4><ol>
+<li data-list-item-id="e17619fdce1b0af2d3a61f600d0744271">From the Home screen, go to<em> 'Settings' </em>&gt; <em>'Applications'</em> &gt; <em>'Manage Installed Applications'</em>
+</li>
+<li data-list-item-id="ee37467a0c0711d0a4e15fbddd6e50e3c">Select BritBox</li>
+<li data-list-item-id="e6549b32ba68eedb02d77c64d6a0fdbc7">Choose<em> 'Uninstall,' </em>then confirm</li>
+<li data-list-item-id="eabc8e6df5622deaa24aa60f8b8109162">Restart the device and reinstall BritBox from the Amazon Appstore</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WMN6VQJ9WWA0NS0K80JQZT">Apple TV</h4><ol>
+<li data-list-item-id="e650e16d660127b96ccd6e83c3b8de60c">Highlight the BritBox app on the Home screen</li>
+<li data-list-item-id="ee1f64b7a907cd6191dd7b958d1d59cc9">Press and hold the Touch surface on the remote until the icons start to jiggle</li>
+<li data-list-item-id="e0b5964f0ae9a10d84866c3b8198a5fc2">Press the <em>'Play/Pause' </em>button and select<em> 'Delete'</em>
+</li>
+<li data-list-item-id="eacf78b9cfc79c417a733d7176d33c20f">Confirm, then reinstall BritBox from the App Store</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WMP2G8KCDCKN5KBSHH2BE0">Samsung Smart TVs</h4><ol>
+<li data-list-item-id="e86056b78b0eb68d493f37bf76a8b2041">Press the <em>'Home'</em> button on the Samsung remote</li>
+<li data-list-item-id="e4cac7e7d881977df37e4331e30d19a45">Navigate to <em>'Apps,'</em> then select the Settings icon in the top-right corner</li>
+<li data-list-item-id="e3c12a3a51032e7b20b728100b084a2bd">Highlight BritBox</li>
+<li data-list-item-id="e85b90e3327b65a7902c096216cb20bd9">Select <em>'Delete' </em>to uninstall, or <em>'Reinstall'</em> to refresh the app</li>
+</ol><p class="wysiwyg-indent2">If Reinstall doesn’t resolve the issue, uninstall the app completely, restart the TV,and reinstall it from the app store.</p><h4 class="wysiwyg-indent2" id="h_01K9WMPP3DMDK7MVTJARE2X51T">LG Smart TVs</h4><ol>
+<li data-list-item-id="e3d8f1f984d06e540008fe8f1e59734b0">Press the <em>'Home'</em> button on the LG remote</li>
+<li data-list-item-id="e21602950fe30722581523393931cca87">Navigate to the BritBox app</li>
+<li data-list-item-id="e59de4bea05faaa79eaec6ecb7aa83eea">Press and hold the <em>'OK/Select'</em> button until the icons enter edit mode</li>
+<li data-list-item-id="ef4333f2c18ef3e56278a14a1b56b5df2">Press the <em>'Up'</em> button and select the <em>'X'</em> to delete the app</li>
+<li data-list-item-id="e48f081492d768d02b55cc7414e6180c8">Confirm and reinstall BritBox from the LG Content Store</li>
+</ol><h4 class="wysiwyg-indent2" id="h_01K9WMQ434F36TR80WMXSZFT5S">Fetch</h4><ol>
+<li data-list-item-id="e6f157599b2b2b42d7a28d06049fc4af2">Press <em>'Menu'</em> &gt; <em>'Manage'</em> &gt; <em>'Apps'</em>
+</li>
+<li data-list-item-id="e2bb4f6dc465b547859eafb5d7f587516">Find and select BritBox</li>
+<li data-list-item-id="e33a3e0d3176f3e3eec05e2cdacea7353">Select <em>'Uninstall,'</em> then confirm</li>
+<li data-list-item-id="ecbefec08228b91fd54351c4e108f4f35">Restart the Fetch box before reinstalling from the Fetch App Store</li>
+</ol><p>After reinstalling, confirm the subscriber can sign in and access their watchlist. If login or playback errors continue, advise clearing app cache or rebooting the device.</p><p>In addition to the common troubleshooting steps above, it’s also important to refer to the following Edge resources:</p><ul>
+<li data-list-item-id="eb5a2a8afd50e60a2597a7f074e2c76a4"><a href="/hc/en-us/articles/34986189906711">App or Device Issues</a></li>
+<li data-list-item-id="ee2e79487030412386827e22d68502d83"><a href="/hc/en-us/articles/34898439260951">Billing and Payment Issues</a></li>
+<li data-list-item-id="eff8f400b9b4f5af6cf765bffa5bb635c"><a href="/hc/en-us/articles/34838958828183">Buffering 101</a></li>
+<li data-list-item-id="e9b68ea67bb32a7a0d933b05f8b43ede5"><a href="/hc/en-us/articles/36624870871959">Gifting Issues</a></li>
+<li data-list-item-id="e2678ddf3a50ee476d9ff45f8c0bba92d"><a href="/hc/en-us/articles/35036663147927">Installation Issues</a></li>
+<li data-list-item-id="ef744a0892d841cc3ff39c015b8315b28"><a href="/hc/en-us/articles/35146365907991">Password and Login Issues</a></li>
+<li data-list-item-id="e6941dc5f916afefc4c65e5f7e15fdb1b"><a href="/hc/en-us/articles/35332676874775">Promotion, Email, and Survey Problems</a></li>
+<li data-list-item-id="e506aad9da448944ea9008af414ad88c2"><a href="/hc/en-us/articles/35443716769303">Closed Caption and Subtitle Issues</a></li>
+<li data-list-item-id="e0e094c680891afce602b418f743f7975"><a href="/hc/en-us/articles/35488286953495">Description, Title, and Text Issues</a></li>
+<li data-list-item-id="efe08c556173baddde1a94b153b3ea76d"><a href="/hc/en-us/articles/35545774425751">Missing Content&nbsp;</a></li>
+<li data-list-item-id="e63ec050fbd08b7c3766a3e453c741c7b"><a href="/hc/en-us/articles/35703038641175">Playback Issues</a></li>
+</ul><h3 id="h_01K9Y9HW7G63B29ZW1A8H1TFJ0">Information to Gather After Troubleshooting</h3><p>When troubleshooting does not resolve an issue and it needs to be escalated to HCL, certain information must be collected first. These details help HCL quickly identify, reproduce, and resolve the problem without delays or unnecessary back-and-forth.</p><p>The required information differs depending on the type of issue: Billing, Content, or Technical.</p><h4 class="wysiwyg-indent2" id="h_01K9WP570TH39XQ6Y6KP8D4TB2">Billing Escalations</h4><p class="wysiwyg-indent2"><span class="wysiwyg-underline">Required Data Fields</span>:</p><ul>
+<li data-list-item-id="e647fbf32b35b8910621dc2f643b82a35">Account Email Address</li>
+<li data-list-item-id="e47085704f78550c046047857251896d7">CIP (Customer Identification Profile – use N/A if not applicable)</li>
+<li data-list-item-id="e6bcaa8feaeebac66f6406eff3074ef3d">Entitlement Removal Request (Yes / No / N/A)</li>
+<li data-list-item-id="eafe8f730cd3c41302a358cf059361ca6">Customer Country</li>
+<li data-list-item-id="eec835f10dacbdefb4c16c161d7f19d6d">Description of Issue (include error messages if visible)</li>
+<li data-list-item-id="eab524964331fba58d66cfc46ec2e2923">Frequency of Issue (One-time / Recurring / N/A)</li>
+<li data-list-item-id="e8d3e5646f3d7cb7eaca17459930290a1">Date and Time Issue Started (use N/A if unknown)</li>
+<li data-list-item-id="e973411f18213965e1797919e76e85b69">Additional Information (relevant screenshots, notes or test results)</li>
+</ul><p class="wysiwyg-indent2">Macro to use: <span style="color: #CC7A00;"><em>Internal Use :: Escalation HCL Billing</em></span></p><h4 class="wysiwyg-indent2" id="h_01K9WP70XB0GXWWZB1BHYA3ZD1">Content Escalations</h4><p class="wysiwyg-indent2"><span class="wysiwyg-underline">Required Data Fields</span>:</p><ul>
+<li data-list-item-id="e0116a8e99abc32d4c595e63d89397b61">Device (type and brand)</li>
+<li data-list-item-id="eb4d29aac799ddef06481f767cfc12581">Device Characteristics (model and operating system)</li>
+<li data-list-item-id="e8a696c2a892bac38c9cf8263b0b4da89">Device App Version</li>
+<li data-list-item-id="e8f221014be7425d0956092a1b5a26500">BritBox App Version</li>
+<li data-list-item-id="e950b07b01c6eded98f0a0064355c09e2">Browser (if web playback issue)</li>
+<li data-list-item-id="e2a1c633c5abc312fe60acdf204aa92e5">Affected Content (specific shows, films, or episodes)</li>
+<li data-list-item-id="eab28c8fce00285f64f27d891a60f340c">Customer Country</li>
+<li data-list-item-id="eb53dfd04a2fdba78bc3bdd2d65c8ece3">Description of Issue (include what the user expected vs. what occurred)</li>
+<li data-list-item-id="eacb89a34c79573d780a8dd9813ef3144">Frequency of Issue</li>
+<li data-list-item-id="e5743a10bb8cd9c17c972e74137be8522">Has the Issue Been Replicated? (Tested and replicated/Tested but could not replicate/Unable to test or replicate)</li>
+<li data-list-item-id="e3563527bc38ff9aeaac67a59aa28019d">Date and Time Issue Started</li>
+<li data-list-item-id="e44640e04e4d01ee670dece1196acdaa4">Time Playback Issue Starts (if applicable)</li>
+<li data-list-item-id="eccc8f3fd234c4001037f5dadf486e88e">Additional Information (include screenshots, URLs or test results)</li>
+</ul><p class="wysiwyg-indent2">Macro to use:<span style="color: #CC7A00;"><em> Internal Use :: Escalation HCL Content</em></span></p><h4 class="wysiwyg-indent2" id="h_01K9WP9B0TB9130HGR672B73EW">Tech Escalations</h4><p class="wysiwyg-indent2"><span class="wysiwyg-underline">Required Data Fields</span>:</p><ul>
+<li data-list-item-id="ead536c74bad766ff8fe98584308c46ef">Device (type and brand)</li>
+<li data-list-item-id="ea7aace752346d4cbd00441a599d94753">Device Characteristics:<ul>
+<li data-list-item-id="e9162c97bd400ea4513e69773f77e4408">Model</li>
+<li data-list-item-id="ece3facbb493b05e90ba3e252c4e0ea69">Year Model</li>
+<li data-list-item-id="ede240876cb785c6c1334cca3c833838f">Operating System</li>
+</ul>
+</li>
+<li data-list-item-id="ea8dbc206e8c8b5bfed9393e627df717b">Device App Version (if applicable)</li>
+<li data-list-item-id="e63245edbcdbc129868752c8a237346e5">BritBox App Version</li>
+<li data-list-item-id="e5d7f4d77af26f05625bb8823aba88d40">Browser (if applicable)</li>
+<li data-list-item-id="e488d5218b533bc4fce07911621bd5aa4">IP Address</li>
+<li data-list-item-id="e90034124d479d42fe27650dbf041e679">VPN Use (Y/N)</li>
+<li data-list-item-id="edccef0b1bba65f7c882a7ae7f6d3c038">Customer Country</li>
+<li data-list-item-id="e8529c91b7d6c170a90226463556d059f">Description of Issue</li>
+<li data-list-item-id="e370c03d86a3976bc1a7db89381a92dcf">Does the Issue Occur When Opening the App or During Playback?</li>
+<li data-list-item-id="e0ea5d1279727a45d9d61a27028cce714">Frequency of Issue (One-time / Recurring / N/A)</li>
+<li data-list-item-id="e7c535e42a791af071815508e4040cd4b">Has the Issue Been Replicated? (Tested and replicated/Tested but could not replicate/Unable to test or replicate)</li>
+<li data-list-item-id="ecbcb09af9b7ecba383bf1f3834c51f65">Actions Taken:</li>
+<li data-list-item-id="ecb8b989d79008fc2490d1f0c29e44e6d">Device Reboot (Y/N)</li>
+<li data-list-item-id="e75e992fde6d51abe11b3ef23e12d6b41">Uninstall and Reinstall (Y/N)</li>
+<li data-list-item-id="e2c0444332e11a589fe430ce694feb21d">App Update (Y/N)</li>
+<li data-list-item-id="e4141c4896e143afde4780f5c2cfb86ad">OS Update (Y/N)</li>
+<li data-list-item-id="ef85ce7aaf4574d2dd1191c4e63e6cea2">VPN Disabled (Y/N)</li>
+<li data-list-item-id="ebc113534be65804803149508e760cf25">Date and Time Issue Started</li>
+<li data-list-item-id="ea7ccc7a911eeea34ab899b5d3a0cd5d9">Additional Information (screenshots, test results, or error codes)</li>
+</ul><p class="wysiwyg-indent2">Macro to use: <span style="color: #CC7A00;"><em>Internal Use :: Escalation HCL Tech</em></span></p><p>Before escalating, review all related tickets and internal notes to check whether the required data has already been collected. Use existing information wherever possible instead of asking the subscriber to repeat details unnecessarily. Missing information can delay HCL’s response or cause the ticket to be returned for more details.</p><p>Check out our <a href="/hc/en-us/articles/36306462253719">BCT Data Gathering Guide</a> for more details on what to ask our subscribers for.&nbsp;</p></div>
+
+
+
+
+</div>
+</section>
+
+<footer>
+<div class="article-return-to-top">
+<a href="#article-container">
+Return to top
+<svg xmlns="http://www.w3.org/2000/svg" class="article-return-to-top-icon" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true">
+<path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+</svg>
+</a>
+</div>
+</footer>
+</article>
+
+
+<div class="article-votes">
+<span class="article-votes-question" id="article-votes-label">Was this article helpful?</span>
+
+<div class="article-votes-question-wrapper">
+<div class="article-votes-controls" role="group" aria-labelledby="article-votes-label">
+<button type="button" class="button article-vote article-vote-up" data-helper="vote" data-item="article" data-type="up" data-id="36286942111895" data-upvote-count="3" data-vote-count="3" data-vote-sum="3" data-vote-url="/hc/en-us/articles/36286942111895/vote" data-value="null" data-label="3 out of 3 found this helpful" data-selected-class="button-primary" aria-label="This article was helpful" aria-pressed="false">Yes</button>
+<button type="button" class="button article-vote article-vote-down" data-helper="vote" data-item="article" data-type="down" data-id="36286942111895" data-upvote-count="3" data-vote-count="3" data-vote-sum="3" data-vote-url="/hc/en-us/articles/36286942111895/vote" data-value="null" data-label="3 out of 3 found this helpful" data-selected-class="button-primary" aria-label="This article was not helpful" aria-pressed="false">No</button>
+</div>
+<small class="article-votes-count">
+<span class="article-vote-label" data-helper="vote" data-item="article" data-type="label" data-id="36286942111895" data-upvote-count="3" data-vote-count="3" data-vote-sum="3" data-vote-url="/hc/en-us/articles/36286942111895/vote" data-value="null" data-label="3 out of 3 found this helpful">3 out of 3 found this helpful</span>
+</small>
+</div>
+</div>
+
+
+
+<div class="mobile-article-sidebar" aria-labelledby="section-articles-title">
+
+<div class="collapsible-sidebar">
+
+<span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
+Articles in this section
+</span>
+<div class="collapsible-sidebar-body">
+<ul>
+
+<li>
+<a href="/hc/en-us/articles/36307571846423-BCT-and-HCL-Escalation-Workflows" class="sidenav-item ">BCT and HCL Escalation Workflows</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36306462253719-BCT-Data-Gathering-Guide" class="sidenav-item ">BCT Data Gathering Guide</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication" class="sidenav-item ">BCT Testing (Issue Replication)</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps" class="sidenav-item current-article">BCT Troubleshooting Steps</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/35753349437847-Discover-HCL" class="sidenav-item ">Discover HCL</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</div>
+
+
+
+<div class="viewed-related-articles">
+
+<div class="article-relatives">
+<div data-recent-articles></div>
+</div>
+
+
+
+<div class="article-relatives">
+
+<section class="related-articles">
+
+<h2 class="related-articles-title">Related articles</h2>
+
+<ul>
+
+<li>
+<a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBfXraIUIDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJdoS7YAIToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI2L2hjL2VuLXVzL2FydGljbGVzLzM1MjczMDAwNzM2NTM1LUNvbnRhY3QtUmVhc29ucwY7CFQ6CXJhbmtpBg%3D%3D--847f8ec7a64590fe62d9c65337d45aa5df3d7e94" rel="nofollow">Contact Reasons</a>
+</li>
+
+<li>
+<a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJcUZ4hxIDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJdoS7YAIToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJBL2hjL2VuLXVzL2FydGljbGVzLzM1NjcxOTkxODUwMTM1LUN1cnJlbnQtU2NoZWR1bGUtSW52ZW50b3J5BjsIVDoJcmFua2kH--a83362fec28cd77c26ff1734283b5b513e3b6a53" rel="nofollow">Current Schedule Inventory</a>
+</li>
+
+<li>
+<a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJciyUEFIToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJdoS7YAIToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI%2FL2hjL2VuLXVzL2FydGljbGVzLzM2MzA2NDYyMjUzNzE5LUJDVC1EYXRhLUdhdGhlcmluZy1HdWlkZQY7CFQ6CXJhbmtpCA%3D%3D--6b6c0d8812053c1e9b36709129449f697f39635c" rel="nofollow">BCT Data Gathering Guide</a>
+</li>
+
+<li>
+<a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBct7IMFIToYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJdoS7YAIToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJHL2hjL2VuLXVzL2FydGljbGVzLzM2MzA3NTcxODQ2NDIzLUJDVC1hbmQtSENMLUVzY2FsYXRpb24tV29ya2Zsb3dzBjsIVDoJcmFua2kJ--b1063d15fd150fddfafad8afe8560cf1acddea68" rel="nofollow">BCT and HCL Escalation Workflows</a>
+</li>
+
+<li>
+<a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBc4REDCIDoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJdoS7YAIToLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI4L2hjL2VuLXVzL2FydGljbGVzLzM2MDE4NjczOTU2ODg3LVVwY29taW5nLVNjaGVkdWxlBjsIVDoJcmFua2kK--ba08bd41619ca1664e2c31b128ecd50804eaf5e6" rel="nofollow">Upcoming Schedule</a>
+</li>
+
+</ul>
+</section>
+
+
+</div>
+
+</div>
+
+<div class="article-comments" id="article-comments">
+<section class="comments">
+<header class="comment-overview">
+<h2 class="comment-heading">
+Comments
+</h2>
+<p class="comment-callout">1 comment</p>
+
+<div class="dropdown comment-sorter">
+<button class="dropdown-toggle" aria-haspopup="true">
+Sort by
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
+<path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+</svg>
+</button>
+<span class="dropdown-menu" role="menu">
+
+<a aria-selected="true" href="/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps?sort_by=created_at" role="menuitem">Date</a>
+
+<a aria-selected="false" href="/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps?sort_by=votes" role="menuitem">Votes</a>
+
+</span>
+</div>
+
+</header>
+<ul id="comments" class="comment-list">
+
+<li id="comment_37776705688471" class="comment">
+<div class="comment-wrapper">
+<div class="comment-info">
+<div class="comment-author">
+<div class="avatar comment-avatar">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="icon-agent" aria-label="User (Aedrian D.) is a team member">
+<path fill="currentColor" d="M6 0C2.7 0 0 2.7 0 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm2.3 7H3.7c-.3 0-.4-.3-.3-.5C3.9 7.6 4.9 7 6 7s2.1.6 2.6 1.5c.1.2 0 .5-.3.5z"/>
+</svg>
+
+<img src="https://help.britbox.com/system/photos/37642983760151/Screenshot_2026-01-13_105343.png" alt="" class="user-avatar"/>
+</div>
+<div class="comment-meta">
+<span title="Aedrian D." id="comment_37776705688471-author">
+<a target="_zendesk_lotus" href="/access/return_to?return_to=https%3A%2F%2Fbritbox.zendesk.com%2Fagent%2Fusers%2F4776992724887%2Ftickets">
+Aedrian D.
+</a>
+</span>
+
+<ul aria-label="Badges" class="community-badge-titles">
+
+</ul>
+
+<div class="meta-group meta-group-opposite">
+
+<span class="meta-data"><time datetime="2026-01-19T14:40:19Z" title="2026-01-19T14:40:19Z" data-datetime="relative">January 19, 2026 14:40</time></span>
+
+</div>
+
+<ul aria-label="Badges" class="community-badge-achievements">
+
+
+
+</ul>
+</div>
+<div class="comment-labels">
+
+
+</div>
+</div>
+
+<section class="comment-body" id="comment_37776705688471-body"><p>I’d like to share some guidance regarding customer concerns about being asked for a 4-digit PIN (parental control) when trying to watch certain shows on BritBox, even though they did not enable this feature during subscription.</p><p><strong>Here’s the recommended approach:</strong></p><p>1.<strong>Check the title of the show</strong> the customer is trying to access.</p><p>2.<strong>Replicate the issue on our end</strong> using our devices. Please log in to both Standard and Premier plan accounts to confirm whether the show is part of Early Access or if it has not yet been uploaded. You can also verify the next scheduled release date on our website.</p><p> </p><p>In many cases, customers encounter the PIN prompt because:</p><p>•The show is not yet uploaded or is part of Early Access.</p><p>•The BritBox app or browser version they are using may be outdated.</p><p>It’s important to <strong>ask probing questions</strong> to clarify these scenarios.</p><p>I understand this can be challenging, especially for chat agents. If needed, I can approve and provide an internal note to offer a callback after you’ve shared the initial information, as a phone conversation may help explain further.</p></section>
+</div>
+
+<div class="comment-actions-container">
+<div class="comment-vote vote" role="group">
+<button type="button" class="vote-up" data-helper="vote" data-item="article_comment" data-type="up" data-id="37776705688471" data-upvote-count="1" data-vote-count="2" data-vote-sum="0" data-vote-url="/hc/en-us/articles/36286942111895/comments/37776705688471/vote" data-value="null" data-label="1 out of 2 found this helpful" data-selected-class="vote-voted" aria-label="This comment was helpful" aria-pressed="false" aria-describedby="comment_37776705688471-author comment_37776705688471-body">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16">
+<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M4 6.5l3.6 3.6c.2.2.5.2.7 0L12 6.5"/>
+</svg>
+</button>
+<span class="vote-sum" data-helper="vote" data-item="article_comment" data-type="sum" data-id="37776705688471" data-upvote-count="1" data-vote-count="2" data-vote-sum="0" data-vote-url="/hc/en-us/articles/36286942111895/comments/37776705688471/vote" data-value="null" data-label="1 out of 2 found this helpful">0</span>
+<button type="button" class="vote-down" data-helper="vote" data-item="article_comment" data-type="down" data-id="37776705688471" data-upvote-count="1" data-vote-count="2" data-vote-sum="0" data-vote-url="/hc/en-us/articles/36286942111895/comments/37776705688471/vote" data-value="null" data-label="1 out of 2 found this helpful" data-selected-class="vote-voted" aria-label="This comment was not helpful" aria-pressed="false" aria-describedby="comment_37776705688471-author comment_37776705688471-body">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16">
+<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M4 6.5l3.6 3.6c.2.2.5.2.7 0L12 6.5"/>
+</svg>
+</button>
+</div>
+<div class="comment-actions actions">
+<div data-helper="comment-actions" data-json="{&quot;comment_id&quot;:37776705688471,&quot;parent_id&quot;:36286942111895,&quot;parent_type&quot;:&quot;Article&quot;}" hidden="hidden">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16">
+<path fill="none" stroke="currentColor" d="M13.17 3.07l-1.64.71c-.48-.4-1.03-.72-1.63-.94l-.22-1.79a.511.511 0 00-.4-.44C8.86.54 8.44.5 8 .5c-.44 0-.86.04-1.28.11-.22.04-.38.22-.4.44l-.21 1.79c-.6.22-1.15.54-1.63.94l-1.65-.71a.491.491 0 00-.58.13c-.55.65-.99 1.4-1.29 2.21-.08.21 0 .44.18.58l1.45 1.08a4.91 4.91 0 000 1.87l-1.45 1.08c-.18.13-.25.37-.18.58.3.81.74 1.55 1.28 2.2.14.17.38.22.58.13l1.65-.71c.48.4 1.03.72 1.63.94l.21 1.79c.03.22.19.4.4.44.43.07.85.11 1.29.11.44 0 .86-.04 1.28-.11.22-.04.38-.22.4-.44l.21-1.79c.6-.22 1.15-.54 1.63-.94l1.65.71c.2.09.44.04.58-.13.54-.65.98-1.39 1.28-2.2.08-.21 0-.44-.18-.57L13.4 8.95c.07-.32.1-.63.1-.95s-.03-.63-.09-.94l1.45-1.08c.18-.13.25-.37.18-.58-.3-.81-.74-1.55-1.28-2.2a.51.51 0 00-.59-.13z"/>
+<circle cx="8" cy="8" r="2.5" fill="none" stroke="currentColor"/>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+</ul>
+
+
+
+
+<form data-form="" data-form-type="comment" class="comment-form" action="/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps/comments" accept-charset="UTF-8" method="post"><input type="hidden" name="utf8" value="&#x2713;" autocomplete="off" />
+<div class="avatar comment-avatar">
+<img class="user-avatar" alt="" data-user-avatar="true" src="https://assets.zendesk.com/hc/assets/default_avatar.png" />
+</div>
+<div class="comment-container">
+<textarea name="comment[body]" id="comment_body" placeholder="" data-helper="wysiwyg" aria-required="true" aria-label="Add your comment">
+</textarea><input type="hidden" name="request[comment][body_mimetype]" id="request_comment_body_mimetype" value="text/html" style="display: none;" autocomplete="off" />
+<div class="comment-form-controls">
+<input type="submit" name="commit" value="Submit" class="button button-large" />
+</div>
+</div>
+</form>
+
+<div class="container-divider"></div>
+<p class="comment-callout"></p>
+</section>
+</div>
+
+</div>
+
+<aside class="article-sidebar" aria-labelledby="section-articles-title">
+<div class="collapsible-sidebar">
+<button type="button" class="collapsible-sidebar-toggle" aria-labelledby="section-articles-title" aria-expanded="false">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon chevron-icon">
+<path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon x-icon">
+<path stroke="currentColor" stroke-linecap="round" d="M3 9l6-6m0 6L3 3"/>
+</svg>
+</button>
+<span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
+Articles in this section
+</span>
+<div class="collapsible-sidebar-body">
+<ul>
+
+<li>
+<a href="/hc/en-us/articles/36307571846423-BCT-and-HCL-Escalation-Workflows" class="sidenav-item ">BCT and HCL Escalation Workflows</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36306462253719-BCT-Data-Gathering-Guide" class="sidenav-item ">BCT Data Gathering Guide</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36315775573015-BCT-Testing-Issue-Replication" class="sidenav-item ">BCT Testing (Issue Replication)</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps" class="sidenav-item current-article">BCT Troubleshooting Steps</a>
+</li>
+
+<li>
+<a href="/hc/en-us/articles/35753349437847-Discover-HCL" class="sidenav-item ">Discover HCL</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</aside>
+
+</div>
+</div>
+
+</main>
+
+<footer class="footer">
+<div class="footer-inner">
+<a href="https://www.britbox.com/us">
+<img src="/hc/theming_assets/01JGXFB53DYHKGQJ37DJ28N8WY" alt="Footer Logo Icon">
+</div>
+</div>
+</footer>
+
+
+
+<!-- / -->
+
+
+<script src="//static.zdassets.com/hc/assets/en-us.32c65bc8ca19487330be.js"></script>
+
+
+<script type="text/javascript">
+/*
+
+Greetings sourcecode lurker!
+
+This is for internal Zendesk and legacy usage,
+we don't support or guarantee any of these values
+so please don't build stuff on top of them.
+
+*/
+
+HelpCenter = {};
+HelpCenter.account = {"subdomain":"britbox","environment":"production","name":"BritBox"};
+HelpCenter.user = {"identifier":"ac209dfcbbd07cab195a70aa2fe7a7c376f27649","email":"jeremias.francisco@ibex.co","name":"Jeremias F.","tags":[],"locale":"en-us","role":"agent","avatar_url":"https://help.britbox.com/system/photos/37690013809303/USE_THIS_PHOTO_TO_UPDATE_YOUR_ZENDESK_DISPLAY_PICTURE.jpg","is_admin":false,"organizations":[{"name":"Ibex","tags":[],"isShared":false}],"groups":[{"name":"Support","default":true,"isActive":true},{"name":"Unbabel","default":false,"isActive":true},{"name":"Messaging Support","default":false,"isActive":true},{"name":"Email Support","default":false,"isActive":true}]};
+HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":"hc:hcobject:server:ucWJr1CnEvdW-W4hxEuijBEVUKaJGD5UGrE2Bcx6Jgc0swo0EqDKQr9wnpYXSesXaMDLppBt5I2hIzOSQvjYaw","shared_csrf_token":"LN-861Ob6xn0wnmrS542ksyqmP98UxzFnfKJ-iRkqFCMcz0P3t5DkhXTvfpW1PXd-FhLuqG5lxolO_5JS9lQ1w"},"usage_tracking":{"event":"article_viewed","data":"BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGwrCJdoS7YAIToKX21ldGF7DDoPYWNjb3VudF9pZGkDx3mSOhNoZWxwX2NlbnRlcl9pZGwrCJfbZ4xfGjoNYnJhbmRfaWRsKwiX9laKXxo6DHVzZXJfaWRsKwgXQW7gfxE6E3VzZXJfcm9sZV9uYW1lSSIKQUdFTlQGOwZUOwBJIgplbi11cwY7BlQ6GmFub255bW91c190cmFja2luZ19pZDA=--a2a724865819be48dd381f571a1b6cffafa6992c","url":"https://britboxedge.zendesk.com/hc/activity"},"current_record_id":"36286942111895","current_record_url":"/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps","current_record_title":"BCT Troubleshooting Steps","current_text_direction":"ltr","current_brand_id":28997645170327,"current_brand_name":"BritBox Edge","current_brand_url":"https://britboxedge.zendesk.com","current_brand_active":true,"current_path":"/hc/en-us/articles/36286942111895-BCT-Troubleshooting-Steps","show_autocomplete_breadcrumbs":true,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":false,"has_multi_language_help_center":true,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_help_center_auth_enabled":false,"embeddables_connect_ipms":false},"answer_bot_subdomain":"static","gather_plan_state":"subscribed","has_article_verification":true,"has_gather":true,"has_ckeditor":true,"has_community_enabled":false,"has_community_badges":true,"has_community_post_content_tagging":false,"has_gather_content_tags":true,"has_guide_content_tags":true,"has_user_segments":true,"has_answer_bot_web_form_enabled":true,"has_garden_modals":false,"theming_cookie_key":"hc-ac209dfcbbd07cab195a70aa2fe7a7c376f27649-2-preview","is_preview":false,"has_search_settings_in_plan":true,"theming_api_version":3,"theming_settings":{"ticket_form_id":"","brand_color":"rgba(0, 32, 43, 1)","brand_text_color":"#FFFFFF","text_color":"#2F3941","link_color":"#1F73B7","hover_link_color":"#0F3554","visited_link_color":"#9358B0","background_color":"#FFFFFF","heading_font":"'MuseoSans', sans-serif","text_font":"-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif","logo":"/hc/theming_assets/01KEVKCWHXJN9Q7RMES2HD58ZS","show_brand_name":true,"favicon":"/hc/theming_assets/01KEVK55K9QS1FJCT0SAQXJ2SP","homepage_background_image":"/hc/theming_assets/01JGXF4CC65J3B2GY391P0P2JY","community_background_image":"/hc/theming_assets/01JGXF4CT59528JKH9WQ277DBF","community_image":"/hc/theming_assets/01JGXF4D73Q640KP6XNZ1F0Z27","instant_search":false,"scoped_kb_search":false,"scoped_community_search":true,"show_recent_activity":true,"show_articles_in_section":true,"show_article_author":true,"show_article_comments":true,"show_follow_article":false,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":false,"show_follow_section":false,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true,"request_list_beta":false,"alert_banner_bg_color":"rgba(249, 247, 247, 1)","alert_banner_text_color":"#2F3941","alert_banner_brdr_color":"#00B6E6","alert_banner_text":"BritBoxers, stay in the loop and ahead of the game! 🚀 As the months roll on, make it a habit to check out the latest article updates and changes—so you’re always aligned, informed, and ready to go."},"has_pci_credit_card_custom_field":true,"help_center_restricted":false,"is_assuming_someone_else":false,"flash_messages":[],"user_photo_editing_enabled":true,"user_preferred_locale":"en-us","base_locale":"en-us","login_url":"/hc/en-us/restricted?return_to=https%3A%2F%2Fbritboxedge.zendesk.com%2Fhc%2Fen-us%2Farticles%2F36286942111895-BCT-Troubleshooting-Steps","has_alternate_templates":true,"has_custom_statuses_enabled":false,"has_hc_generative_answers_setting_enabled":true,"has_generative_search_with_zgpt_enabled":true,"has_suggested_initial_questions_enabled":false,"has_guide_service_catalog":true,"has_service_catalog_search_poc":false,"has_service_catalog_itam":false,"has_csat_reverse_2_scale_in_mobile":false,"has_knowledge_navigation":false,"has_trial_presumptive_setup":false,"has_unified_navigation":false,"has_unified_navigation_eap_access":true,"has_knowledge_global_nav_ga_banner":true,"has_csat_bet365_branding":false,"has_help_center_gen_search_follow_up_conversation":false,"version":"v27243","dev_mode":false,"arrange_articles_url":"https://britbox.zendesk.com/knowledge/arrange?brand_id=28997645170327","article_verification_url":"https://britbox.zendesk.com/knowledge/verification?brand_id=28997645170327","community_badges_url":"https://britbox.zendesk.com/knowledge/community_badges?brand_id=28997645170327","community_settings_url":"https://britbox.zendesk.com/knowledge/community_settings?brand_id=28997645170327","content_tags_url":"https://britbox.zendesk.com/knowledge/content_tags?brand_id=28997645170327","docs_importer_url":"https://britbox.zendesk.com/knowledge/import_articles?brand_id=28997645170327","general_settings_url":"https://britboxedge.zendesk.com/hc/admin/general_settings?locale=en-us","guide_language_settings_url":"https://britboxedge.zendesk.com/hc/admin/language_settings?locale=en-us","search_settings_url":"https://britbox.zendesk.com/knowledge/search_settings?brand_id=28997645170327","user_segments_url":"https://britbox.zendesk.com/knowledge/user_segments?brand_id=28997645170327"};
+</script>
+
+
+
+<script src="//static.zdassets.com/hc/assets/hc_enduser-725a273fe9a0aaac66f090205d64844e.js"></script>
+<script type="text/javascript" src="/hc/theming_assets/9599431/28997645170327/script.js?digest=39539506905111"></script>
+
+</body>
+</html>
